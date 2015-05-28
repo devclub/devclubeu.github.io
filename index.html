@@ -1,1 +1,611 @@
-Hello World
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8">
+<![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9">
+<![endif]-->
+<html lang="ru">
+<head>
+  <title>DevClub: DO IT TOGETHER!</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="aaa9f07a.styles.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body data-spy="scroll" ng-app="devclub" ng-controller="RootController">
+
+<!---//Facebook button code-->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<header id="header" class="header">
+  <div class="container">
+    <h1 class="logo pull-left">
+      <a class="scrollto" href="#next">
+        <span class="logo-title">DevClub</span>
+      </a>
+    </h1>
+    <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Раскрыть/закрыть меню</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active nav-item sr-only"><a class="scrollto" href="#next">Встреча</a></li>
+          <li class="nav-item"><a class="scrollto" href="#about">Клуб</a></li>
+          <li class="nav-item"><a class="scrollto" href="#sponsors">Спонсоры</a></li>
+          <li class="nav-item"><a class="scrollto" href="#last">Свежак</a></li>
+          <li class="nav-item"><a class="scrollto" href="#archive">История</a></li>
+          <li class="nav-item"><a class="scrollto" href="#speaker">Хочу выступить</a></li>
+          <li class="nav-item last"><a class="scrollto" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section id="next" class="section-promo section offset-header">
+  <div class="container black">
+    <div class="col-12 text-center">
+      <img src="assets/logo.png"/>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="mt20 mb20 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-7">
+      <div>Следующая встреча</div>
+      <div>Что? - <b>DevClub #81</b></div>
+      <div>Где? - <b>Von Stackelberg</b> -
+        <a target=_blank
+           href="https://www.google.ee/maps/place/von+Stackelberg+Hotel+Tallinn/@59.4352047,24.7360644,15z/data=!4m2!3m1!1s0x0000000000000000:0xf97f297140aa2b60?hl=ru">
+          <i class="fa fa-map-marker"></i> Как добраться?
+        </a>
+      </div>
+      <div>Когда? - <b>26.05.2015 19:00</b> -
+        <a target=_blank href="http://www.eventbrite.com/e/eventbrite-api-office-hours-tickets-4550909894">
+          <i class="fa fa-ticket"></i> Зарегистрироваться!
+        </a>
+      </div>
+      <div class="mt20"></div>
+      <div>Григорий Бешкин - MQ4 или играем на деньги</div>
+      <div>Михаил Лапушкин - Веб-технологии ФБ: Реакт, Флюкс, релей</div>
+      <div>Антон Кекс - Tarkvarakool</div>
+      <!--div class="mt20 eventbrite">
+        <iframe src="http://www.eventbrite.com/tickets-external?eid=4653432542&ref=etckt&v=2"
+                height="256" width="100%"
+                vspace="0" hspace="0"
+                marginheight="5" marginwidth="5"
+                scrolling="no" frameborder="0"
+                allowtransparency="true"></iframe>
+      </div-->
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="social-media">
+    <div class="social-media-inner container text-center">
+      <ul class="list-inline">
+        <li class="twitter-follow"><a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button"
+                                      data-show-count="false">Follow @3rdwave_themes</a>
+          <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');</script>
+        </li>
+        <!--//twitter-follow-->
+        <li class="twitter-tweet">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="3rdwave_themes"
+             data-hashtags="bootstrap">Tweet</a>
+          <script>!function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'twitter-wjs');</script>
+        </li>
+        <!--//twitter-tweet-->
+        <li class="facebook-like">
+          <div class="fb-like" data-href="http://themes.3rdwavemedia.com/" data-layout="button_count" data-action="like"
+               data-show-faces="false" data-share="true"></div>
+        </li>
+        <!--//facebook-like-->
+        <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
+        <li class="github-star">
+          <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+        </li>
+        <li class="github-fork">
+          <iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=fork"
+                  allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe>
+        </li>
+        <!--//
+        <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&type=follow&count=true"
+allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section-about section">
+  <div class="container">
+    <h2 class="title text-center">Что такое DevClub?</h2>
+
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+      <p class="intro text-justify">
+        Это ежемесячные открытые для каждого встречи, на которых в неформальной обстановке выступают,
+        как правило, на русском языке на темы, связанные с инфотехнологиями, три докладчика.
+        Каждый может стать зрителем - для этого достаточно совершенно бесплатно зарегистрироваться на
+        встречу.
+        Каждый может стать докладчиком - для этого достаточно написать нам о темах, и мы свяжемся с вами.
+        Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
+        (<a href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">YouTube-канал</a>)
+        - всё это возможно благодаря нашим спонсорам и добровольным пожертвованиям.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="sponsors" class="section-sponsors section">
+  <div class="container">
+    <h2 class="title text-center">Спонсоры</h2>
+
+    <div class="row">
+      <div class="col-xs-4 col-sm-3" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
+        <img class="img-responsive" src="assets/sponsors/{{sponsor.code}}.png"/>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 text-justify">
+        <h3 class="subtitle text-center">Как стать спонсором?</h3>
+
+        <p>Поддержите инициативу интеллектуального, профессионального и социального развития специалистов
+          в области IT на долгосрочной основе. Станьте нашим спонсором!</p>
+
+        <p><b>На что уйдут деньги?</b> Ваши деньги будут потрачены на оплату зала, на напитки и еду, на аппаратуру
+          для съёмки встречи и на призы. Организаторы встреч работают бесплатно, а докладчики зарабатывают
+          апплодисменты и небольшой памятный сувенир.</p>
+
+        <p><b>Что получает спонсор?</b> Мы рекламируем и благодарим вас на всех мероприятиях (включая эстонские).
+          Ваш баннер появится на этом сайте и в видео встреч на YouTube. На мероприятиях вы сможете выступать
+          до 5 минут перед пришедшими на встречу (90-100 чел) и раздавать свои брошюры. Пять ваших сотрудников
+          всегда смогут посетить мероприятие без регистрации. А самое главное - совместный профессиональный рост,
+          потому что поддержка интеллектуальных инициатив – это дополнительные очки в копилку престижа любой
+          фирмы.</p>
+
+        <p><b>Сколько стоит спонсорский пакет?</b>
+        <ul>
+          <li>1 год: 200€ * 12 = 2400€</li>
+          <li>6 мес: 250€ * 6 = 1500€ (в расчете на год 3000€)</li>
+          <li>3 мес: 300€ * 3 = 900€ (в расчете на год 3600€)</li>
+          <li>1 мес: 350€ * 1 = 350€ (в расчете на год 4200€)</li>
+        </ul>
+        Если у вас ещё остались вопросы, или вы уже выбрали пакет, то напишите нам на адрес info@devclub.eu
+        – и мы обязательно свяжемся с вами в кратчайшие сроки.</p>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <h3 class="subtitle text-center">Как нам помочь?</h3>
+
+        <p>Пожертвование, если вы <b>частное</b> лицо:
+        <ul class="list-unstyled">
+          <li><b>Swedbank:</b> EE822200221049645988</li>
+          <li><b>Получатель:</b> MTÜ DEVCLUB</li>
+          <li><b>Пояснение:</b> DevClub.eu donation</li>
+        </ul>
+        Юридические лица просим предварительно обращаться к руководству MTÜ DEVCLUB (info@devclub.eu).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="last" class="section-last section">
+  <div class="container">
+    <h2 class="title text-center">Как прошла наша последняя встреча?</h2>
+
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="responsive-container">
+          <embed
+              flashvars="host=picasaweb.google.com&#038;hl=en_US&#038;feat=flashalbum&#038;RGB=0x000000&#038;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F105266766340206558621%2Falbumid%2F6144187603665325441%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US"
+              type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf"
+              width="600" height="400" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <h3 class="mt20 subtitle text-center">30.04.2015 19:00 в Von Stackelberg</h3>
+
+    <div class="mt20 row">
+      <div class="col-xs-12 col-lg-4">
+        <a target=_blank class="video-image" href="https://www.youtube.com/watch?v=PzYGWCCDK7M">
+          <img class="img-responsive" src="http://img.youtube.com/vi/PzYGWCCDK7M/sddefault.jpg"/>
+
+          <div class="video-image-play"><i class="fa fa-4x fa-youtube-play"></i></div>
+        </a>
+        <!--<div class="video-container">-->
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/PzYGWCCDK7M" frameborder="0"-->
+        <!--allowfullscreen></iframe>-->
+        <!--</div>-->
+      </div>
+      <div class="col-xs-12 col-lg-4">
+        <a target=_blank class="video-image" href="https://www.youtube.com/watch?v=NZ1QaiDJP3o">
+          <img class="img-responsive" src="http://img.youtube.com/vi/NZ1QaiDJP3o/sddefault.jpg"/>
+
+          <div class="video-image-play"><i class="fa fa-4x fa-youtube-play"></i></div>
+        </a>
+        <!--<div class="video-container">-->
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/NZ1QaiDJP3o" frameborder="0"-->
+        <!--allowfullscreen></iframe>-->
+        <!--</div>-->
+      </div>
+      <div class="col-xs-12 col-lg-4">
+        <a target=_blank class="video-image" href="https://www.youtube.com/watch?v=pRpY-s6ivOc">
+          <img class="img-responsive" src="http://img.youtube.com/vi/pRpY-s6ivOc/sddefault.jpg"/>
+
+          <div class="video-image-play"><i class="fa fa-4x fa-youtube-play"></i></div>
+        </a>
+        <!--<div class="video-container">-->
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/pRpY-s6ivOc" frameborder="0"-->
+        <!--allowfullscreen></iframe>-->
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="archive" class="section-archive section">
+  <div class="container">
+    <div class="archive-inner">
+
+      <h2 class="title text-center">История</h2>
+
+      <div class="pull-right">
+        <form class="form-inline">
+          <div class="form-group">
+            <input class="form-control" ng-model="filter.text" type="text" placeholder="Искать по тексту">
+          </div>
+          <div class="form-group">
+            <select class="form-control" ng-model="filter.year" ng-options="filterYear for filterYear in filterYears">
+              <option value="">Все года</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+
+      <div class="mt20" role="tabpanel">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#meetings" aria-controls="meetings" role="tab" data-toggle="tab">Встречи</a>
+          </li>
+          <li role="presentation">
+            <a href="#speeches" aria-controls="speeches" role="tab" data-toggle="tab">Доклады</a>
+          </li>
+          <li role="presentation">
+            <a href="#best" aria-controls="best" role="tab" data-toggle="tab">Лучшие</a>
+          </li>
+          <li role="presentation">
+            <a href="#speakers" aria-controls="speakers" role="tab" data-toggle="tab">Докладчики (3+)</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="meetings">
+            <table class="table table-striped">
+              <tr ng-repeat="meeting in meetings | filter:{date:filter.year||undefined, $:filter.text}">
+                <td>{{::meeting.date}}</td>
+                <td>{{::meeting.place}}</td>
+                <td>{{::meeting.master}}</td>
+                <td>
+                  <a ng-href="{{url}}" ng-repeat="url in ::meeting.photoUrls" class="mr10" target="_blank">
+                    <i class="fa fa-camera"></i>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="speeches">
+            <table class="table table-striped">
+              <tr ng-repeat="speech in speeches | filter:{date:filter.year||undefined, $:filter.text}">
+                <td>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      {{::speech.date}}
+                      &nbsp;&nbsp;&nbsp;
+                      <span ng-repeat="speaker in speech.speakers">{{::speaker}}<span
+                          ng-if="!$last">,&nbsp;</span></span>
+                      <span class="pull-right">
+                        <a ng-href="{{videoUrl}}" ng-repeat="videoUrl in ::speech.videoUrls" class="mr10"
+                           target="_blank">
+                          <i class="fa fa-video-camera"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <b>{{::speech.topic}}</b> <span class="label label-default" ng-repeat="label in ::speech.labels">{{::label}}</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="best">
+            <table class="table table-striped">
+              <tr ng-repeat="speech in topSpeeches | filter:{date:filter.year||undefined, $:filter.text}">
+                <td>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      {{::speech.date}}
+                      &nbsp;&nbsp;&nbsp;
+                      <span ng-repeat="speaker in speech.speakers">{{::speaker}}<span
+                          ng-if="!$last">,&nbsp;</span></span>
+                      <span class="pull-right">
+                        <a ng-href="{{videoUrl}}" ng-repeat="videoUrl in ::speech.videoUrls" class="mr10"
+                           target="_blank">
+                          <i class="fa fa-video-camera"></i>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <b>{{::speech.topic}}</b>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="speakers">
+            <br/>
+            <div ng-repeat="speaker in topSpeakers" class="row">
+              <div class="col-xs-12">
+                {{::speaker.name}}
+                <div class="well">
+                  <div ng-repeat="speech in speaker.speeches">
+                    <a ng-href="{{videoUrl}}" ng-repeat="videoUrl in ::speech.videoUrls" class="mr10"
+                       target="_blank">
+                      <i class="fa fa-video-camera"></i>
+                    </a>
+                    {{::speech.topic}} ({{::speech.date}})
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--<h2 class="title text-center">Get Started</h2>-->
+
+      <!--<div class="block">-->
+      <!--<h3 class="sub-title text-center">HTML</h3>-->
+
+      <!--<p><a href="http://prismjs.com/" target="_blank">PrismJS</a> is used as the syntax highlighter here.</p>-->
+
+      <!--<p>Below are the details of the custom PrismJS build used in this template. You can <a-->
+      <!--href="http://prismjs.com/download.html" target="_blank">build your own version</a> via their website should-->
+      <!--you need to.</p>-->
+      <!--<ul class="list-unstyled">-->
+      <!--<li><strong>Compression level:</strong> Minified</li>-->
+      <!--<li><strong>Theme:</strong> Okaidia</li>-->
+      <!--<li><strong>Languages:</strong> Markup, CSS, C-like, JavaScript, PHP and Python</li>-->
+      <!--</ul>-->
+      <!--<div class="code-block">-->
+      <!--&lt;!&ndash;//Use Prismjs - http://prismjs.com/index.html#basic-usage &ndash;&gt;-->
+      <!--<pre><code class="language-markup">-->
+      <!--&ltp class="my-style"&gt-->
+      <!--Hello World!-->
+      <!--&lt/p&gt-->
+      <!--</code></pre>-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//block&ndash;&gt;-->
+
+      <!--<div class="block">-->
+      <!--<h3 class="sub-title text-center">CSS</h3>-->
+
+      <!--<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam-->
+      <!--eget dui. Etiam rhoncus.</p>-->
+
+      <!--<div class="code-block">-->
+      <!--&lt;!&ndash;//Use Prismjs - http://prismjs.com/index.html#basic-usage &ndash;&gt;-->
+      <!--<pre>-->
+      <!--<code class="language-css">-->
+      <!--/*-->
+      <!--* Template Name: devAid - Responsive Website Template for developers-->
+      <!--* Version: 1.0-->
+      <!--* Author: Xiaoying Riley at 3rd Wave Media-->
+      <!--* Website: http://themes.3rdwavemedia.com/-->
+      <!--* Twitter: @3rdwave_themes-->
+      <!--*/-->
+      <!--body {-->
+      <!--font-family: 'Lato', arial, sans-serif;-->
+      <!--color: #444444;-->
+      <!--font-size: 16px;-->
+      <!---webkit-font-smoothing: antialiased;-->
+      <!---moz-osx-font-smoothing: grayscale;-->
+      <!--}-->
+      <!--</code></pre>-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//block&ndash;&gt;-->
+
+      <!--<div class="block">-->
+      <!--<h3 class="sub-title text-center">JavaScript</h3>-->
+
+      <!--<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam-->
+      <!--eget dui. Etiam rhoncus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit ligula eget dolor.</p>-->
+
+      <!--<div class="code-block">-->
+      <!--<pre><code class="language-javascript">-->
+      <!--if( awesome ){-->
+      <!--console.log('This is Awesome');-->
+      <!--}else{-->
+      <!--$('body').addClass('give-me-awesome');-->
+      <!--}-->
+      <!--</code></pre>-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
+      <!--</div>-->
+      <!--&lt;!&ndash;//block&ndash;&gt;-->
+      <!--<div class="block">-->
+      <!--<h3 class="sub-title text-center">Full Documentation</h3>-->
+
+      <!--<p>If your documentation is very long you can host the full docs page (including FAQ etc) on GitHub and provide-->
+      <!--a Call to Action button below to direct users there.</p>-->
+
+      <!--<p class="text-center">-->
+      <!--<a class="btn btn-cta-primary" href="https://github.com/twbs/bootstrap" target="_blank">More on GitHub</a>-->
+      <!--</p>-->
+      <!--</div>-->
+
+    </div>
+  </div>
+</section>
+
+<section id="speaker" class="sct-speaker section">
+  <div class="container">
+    <h2 class="sct-speaker-title text-center">Хочу выступить на DevClub с докладом</h2>
+
+    <div ng-if="!conf.showSpeakerForm" class="row">
+      <div class="col-xs-6 text-center">
+        <a class="sct-speaker-subtitle" target="_blank"
+           href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">
+          Открыть форму в отдельном табе
+        </a>
+      </div>
+      <div class="col-xs-6 text-center">
+        <a class="sct-speaker-subtitle" href="" ng-click="conf.showSpeakerForm = !conf.showSpeakerForm">
+          Открыть форму здесь
+        </a>
+      </div>
+    </div>
+    <div ng-if="conf.showSpeakerForm" class="row">
+      <div class="col-xs-12 text-center">
+        <iframe
+            src="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform?embedded=true"
+            width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Загружаю форму...
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="sct-contact section has-pattern">
+  <div class="container">
+    <h2 class="sct-contact-title text-center">DEVCLUB MTÜ</h2>
+
+    <div class="text-center">
+      <ul class="sct-contact-social-icons list-inline">
+        <li>
+          <a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://plus.google.com/u/0/105266766340206558621/posts">
+            <i class="fa fa-google-plus"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.facebook.com/groups/devclub.eu/">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://groups.google.com/forum/#!forum/devclub-eu">
+            <i class="fa fa-users"></i>
+          </a>
+        </li>
+        <li class="last">
+          <a href="mailto:info@devclub.eu">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <h3 class="sct-contact-subtitle">Организаторы</h3>
+
+    <div class="row">
+      <div class="col-xs-4 col-sm-2" ng-repeat="member in activeMembers">
+        <img ng-src="assets/members/{{member.userpick}}" class="mb20 img-circle img-responsive">
+
+        <p class="sct-contact-member text-center">{{member.name}}</p>
+      </div>
+    </div>
+
+    <div class="row mt60">
+      <div class="col-xs-4 col-sm-2" ng-repeat="member in inactiveMembers">
+        <img ng-src="assets/members/{{member.userpick}}" class="mb20 img-circle img-responsive">
+
+        <p class="sct-contact-member text-center">{{member.name}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container text-center">
+    <small class="copyright">
+      Сделал antons на основе шаблона <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
+      Riley</a>
+    </small>
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="a1405eff.scripts.js"></script>
+
+
+</body>
+</html> 
