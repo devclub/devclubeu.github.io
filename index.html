@@ -23,7 +23,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="aaa9f07a.styles.css">
+  <link rel="stylesheet" type="text/css" href="af3d1699.styles.css">
 
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -32,17 +32,6 @@
 </head>
 
 <body data-spy="scroll" ng-app="devclub" ng-controller="RootController">
-
-<!---//Facebook button code-->
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <header id="header" class="header">
   <div class="container">
@@ -165,74 +154,77 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
   </div>
 </section>
 
-<section id="about" class="section-about section">
+<section id="about" class="sct-about">
   <div class="container">
-    <h2 class="title text-center">Что такое DevClub?</h2>
+    <h2 class="sct-about-title text-center">Что такое DevClub?</h2>
 
     <div class="col-xs-12 col-sm-offset-1 col-sm-10">
-      <p class="intro text-justify">
-        Это ежемесячные открытые для каждого встречи, на которых в неформальной обстановке выступают,
-        как правило, на русском языке на темы, связанные с инфотехнологиями, три докладчика.
-        Каждый может стать зрителем - для этого достаточно совершенно бесплатно зарегистрироваться на
-        встречу.
-        Каждый может стать докладчиком - для этого достаточно написать нам о темах, и мы свяжемся с вами.
-        Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
-        (<a href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">YouTube-канал</a>)
+      <p class="sct-about-text text-justify">
+        Это ежемесячные открытые для каждого встречи, на которых в неформальной обстановке выступают, как правило, на
+        русском языке на темы, связанные с инфотехнологиями, три докладчика. Каждый может стать зрителем - для этого
+        достаточно совершенно бесплатно зарегистрироваться на встречу. Каждый может стать докладчиком - для этого
+        достаточно <a target="_blank"
+                      href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">написать
+        нам</a> о темах, и мы свяжемся с вами. Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
+        (<a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">YouTube-канал</a>)
         - всё это возможно благодаря нашим спонсорам и добровольным пожертвованиям.
       </p>
     </div>
   </div>
 </section>
 
-<section id="sponsors" class="section-sponsors section">
+<section id="sponsors" class="sct-sponsors">
   <div class="container">
-    <h2 class="title text-center">Спонсоры</h2>
+    <h2 class="sct-sponsors-title text-center">Спонсоры</h2>
 
     <div class="row">
-      <div class="col-xs-4 col-sm-3" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
-        <img class="img-responsive" src="assets/sponsors/{{sponsor.code}}.png"/>
+      <div class="col-xs-3 col-sm-2" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
+        <img class="img-responsive" ng-src="assets/sponsors/{{sponsor.code}}.png"/>
       </div>
     </div>
     <div class="clearfix"></div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-6 text-justify">
-        <h3 class="subtitle text-center">Как стать спонсором?</h3>
+      <div class="col-sm-12 col-md-offset-2 col-md-8 text-justify">
+        <h3 class="text-center">
+          <span class="sct-sponsors-toggle" ng-click="showSponsorText = !showSponsorText">
+            Как нам помочь? Как стать спонсором?
+          </span>
+        </h3>
 
-        <p>Поддержите инициативу интеллектуального, профессионального и социального развития специалистов
-          в области IT на долгосрочной основе. Станьте нашим спонсором!</p>
+        <div ng-show="showSponsorText">
+          <p>Поддержите инициативу интеллектуального, профессионального и социального развития специалистов
+            в области IT на долгосрочной основе. Станьте нашим спонсором!</p>
 
-        <p><b>На что уйдут деньги?</b> Ваши деньги будут потрачены на оплату зала, на напитки и еду, на аппаратуру
-          для съёмки встречи и на призы. Организаторы встреч работают бесплатно, а докладчики зарабатывают
-          апплодисменты и небольшой памятный сувенир.</p>
+          <p><b>На что уйдут деньги?</b> Ваши деньги будут потрачены на оплату зала, на напитки и еду, на аппаратуру
+            для съёмки встречи и на призы. Организаторы встреч работают бесплатно, а докладчики зарабатывают
+            апплодисменты и небольшой памятный сувенир.</p>
 
-        <p><b>Что получает спонсор?</b> Мы рекламируем и благодарим вас на всех мероприятиях (включая эстонские).
-          Ваш баннер появится на этом сайте и в видео встреч на YouTube. На мероприятиях вы сможете выступать
-          до 5 минут перед пришедшими на встречу (90-100 чел) и раздавать свои брошюры. Пять ваших сотрудников
-          всегда смогут посетить мероприятие без регистрации. А самое главное - совместный профессиональный рост,
-          потому что поддержка интеллектуальных инициатив – это дополнительные очки в копилку престижа любой
-          фирмы.</p>
+          <p><b>Что получает спонсор?</b> Мы рекламируем и благодарим вас на всех мероприятиях (включая эстонские).
+            Ваш баннер появится на этом сайте и в видео встреч на YouTube. На мероприятиях вы сможете выступать
+            до 5 минут перед пришедшими на встречу (90-100 чел) и раздавать свои брошюры. Пять ваших сотрудников
+            всегда смогут посетить мероприятие без регистрации. А самое главное - совместный профессиональный рост,
+            потому что поддержка интеллектуальных инициатив – это дополнительные очки в копилку престижа любой
+            фирмы.</p>
 
-        <p><b>Сколько стоит спонсорский пакет?</b>
-        <ul>
-          <li>1 год: 200€ * 12 = 2400€</li>
-          <li>6 мес: 250€ * 6 = 1500€ (в расчете на год 3000€)</li>
-          <li>3 мес: 300€ * 3 = 900€ (в расчете на год 3600€)</li>
-          <li>1 мес: 350€ * 1 = 350€ (в расчете на год 4200€)</li>
-        </ul>
-        Если у вас ещё остались вопросы, или вы уже выбрали пакет, то напишите нам на адрес info@devclub.eu
-        – и мы обязательно свяжемся с вами в кратчайшие сроки.</p>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <h3 class="subtitle text-center">Как нам помочь?</h3>
+          <p><b>Сколько стоит спонсорский пакет?</b>
+          <ul>
+            <li>1 год: 200€ * 12 = 2400€</li>
+            <li>6 мес: 250€ * 6 = 1500€ (в расчете на год 3000€)</li>
+            <li>3 мес: 300€ * 3 = 900€ (в расчете на год 3600€)</li>
+            <li>1 мес: 350€ * 1 = 350€ (в расчете на год 4200€)</li>
+          </ul>
+          Если у вас ещё остались вопросы, или вы уже выбрали пакет, то напишите нам на адрес info@devclub.eu
+          – и мы обязательно свяжемся с вами в кратчайшие сроки.</p>
 
-        <p>Пожертвование, если вы <b>частное</b> лицо:
-        <ul class="list-unstyled">
-          <li><b>Swedbank:</b> EE822200221049645988</li>
-          <li><b>Получатель:</b> MTÜ DEVCLUB</li>
-          <li><b>Пояснение:</b> DevClub.eu donation</li>
-        </ul>
-        Юридические лица просим предварительно обращаться к руководству MTÜ DEVCLUB (info@devclub.eu).</p>
+          <p class="mt20">Пожертвование, если вы <b>частное</b> лицо:
+          <ul class="list-unstyled">
+            <li><b>Swedbank:</b> EE822200221049645988</li>
+            <li><b>Получатель:</b> MTÜ DEVCLUB</li>
+            <li><b>Пояснение:</b> DevClub.eu donation</li>
+          </ul>
+          Юридические лица просим предварительно обращаться к руководству MTÜ DEVCLUB (info@devclub.eu).</p>
+        </div>
       </div>
     </div>
   </div>
@@ -400,6 +392,7 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
           </div>
           <div role="tabpanel" class="tab-pane" id="speakers">
             <br/>
+
             <div ng-repeat="speaker in topSpeakers" class="row">
               <div class="col-xs-12">
                 {{::speaker.name}}
@@ -417,94 +410,6 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
           </div>
         </div>
       </div>
-
-
-      <!--<h2 class="title text-center">Get Started</h2>-->
-
-      <!--<div class="block">-->
-      <!--<h3 class="sub-title text-center">HTML</h3>-->
-
-      <!--<p><a href="http://prismjs.com/" target="_blank">PrismJS</a> is used as the syntax highlighter here.</p>-->
-
-      <!--<p>Below are the details of the custom PrismJS build used in this template. You can <a-->
-      <!--href="http://prismjs.com/download.html" target="_blank">build your own version</a> via their website should-->
-      <!--you need to.</p>-->
-      <!--<ul class="list-unstyled">-->
-      <!--<li><strong>Compression level:</strong> Minified</li>-->
-      <!--<li><strong>Theme:</strong> Okaidia</li>-->
-      <!--<li><strong>Languages:</strong> Markup, CSS, C-like, JavaScript, PHP and Python</li>-->
-      <!--</ul>-->
-      <!--<div class="code-block">-->
-      <!--&lt;!&ndash;//Use Prismjs - http://prismjs.com/index.html#basic-usage &ndash;&gt;-->
-      <!--<pre><code class="language-markup">-->
-      <!--&ltp class="my-style"&gt-->
-      <!--Hello World!-->
-      <!--&lt/p&gt-->
-      <!--</code></pre>-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//block&ndash;&gt;-->
-
-      <!--<div class="block">-->
-      <!--<h3 class="sub-title text-center">CSS</h3>-->
-
-      <!--<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam-->
-      <!--eget dui. Etiam rhoncus.</p>-->
-
-      <!--<div class="code-block">-->
-      <!--&lt;!&ndash;//Use Prismjs - http://prismjs.com/index.html#basic-usage &ndash;&gt;-->
-      <!--<pre>-->
-      <!--<code class="language-css">-->
-      <!--/*-->
-      <!--* Template Name: devAid - Responsive Website Template for developers-->
-      <!--* Version: 1.0-->
-      <!--* Author: Xiaoying Riley at 3rd Wave Media-->
-      <!--* Website: http://themes.3rdwavemedia.com/-->
-      <!--* Twitter: @3rdwave_themes-->
-      <!--*/-->
-      <!--body {-->
-      <!--font-family: 'Lato', arial, sans-serif;-->
-      <!--color: #444444;-->
-      <!--font-size: 16px;-->
-      <!---webkit-font-smoothing: antialiased;-->
-      <!---moz-osx-font-smoothing: grayscale;-->
-      <!--}-->
-      <!--</code></pre>-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//block&ndash;&gt;-->
-
-      <!--<div class="block">-->
-      <!--<h3 class="sub-title text-center">JavaScript</h3>-->
-
-      <!--<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam-->
-      <!--eget dui. Etiam rhoncus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit ligula eget dolor.</p>-->
-
-      <!--<div class="code-block">-->
-      <!--<pre><code class="language-javascript">-->
-      <!--if( awesome ){-->
-      <!--console.log('This is Awesome');-->
-      <!--}else{-->
-      <!--$('body').addClass('give-me-awesome');-->
-      <!--}-->
-      <!--</code></pre>-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//code-block&ndash;&gt;-->
-      <!--</div>-->
-      <!--&lt;!&ndash;//block&ndash;&gt;-->
-      <!--<div class="block">-->
-      <!--<h3 class="sub-title text-center">Full Documentation</h3>-->
-
-      <!--<p>If your documentation is very long you can host the full docs page (including FAQ etc) on GitHub and provide-->
-      <!--a Call to Action button below to direct users there.</p>-->
-
-      <!--<p class="text-center">-->
-      <!--<a class="btn btn-cta-primary" href="https://github.com/twbs/bootstrap" target="_blank">More on GitHub</a>-->
-      <!--</p>-->
-      <!--</div>-->
-
     </div>
   </div>
 </section>
@@ -513,32 +418,25 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
   <div class="container">
     <h2 class="sct-speaker-title text-center">Хочу выступить на DevClub с докладом</h2>
 
-    <div ng-if="!conf.showSpeakerForm" class="row">
-      <div class="col-xs-6 text-center">
+    <div class="row">
+      <div class="col-xs-12 text-center">
         <a class="sct-speaker-subtitle" target="_blank"
            href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">
           Открыть форму в отдельном табе
         </a>
       </div>
-      <div class="col-xs-6 text-center">
-        <a class="sct-speaker-subtitle" href="" ng-click="conf.showSpeakerForm = !conf.showSpeakerForm">
-          Открыть форму здесь
-        </a>
-      </div>
-    </div>
-    <div ng-if="conf.showSpeakerForm" class="row">
-      <div class="col-xs-12 text-center">
-        <iframe
-            src="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform?embedded=true"
-            width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Загружаю форму...
-        </iframe>
+
+      <div class="clearfix"></div>
+
+      <div class="col-xs-12 mt20">
+        <img class="img-responsive center-block" src="assets/speaker.jpg"/>
       </div>
     </div>
   </div>
 </section>
 
 
-<section id="contact" class="sct-contact section has-pattern">
+<section id="contact" class="sct-contact section">
   <div class="container">
     <h2 class="sct-contact-title text-center">DEVCLUB MTÜ</h2>
 
@@ -577,18 +475,20 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
     <h3 class="sct-contact-subtitle">Организаторы</h3>
 
     <div class="row">
-      <div class="col-xs-4 col-sm-2" ng-repeat="member in activeMembers">
+      <div class="col-xs-6 col-sm-3 col-lg-2" ng-repeat="member in activeMembers">
         <img ng-src="assets/members/{{member.userpick}}" class="mb20 img-circle img-responsive">
 
-        <p class="sct-contact-member text-center">{{member.name}}</p>
+        <p class="sct-contact-member text-center" ng-bind="member.name"></p>
       </div>
     </div>
 
-    <div class="row mt60">
-      <div class="col-xs-4 col-sm-2" ng-repeat="member in inactiveMembers">
+    <h4 class="sct-contact-subtitle mt60">Благодарим вас за вклад!</h4>
+
+    <div class="row">
+      <div class="col-xs-4 col-sm-2 col-lg-1" ng-repeat="member in inactiveMembers">
         <img ng-src="assets/members/{{member.userpick}}" class="mb20 img-circle img-responsive">
 
-        <p class="sct-contact-member text-center">{{member.name}}</p>
+        <p class="sct-contact-member text-center" ng-bind="member.name"></p>
       </div>
     </div>
   </div>
@@ -597,14 +497,13 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
 <footer class="footer">
   <div class="container text-center">
     <small class="copyright">
-      Сделал antons на основе шаблона <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
-      Riley</a>
+      © 2008-2015 команда DevClub
     </small>
   </div>
 </footer>
 
 
-<script type="text/javascript" src="a1405eff.scripts.js"></script>
+<script type="text/javascript" src="806c1587.scripts.js"></script>
 
 
 </body>
