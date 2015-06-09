@@ -1,26 +1,62 @@
 [
   {
     "name": "Кирилл Линник",
-    "userpick": "klinnik.jpg"
+    "userpick": "klinnik.jpg",
+    "active": true
   },
   {
     "name": "Антон Архипов",
-    "userpick": "aarhipov.jpg"
+    "userpick": "aarhipov.jpg",
+    "active": true
   },
   {
     "name": "Андрей Солнцев",
-    "userpick": "asolntsev.jpg"
+    "userpick": "asolntsev.jpg",
+    "active": true
   },
   {
     "name": "Юрий Тимошин",
-    "userpick": "jtimosin.jpg"
+    "userpick": "jtimosin.jpg",
+    "active": true
   },
   {
     "name": "Эрвин Вебер",
-    "userpick": "eweber.jpg"
+    "userpick": "eweber.jpg",
+    "active": true
   },
   {
     "name": "Антон Стальнухин",
-    "userpick": "astalnuhhin.jpg"
+    "userpick": "astalnuhhin.jpg",
+    "active": true
+  },
+  {
+    "name": "Александр Мочёнов",
+    "userpick": "amotsenov.jpg",
+    "active": false
+  },
+  {
+    "name": "Юрий Муленко",
+    "userpick": "jmulenko.jpg",
+    "active": false
+  },
+  {
+    "name": "Евгений Холодков",
+    "userpick": "jholodkov.jpg",
+    "active": false
+  },
+  {
+    "name": "Кирилл Бухалко",
+    "userpick": "buhhalko.jpg",
+    "active": false
+  },
+  {
+    "name": "Захар Кириллов",
+    "userpick": "kirillov.jpg",
+    "active": false
+  },
+  {
+    "name": "Арсений Григорьев",
+    "userpick": "grigorjev.jpg",
+    "active": false
   }
 ]

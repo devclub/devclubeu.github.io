@@ -1,52 +1,42 @@
 [
   {
     "code": "swedbank",
-    "prior": 100,
     "hidden": false
   },
   {
     "code": "codeborne",
-    "prior": 200,
     "hidden": false
   },
   {
     "code": "ignite",
-    "prior": 300,
     "hidden": false
   },
   {
     "code": "jetbrains",
-    "prior": 400,
     "hidden": false
   },
   {
     "code": "kuehne_nagel",
-    "prior": 500,
     "hidden": false
   },
   {
     "code": "nortal",
-    "prior": 600,
     "hidden": false
   },
   {
     "code": "transferwise",
-    "prior": 700,
     "hidden": false
   },
   {
     "code": "symantec",
-    "prior": 800,
     "hidden": false
   },
   {
     "code": "linn",
-    "prior": 900,
     "hidden": false
   },
   {
     "code": "devtraining",
-    "prior": 1000,
     "hidden": false
   }
 ]
