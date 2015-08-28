@@ -1,5 +1,29 @@
 [
   {
+    "date": "30.07.2015",
+    "youtubeIds": [],
+    "speakers": ["Ирина Иванова"],
+    "topic": "Ловушки мышления в тестировании"
+  },
+  {
+    "date": "02.07.2015",
+    "youtubeIds": [],
+    "speakers": ["Сергей Куксенко"],
+    "topic": "Stream Style"
+  },
+  {
+    "date": "02.07.2015",
+    "youtubeIds": [],
+    "speakers": ["Игорь Босенко"],
+    "topic": "Трансформация данных чайником"
+  },
+  {
+    "date": "02.07.2015",
+    "youtubeIds": [],
+    "speakers": ["Мартин Киуру"],
+    "topic": "HFT или How Deep the Rabbit Hole Goes"
+  },
+  {
     "date": "26.05.2015",
     "youtubeIds": ["kZDa5hD-oQI"],
     "speakers": ["Андрей Солнцев"],

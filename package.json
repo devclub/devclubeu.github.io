@@ -1,0 +1,37 @@
+{
+  "name": "devclub.eu",
+  "version": "1.0.0",
+  "description": "Devclub.eu: DO IT TOGETHER",
+  "scripts": {
+    "postinstall": "bower prune && bower install"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "bower": "^1.4.1",
+    "grunt": "*",
+    "grunt-accessibility": "^3.0.3",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-bower-task": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "*",
+    "grunt-file-info": "*",
+    "grunt-hashres": "*",
+    "grunt-html2js": "^0.3.2",
+    "grunt-newer": "^1.1.0",
+    "grunt-ng-annotate": "^0.10.0",
+    "grunt-replace": "^0.8.0",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.1"
+  }
+}
