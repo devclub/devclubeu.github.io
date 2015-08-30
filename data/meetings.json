@@ -1,11 +1,30 @@
 [
   {
+    "date": "29.09.2015",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#85",
+    "moderator": "",
+    "photoUrls": []
+  },
+  {
+    "date": "19.08.2015",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#84",
+    "moderator": "Андрей Солнцев",
+    "photoUrls": ["https://plus.google.com/photos/105266766340206558621/albums/6184829266311516977"]
+  },
+  {
     "date": "30.07.2015",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#83",
-    "moderator": "",
-    "photoUrls": []
+    "moderator": "Андрей Солнцев",
+    "photoUrls": [
+      "https://plus.google.com/photos/105266766340206558621/albums/6177456314153147201",
+      "https://picasaweb.google.com/107973065832795673929/Devclub_300715?authkey=Gv1sRgCJLVzo2hlYOikgE"
+    ]
   },
   {
     "date": "02.07.2015",
@@ -13,7 +32,7 @@
     "place": "Von Stackelberg",
     "name": "#82 - 32 июня",
     "moderator": "Кирилл Линник",
-    "photoUrls": []
+    "photoUrls": ["https://plus.google.com/photos/105266766340206558621/albums/6176157478914898561"]
   },
   {
     "date": "26.05.2015",
