@@ -21,7 +21,7 @@ module.exports = function (grunt) {
   project.vendor_assets = [
     {
       src: ['fonts/*'],
-      dest: 'build/assets',
+      dest: 'assets',
       cwd: 'vendor/font-awesome',
       expand: true
     }
@@ -31,9 +31,6 @@ module.exports = function (grunt) {
   grunt.option('pkg_version', pkg.version);
 
   var config = {
-    meta: {
-      banner: '/** <%= grunt.option("pkg_name") %> - v<%= grunt.option("pkg_version") %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-    },
     connect: {
       options: {
         base: ['.'],
