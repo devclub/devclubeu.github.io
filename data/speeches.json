@@ -1,27 +1,58 @@
 [
   {
+    "date": "19.08.2015",
+    "youtubeIds": ["cGXorQkw3JE"],
+    "speakers": ["Антон Архипов"],
+    "topic": "Go!"
+  },
+  {
+    "date": "19.08.2015",
+    "youtubeIds": ["1PZmalhJyS0"],
+    "speakers": ["Антон Кекс", "Дмитрий Эсс"],
+    "topic": "Школа программирования Codeborne"
+  },
+  {
+    "date": "19.08.2015",
+    "youtubeIds": ["tf_7Drar-NU"],
+    "speakers": ["Алексей Баранцев"],
+    "topic": "Aspiration Driven Development"
+  },
+  {
     "date": "30.07.2015",
     "youtubeIds": [],
+    "speakers": ["Алек Альджанов"],
+    "topic": "Про хранилище картинок"
+  },
+  {
+    "date": "30.07.2015",
+    "youtubeIds": ["ME4HqzRjjJs"],
     "speakers": ["Ирина Иванова"],
-    "topic": "Ловушки мышления в тестировании"
+    "topic": "Ловушки мышления в тестировании",
+    "presentation": ["http://www.slideshare.net/iiiirina/devclubeu-30072015"]
+  },
+  {
+    "date": "30.07.2015",
+    "youtubeIds": [],
+    "speakers": ["Антон Карпуткин"],
+    "topic": "Квантовые компьютеры"
   },
   {
     "date": "02.07.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["8VZU5_Dsqyg"],
     "speakers": ["Сергей Куксенко"],
     "topic": "Stream Style"
   },
   {
     "date": "02.07.2015",
-    "youtubeIds": [],
-    "speakers": ["Игорь Босенко"],
-    "topic": "Трансформация данных чайником"
+    "youtubeIds": ["fRQhYKqpfog"],
+    "speakers": ["Мартин Киуру"],
+    "topic": "HFT или How Deep the Rabbit Hole Goes"
   },
   {
     "date": "02.07.2015",
-    "youtubeIds": [],
-    "speakers": ["Мартин Киуру"],
-    "topic": "HFT или How Deep the Rabbit Hole Goes"
+    "youtubeIds": ["5ZHSdwRnKvQ"],
+    "speakers": ["Игорь Босенко"],
+    "topic": "Трансформация данных чайником"
   },
   {
     "date": "26.05.2015",
