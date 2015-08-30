@@ -8,7 +8,10 @@
   {
     "date": "19.08.2015",
     "youtubeIds": ["1PZmalhJyS0"],
-    "speakers": ["Антон Кекс", "Дмитрий Эсс"],
+    "speakers": [
+      "Антон Кекс",
+      "Дмитрий Эсс"
+    ],
     "topic": "Школа программирования Codeborne"
   },
   {
@@ -19,7 +22,6 @@
   },
   {
     "date": "30.07.2015",
-    "youtubeIds": [],
     "speakers": ["Алек Альджанов"],
     "topic": "Про хранилище картинок"
   },
@@ -32,7 +34,6 @@
   },
   {
     "date": "30.07.2015",
-    "youtubeIds": [],
     "speakers": ["Антон Карпуткин"],
     "topic": "Квантовые компьютеры"
   },
@@ -110,18 +111,21 @@
   },
   {
     "date": "26.02.2015",
+    "youtubeIds": ["SsrmLyVxnoE"],
     "_vids": ["https://www.youtube.com/watch?v=6oqyFbopU6w"],
     "speakers": ["Михаил Бешкин"],
     "topic": "Android, Black Jack и … тапёр"
   },
   {
     "date": "26.02.2015",
+    "youtubeIds": ["mG2irGDbuRA"],
     "_vids": ["https://www.youtube.com/watch?v=nK9vvySp8Rc"],
     "speakers": ["Филипп Кекс"],
     "topic": "Разработка как живопись"
   },
   {
     "date": "26.02.2015",
+    "youtubeIds": ["Qlq3e7_EGeU"],
     "_vids": ["https://www.youtube.com/watch?v=12kQ_-nDs7M"],
     "speakers": ["Владимир Фунтиков"],
     "topic": "Как проиграть в игровой индустрии"
@@ -143,36 +147,42 @@
   },
   {
     "date": "18.12.2014",
+    "youtubeIds": ["sjvUf3lWT7U"],
     "_vids": ["https://www.youtube.com/watch?v=ypyAvJ4FHxk"],
     "speakers": ["Антон Литвиненко"],
     "topic": "Что делать программисту после 30?"
   },
   {
     "date": "18.12.2014",
+    "youtubeIds": ["_0PsWV6nhmQ"],
     "_vids": ["https://www.youtube.com/watch?v=LLhyrvckGqU"],
     "speakers": ["Кирилл Линник"],
     "topic": "Почему логистической компании может понадобиться так много программистов"
   },
   {
     "date": "18.12.2014",
+    "youtubeIds": ["j_V6TZ3ZU6c"],
     "_vids": ["https://www.youtube.com/watch?v=qBXgYDav40g"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Как получить чёрный пояс по программированию"
   },
   {
     "date": "18.12.2014",
+    "youtubeIds": ["-ZZm6qO1CvY"],
     "_vids": ["https://www.youtube.com/watch?v=HQvzPxHbJQQ"],
     "speakers": ["Дарья Крушевская"],
     "topic": "Как мы собрали всю рекламу в мире"
   },
   {
     "date": "25.11.2014",
+    "youtubeIds": ["RmcpSBuy-Zs"],
     "_vids": ["https://www.youtube.com/watch?v=xsLaOlRL_-o"],
     "speakers": ["Антон Стальнухин"],
     "topic": "ng-europe 2014: два дня за час"
   },
   {
     "date": "25.11.2014",
+    "youtubeIds": ["v0NFb4y6Hkw"],
     "_vids": ["https://www.youtube.com/watch?v=AARGYB3vBqM"],
     "speakers": [
       "Константин Роот",
@@ -184,12 +194,14 @@
   },
   {
     "date": "25.11.2014",
+    "youtubeIds": ["7jdswaWkj-8"],
     "_vids": ["https://www.youtube.com/watch?v=2BrQ4RrT2QU"],
     "speakers": ["Юрий Тимошин"],
     "topic": "Как готовить Vagrant"
   },
   {
     "date": "28.10.2014",
+    "youtubeIds": ["3I69U-DH6eI"],
     "_vids": ["https://www.youtube.com/watch?v=tvW82-IR29E"],
     "speakers": ["Михаил Лапушкин"],
     "topic": "Архитектура в CSS",
@@ -197,12 +209,14 @@
   },
   {
     "date": "28.10.2014",
+    "youtubeIds": ["GIa-2owR5nQ"],
     "_vids": ["https://www.youtube.com/watch?v=6D55FTejSzs"],
     "speakers": ["Игорь Босенко"],
     "topic": "OAuth по велосипедам"
   },
   {
     "date": "28.10.2014",
+    "youtubeIds": ["TLBsEzxW20E"],
     "_vids": ["https://www.youtube.com/watch?v=FZCgZS6ymFw"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Heap, off you go",
@@ -210,12 +224,14 @@
   },
   {
     "date": "25.09.2014",
+    "youtubeIds": ["4ZgC3uQCP6I"],
     "_vids": ["https://www.youtube.com/watch?v=0Rc6bITo-Jo"],
     "speakers": ["Антон Архипов"],
     "topic": "Разговоры про IDE"
   },
   {
     "date": "25.09.2014",
+    "youtubeIds": ["KQB2c7mp29M"],
     "_vids": ["https://www.youtube.com/watch?v=2SvMvKeVwOY"],
     "speakers": [
       "Андрей Солнцев",
@@ -227,24 +243,28 @@
   },
   {
     "date": "25.09.2014",
+    "youtubeIds": ["XQLNAx9DGmk"],
     "_vids": ["https://www.youtube.com/watch?v=k-iw6sRkqpc"],
     "speakers": ["Сергей Егоров"],
     "topic": "Haxe – универсальный ОО язык программирования высокого уровня"
   },
   {
     "date": "26.08.2014",
+    "youtubeIds": ["_NxqCgLVnN0"],
     "_vids": ["https://www.youtube.com/watch?v=NE_wcLVrjtg"],
     "speakers": ["Евгений Голобородько"],
     "topic": "Анатомия БД"
   },
   {
     "date": "26.08.2014",
+    "youtubeIds": ["SUkyUpWk-Vk"],
     "_vids": ["https://www.youtube.com/watch?v=gqISlPaMjK8"],
     "speakers": ["Дмитрий Трошков"],
     "topic": "TypeScript"
   },
   {
     "date": "26.08.2014",
+    "youtubeIds": ["Ujuz-D-ekXE"],
     "_vids": ["https://www.youtube.com/watch?v=VS2Ue_F37KY"],
     "speakers": ["Сергей Егоров"],
     "topic": "Groovy AST"
@@ -256,18 +276,21 @@
   },
   {
     "date": "30.07.2014",
+    "youtubeIds": ["gBJ5aFtYk78"],
     "_vids": ["https://www.youtube.com/watch?v=prVfZyzMVdk"],
     "speakers": ["Константин Роот"],
     "topic": "Docker hands-on"
   },
   {
     "date": "30.07.2014",
+    "youtubeIds": ["e4ZJQzKAxxA"],
     "_vids": ["https://www.youtube.com/watch?v=0poNHrrbWKg"],
     "speakers": ["Михаил Бешкин"],
     "topic": "Тестируем на устройствах под Android"
   },
   {
     "date": "26.06.2014",
+    "youtubeIds": ["yEFeuftK0iM"],
     "_vids": ["https://www.youtube.com/watch?v=esYhBcDxcqU"],
     "speakers": ["Андрей Ткачёв"],
     "topic": "Путь от фотона до JPEG, или как получаются цифровые фотографии?",
@@ -275,18 +298,21 @@
   },
   {
     "date": "26.06.2014",
+    "youtubeIds": ["RNwWGPyfocA"],
     "_vids": ["https://www.youtube.com/watch?v=LTVOqbph0T4"],
     "speakers": ["Дима Нестерук"],
     "topic": "Взгляд на современный С++"
   },
   {
     "date": "26.06.2014",
+    "youtubeIds": ["GnkokmDVSfY"],
     "_vids": ["https://www.youtube.com/watch?v=4jY4Seu6nr4"],
     "speakers": ["Максим Бойко"],
     "topic": "DataBata – (re)move your data!"
   },
   {
     "date": "27.05.2014",
+    "youtubeIds": ["v2vytyI8UvA"],
     "_vids": ["https://www.youtube.com/watch?v=xThdDI_CASA"],
     "speakers": ["Максим Дорофеев"],
     "topic": "Эффективность нееффективности",
@@ -294,30 +320,38 @@
   },
   {
     "date": "27.05.2014",
+    "youtubeIds": ["A3XoEp_3V88"],
     "_vids": ["https://www.youtube.com/watch?v=GkzGChTYDJk"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Про агильную разработку базы данных"
   },
   {
     "date": "27.05.2014",
+    "youtubeIds": ["T1Y7AfApqyc"],
     "_vids": ["https://www.youtube.com/watch?v=y92Xz1oQ6qc"],
     "speakers": ["Антон Архипов"],
     "topic": "В голове у продакт-менеджера"
   },
   {
     "date": "30.04.2014",
+    "youtubeIds": ["7yhAr0g_Xj8"],
     "_vids": ["https://vimeo.com/93601741"],
     "speakers": ["Михаил Лапушкин"],
     "topic": "Игры для мобильных устройств на HTML5"
   },
   {
     "date": "30.04.2014",
+    "youtubeIds": ["k7KvVwwn7GI"],
     "_vids": ["https://vimeo.com/93601740"],
     "speakers": ["Вадим Герасимов"],
     "topic": "Feature-driven development"
   },
   {
     "date": "30.04.2014",
+    "youtubeIds": [
+      "Z1v9olBK0Jw",
+      "rafwdgE0XPg"
+    ],
     "_vids": [
       "https://vimeo.com/93601738",
       "https://vimeo.com/93601737"
@@ -327,24 +361,28 @@
   },
   {
     "date": "26.03.2014",
+    "youtubeIds": ["EVS_BqZcnjM"],
     "_vids": ["https://vimeo.com/90268468"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Про девклаб"
   },
   {
     "date": "26.03.2014",
+    "youtubeIds": ["NQk5anPc4ZQ"],
     "_vids": ["https://vimeo.com/90268466"],
     "speakers": ["Mihkel Salm"],
     "topic": "Hacker-space"
   },
   {
     "date": "26.03.2014",
+    "youtubeIds": ["znAlJOPK2IY"],
     "_vids": ["https://vimeo.com/90268465"],
     "speakers": ["Иван Гайдамакин"],
     "topic": "3D принтеры"
   },
   {
     "date": "26.03.2014",
+    "youtubeIds": ["S9_n6EZBA2E"],
     "_vids": [
       "https://vimeo.com/90268467",
       "https://vimeo.com/90304761"
@@ -354,36 +392,42 @@
   },
   {
     "date": "26.02.2014",
+    "youtubeIds": ["RWoA6oWXp2U"],
     "_vids": ["https://www.youtube.com/watch?v=VIAq7fBaGug"],
     "speakers": ["Эрвин Вебер"],
     "topic": "PostgreSQL"
   },
   {
     "date": "26.02.2014",
+    "youtubeIds": ["W0XTNJKB3SA"],
     "_vids": ["https://www.youtube.com/watch?v=z09WN_dYE-g"],
     "speakers": ["Антон Архипов"],
     "topic": "JRebel"
   },
   {
     "date": "26.02.2014",
+    "youtubeIds": ["deJm66ZDM3s"],
     "_vids": ["https://www.youtube.com/watch?v=4Qi8g5Y7Oio"],
     "speakers": ["Антон Кекс"],
     "topic": "Apache Cordova 3"
   },
   {
     "date": "30.01.2014",
+    "youtubeIds": ["jLBrmIEQ8S0"],
     "_vids": ["https://vimeo.com/85480223"],
     "speakers": ["Антон Стальнухин"],
     "topic": "SPA «всё включено»: мой романтический пакет с AngularJS"
   },
   {
     "date": "30.01.2014",
+    "youtubeIds": ["uNRiSDTebLA"],
     "_vids": ["https://vimeo.com/85480225"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Backbone.js"
   },
   {
     "date": "30.01.2014",
+    "youtubeIds": ["SW_7-3UQTSQ"],
     "_vids": ["https://vimeo.com/85480224"],
     "speakers": ["Филипп Кекс"],
     "topic": "Unity3D – взрыв в сфере разработки игр"
@@ -439,6 +483,7 @@
   },
   {
     "date": "29.10.2013",
+    "youtubeIds": ["AUwsYhUxKUQ"],
     "_vids": ["https://vimeo.com/78286035"],
     "speakers": ["Юрий Тимошин"],
     "topic": "Vim",
@@ -451,6 +496,7 @@
   },
   {
     "date": "25.09.2013",
+    "youtubeIds": ["OouojcuUbjM"],
     "_vids": ["https://vimeo.com/76658217"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Статические генераторы сайтов",
@@ -458,6 +504,7 @@
   },
   {
     "date": "25.09.2013",
+    "youtubeIds": ["q-3xo6NvEeg"],
     "_vids": ["https://vimeo.com/76635435"],
     "speakers": ["Юрий Худолеев"],
     "topic": "Ansible",
@@ -470,6 +517,7 @@
   },
   {
     "date": "28.08.2013",
+    "youtubeIds": ["ZEYZNwn-Ees"],
     "_vids": ["https://vimeo.com/73452655"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Про гео-игру Ingress",
@@ -477,12 +525,14 @@
   },
   {
     "date": "28.08.2013",
+    "youtubeIds": ["78NSunPwMIY"],
     "_vids": ["https://vimeo.com/73447096"],
     "speakers": ["Антон Архипов"],
     "topic": "Скрипты в Java приложениях"
   },
   {
     "date": "28.08.2013",
+    "youtubeIds": ["Plo3e9lkFr0"],
     "_vids": ["https://vimeo.com/73440304"],
     "speakers": ["Антон Кекс"],
     "topic": "Разработка мультиплатформенных Desktop-приложений",
@@ -490,6 +540,7 @@
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["tn0rx_uAfRc"],
     "_vids": ["https://vimeo.com/71325740"],
     "speakers": ["Martin Sokk"],
     "topic": "TransferWise",
@@ -502,30 +553,35 @@
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["EmdvjreFRp8"],
     "_vids": ["https://vimeo.com/71325736"],
     "speakers": ["Сергей Царик"],
     "topic": "StaffLogic"
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["nUyXhziWrgI"],
     "_vids": ["https://vimeo.com/71325739"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Plumbr"
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["x11Zi6CkMx0"],
     "_vids": ["https://vimeo.com/71325741"],
     "speakers": ["Лиза Тоомпуу"],
     "topic": "Toggl"
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["VJk3iUo2U8Q"],
     "_vids": ["https://vimeo.com/71325742"],
     "speakers": ["Мартин Ранд"],
     "topic": "VitalFields"
   },
   {
     "date": "25.07.2013",
+    "youtubeIds": ["AP3VUg7fWSI"],
     "_vids": ["https://vimeo.com/72928776"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Спорим, в твоем приложении есть утечка памяти?",
@@ -533,18 +589,21 @@
   },
   {
     "date": "18.06.2013",
+    "youtubeIds": ["SqOwuTvAToc"],
     "_vids": ["https://vimeo.com/68755359"],
     "speakers": ["Антон Стальнухин"],
     "topic": "BIRT"
   },
   {
     "date": "18.06.2013",
+    "youtubeIds": ["ZEaXh1MF7Bc"],
     "_vids": ["https://vimeo.com/68755357"],
     "speakers": ["Александр Ястремский"],
     "topic": "Сказка про .NET"
   },
   {
     "date": "18.06.2013",
+    "youtubeIds": ["Rke-qcoO_lQ"],
     "_vids": ["https://vimeo.com/68755356"],
     "speakers": ["Эрвин Вебер"],
     "topic": "BDD с помощью Rspec",
@@ -552,36 +611,42 @@
   },
   {
     "date": "24.05.2013",
+    "youtubeIds": ["Ni94-gBooj4"],
     "_vids": ["https://vimeo.com/67039658"],
     "speakers": ["Филипп Торчинский"],
     "topic": "Разработка веб-приложений на node.js при помощи WebStorm"
   },
   {
     "date": "24.05.2013",
+    "youtubeIds": ["PGu2MDoS5qE"],
     "_vids": ["https://vimeo.com/67039660"],
     "speakers": ["Дмитрий Нестерук"],
     "topic": "Обзор TeamCity"
   },
   {
     "date": "24.05.2013",
+    "youtubeIds": ["G6gp01PokNg"],
     "_vids": ["https://vimeo.com/67039659"],
     "speakers": ["Филипп Торчинский"],
     "topic": "YouTrack"
   },
   {
     "date": "24.05.2013",
+    "youtubeIds": ["yzWHLsxo0A8"],
     "_vids": ["https://www.youtube.com/watch?v=fnLU-GJPdww"],
     "speakers": ["Дмитрий Нестерук"],
     "topic": "Что нового в ReSharper 8"
   },
   {
     "date": "30.04.2013",
+    "youtubeIds": ["GZ079h5AcCs"],
     "_vids": ["https://vimeo.com/65233400"],
     "speakers": ["Антон Кекс"],
     "topic": "Создание мультиплатформенных приложений для десктопа"
   },
   {
     "date": "30.04.2013",
+    "youtubeIds": ["zNsgQs30cG4"],
     "_vids": ["https://vimeo.com/65541881"],
     "speakers": ["Антон Анисимов"],
     "topic": "Unity для игр"
@@ -593,36 +658,42 @@
   },
   {
     "date": "30.04.2013",
+    "youtubeIds": ["l4Ux_WXGobY"],
     "_vids": ["https://vimeo.com/65227381"],
     "speakers": ["Антон Стальнухин"],
     "topic": "Архитектура независимого web-приложения для генерации отчётов и прочих документов"
   },
   {
     "date": "26.03.2013",
+    "youtubeIds": ["sLHC4PAqzYY"],
     "_vids": ["https://vimeo.com/62849105"],
     "speakers": ["Алек Козлов"],
-    "topic": "как проходят изменения в команде, и как кто на них реагирует."
+    "topic": "Как проходят изменения в команде, и как кто на них реагирует."
   },
   {
     "date": "26.03.2013",
+    "youtubeIds": ["SOhRStqrXmo"],
     "_vids": ["https://vimeo.com/62849104"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Тулзы для JavaScript front-end разработчиков"
   },
   {
     "date": "26.03.2013",
+    "youtubeIds": ["B82Ox2BM5GA"],
     "_vids": ["https://vimeo.com/62849106"],
     "speakers": ["Игорь Меньков"],
     "topic": "Windows Store Apps"
   },
   {
     "date": "26.02.2013",
+    "youtubeIds": ["HjOEstmjTNc"],
     "_vids": ["https://www.youtube.com/watch?v=QYGq3JREVBY"],
     "speakers": ["Станислав Васильев"],
     "topic": "Смотрим в будущее"
   },
   {
     "date": "26.02.2013",
+    "youtubeIds": ["Y0-wSgjzteE"],
     "_vids": ["https://vimeo.com/60614493"],
     "speakers": [
       "Андрей Солнцев",
@@ -632,30 +703,35 @@
   },
   {
     "date": "26.02.2013",
+    "youtubeIds": ["Tx9uP9y_0_c"],
     "_vids": ["https://www.youtube.com/watch?v=96rV5Z7Yyrc"],
     "speakers": ["Сергей Моисеев"],
     "topic": "Впадая в крайности: решаем проблемы с Ruby on Rails"
   },
   {
     "date": "30.01.2013",
+    "youtubeIds": ["eroIfh6fwaU"],
     "_vids": ["https://vimeo.com/58581465"],
     "speakers": ["Михаил Вайсман"],
     "topic": "Ruby-ть или не Ruby-ть"
   },
   {
     "date": "30.01.2013",
+    "youtubeIds": ["1C7sFXPXLkM"],
     "_vids": ["https://vimeo.com/58582083"],
     "speakers": ["Антон Архипов"],
     "topic": "Плюшки в Groovy"
   },
   {
     "date": "30.01.2013",
+    "youtubeIds": ["SwlDQ9_WBds"],
     "_vids": ["https://vimeo.com/58580972"],
     "speakers": ["Роман Маринченко"],
     "topic": "BDD на PHP с помощью Behat + Mink."
   },
   {
     "date": "27.12.2012",
+    "youtubeIds": ["ZHjWM2nUtCk"],
     "_vids": ["https://vimeo.com/56422713"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Хвалите друг друга"
@@ -667,6 +743,7 @@
   },
   {
     "date": "27.12.2012",
+    "youtubeIds": ["E7Ye2mwpA5g"],
     "_vids": ["https://vimeo.com/56422714"],
     "speakers": ["Михаил Бешкин"],
     "topic": "Как удовлетворить жену, или как я не стал фанатом Формула-1",
@@ -674,12 +751,14 @@
   },
   {
     "date": "27.12.2012",
+    "youtubeIds": ["6KEV_HwVBCI"],
     "_vids": ["https://vimeo.com/56422715"],
     "speakers": ["Антон Литвиненко"],
     "topic": "Грабли миграций на нашем опыте из import2"
   },
   {
     "date": "27.11.2012",
+    "youtubeIds": ["h4NICbw8oq8"],
     "_vids": ["https://vimeo.com/54406064"],
     "speakers": ["Алексей Фёдоров"],
     "topic": "Интервьюируем работодателя",
@@ -687,48 +766,56 @@
   },
   {
     "date": "27.11.2012",
+    "youtubeIds": ["vCMYy6Of01Y"],
     "_vids": ["https://vimeo.com/54405916"],
     "speakers": ["Илья Ливенсон"],
     "topic": "Transport Layer Security (TLS)"
   },
   {
     "date": "27.11.2012",
+    "youtubeIds": ["raFDt883fFQ"],
     "_vids": ["https://vimeo.com/54429755"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Сколько занимают объекты Java в памяти"
   },
   {
     "date": "23.10.2012",
+    "youtubeIds": ["8K4rB7DPd58"],
     "_vids": ["https://vimeo.com/52381890"],
     "speakers": ["Константин Роот"],
     "topic": "Кто такие тим лиды?"
   },
   {
     "date": "23.10.2012",
+    "youtubeIds": ["oELpx0O2kNc"],
     "_vids": ["https://vimeo.com/52376878"],
     "speakers": ["Антон Анисимов"],
     "topic": "Open-source лицензии"
   },
   {
     "date": "23.10.2012",
+    "youtubeIds": ["HgIsMsptWBI"],
     "_vids": ["https://vimeo.com/52376876"],
     "speakers": ["Антон Карпуткин"],
     "topic": "NP Проблемы"
   },
   {
     "date": "25.09.2012",
+    "youtubeIds": ["BtGjFj77Alc"],
     "_vids": ["https://vimeo.com/50212957"],
     "speakers": ["Евгений Шатохин"],
     "topic": "Демонстрация Raspberry Pi "
   },
   {
     "date": "25.09.2012",
+    "youtubeIds": ["gtTg1tlOKnE"],
     "_vids": ["https://vimeo.com/50549899"],
     "speakers": ["Антон Архипов"],
     "topic": "Gradle: The new way to build"
   },
   {
     "date": "25.09.2012",
+    "youtubeIds": ["CFJgmLC-k0Q"],
     "_vids": ["https://vimeo.com/50549898"],
     "speakers": ["Андрей Солнцев"],
     "topic": "WTF Architecture",
@@ -736,12 +823,14 @@
   },
   {
     "date": "25.09.2012",
+    "youtubeIds": ["rlvMItkp4ts"],
     "_vids": ["https://vimeo.com/50243523"],
     "speakers": ["Артём Курапов"],
     "topic": "В облаке AWS"
   },
   {
     "date": "29.08.2012",
+    "youtubeIds": ["oAVaw0-zR74"],
     "_vids": ["https://vimeo.com/48646216"],
     "speakers": ["Вадим Герасимов"],
     "topic": "Play Framework"
@@ -753,6 +842,7 @@
   },
   {
     "date": "29.08.2012",
+    "youtubeIds": ["bdRv97KMJsA"],
     "_vids": ["https://vimeo.com/49070254"],
     "speakers": ["Борис Розенблит"],
     "topic": "Hiring – взгляд с другой стороны стола",
@@ -760,12 +850,14 @@
   },
   {
     "date": "29.08.2012",
+    "youtubeIds": ["pZrfCCLBeLY"],
     "_vids": ["https://vimeo.com/48646217"],
     "speakers": ["Кирилл Шустов"],
     "topic": "Модернизация телескопа в Тыравере"
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["yRUCByqGBng"],
     "_vids": ["https://vimeo.com/46532948"],
     "speakers": ["Андрей Ткачёв"],
     "topic": "Информатика в автогонках",
@@ -773,24 +865,28 @@
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["HAwjCq0gL3E"],
     "_vids": ["https://vimeo.com/46456587"],
     "speakers": ["Станислав Катков"],
     "topic": "Team Code Review Ethics"
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["9E0bsjHOrO0"],
     "_vids": ["https://vimeo.com/46455299"],
     "speakers": ["Артём Курапов"],
     "topic": "Про новую голосовалку для докладов в девклубе"
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["vEKxJUvwkhs"],
     "_vids": ["https://vimeo.com/46455298"],
     "speakers": ["Антон Архипов"],
     "topic": "Про Java курс от Zeroturnaround в Тартуском универе"
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["2p1lyZ03UVs"],
     "_vids": ["https://vimeo.com/46455296"],
     "speakers": [
       "Александр Мочёнов",
@@ -805,12 +901,14 @@
   },
   {
     "date": "26.07.2012",
+    "youtubeIds": ["BAKdCMrQyQA"],
     "_vids": ["https://vimeo.com/46455292"],
     "speakers": ["Анна Храповицкая"],
     "topic": "Demo Keskus"
   },
   {
     "date": "19.06.2012",
+    "youtubeIds": ["Z0077JnpQ7s"],
     "_vids": ["https://vimeo.com/44342555"],
     "speakers": ["Антон Анисимов"],
     "topic": "О создании детского интерактивного столика",
@@ -818,24 +916,28 @@
   },
   {
     "date": "19.06.2012",
+    "youtubeIds": ["eXGhkzXjAoU"],
     "_vids": ["https://vimeo.com/44342552"],
     "speakers": ["Павел Певницкий"],
     "topic": "О распознавании мульти-тач жестов"
   },
   {
     "date": "19.06.2012",
+    "youtubeIds": ["5mhV7ZqfUnQ"],
     "_vids": ["https://vimeo.com/44342554"],
     "speakers": ["Юрий Тимошин"],
     "topic": "Jenkins"
   },
   {
     "date": "19.06.2012",
+    "youtubeIds": ["jiAalbnhZfo"],
     "_vids": ["https://vimeo.com/44342553"],
     "speakers": ["Александр Мочёнов"],
     "topic": "CoffeScript"
   },
   {
     "date": "22.05.2012",
+    "youtubeIds": ["Qu8l84H32jI"],
     "_vids": ["https://vimeo.com/42884943"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Церковь святого аджайла",
@@ -843,6 +945,7 @@
   },
   {
     "date": "22.05.2012",
+    "youtubeIds": ["5vOmsBSFzdQ"],
     "_vids": ["https://vimeo.com/43166573"],
     "speakers": ["Марк Кофман"],
     "topic": "Power Games and Projects"
@@ -854,24 +957,28 @@
   },
   {
     "date": "25.04.2012",
+    "youtubeIds": ["pHx4yQTHMPI"],
     "_vids": ["https://vimeo.com/41040729"],
     "speakers": ["Павел Григоренко"],
     "topic": "CoCoViLa: визуальные ДСЛы и автоматический синтез программ"
   },
   {
     "date": "25.04.2012",
+    "youtubeIds": ["-32jgQ5Lkuo"],
     "_vids": ["https://vimeo.com/41040728"],
     "speakers": ["Юрий Муленко"],
     "topic": "Rx"
   },
   {
     "date": "25.04.2012",
+    "youtubeIds": ["6iM85c_5RhQ"],
     "_vids": ["https://vimeo.com/41040730"],
     "speakers": ["Евгений Кабанов"],
     "topic": "Чем занимаются инженеры в ИТ продукт-компаниях"
   },
   {
     "date": "28.03.2012",
+    "youtubeIds": ["OJBuljoouL8"],
     "_vids": ["https://vimeo.com/39404775"],
     "speakers": ["Антон Литвиненко"],
     "topic": "300mg",
@@ -879,6 +986,7 @@
   },
   {
     "date": "28.03.2012",
+    "youtubeIds": ["z1e3s8nWAyw"],
     "_vids": ["https://vimeo.com/39404345"],
     "speakers": ["Дарья Крушевская"],
     "topic": "Продать за 200мс",
@@ -891,6 +999,7 @@
   },
   {
     "date": "28.03.2012",
+    "youtubeIds": ["5SOn3tsrumQ"],
     "_vids": ["https://vimeo.com/39402158"],
     "speakers": ["Николай Павлов"],
     "topic": "Introduction to Skype"
@@ -902,36 +1011,42 @@
   },
   {
     "date": "22.02.2012",
+    "youtubeIds": ["QGKQ_0kXXu0"],
     "_vids": ["https://vimeo.com/37593029"],
     "speakers": ["Юрий Тимошин"],
     "topic": "Chef"
   },
   {
     "date": "22.02.2012",
+    "youtubeIds": ["RyQnJUWcXFo"],
     "_vids": ["https://vimeo.com/37595051"],
     "speakers": ["J.B.Rainsberger"],
     "topic": "TDD"
   },
   {
     "date": "27.01.2012",
+    "youtubeIds": ["8FcOcQa-A5o"],
     "_vids": ["https://vimeo.com/35948272"],
     "speakers": ["Захар Кириллов"],
     "topic": "Как победить “Могучую Точку”?"
   },
   {
     "date": "27.01.2012",
+    "youtubeIds": ["DYa1Jpjrox4"],
     "_vids": ["https://vimeo.com/35947379"],
     "speakers": ["Антон Кекс"],
     "topic": "Асинхронное программирование на NodeJS"
   },
   {
     "date": "27.01.2012",
+    "youtubeIds": ["b2ZZpj2da9M"],
     "_vids": ["https://vimeo.com/35946811"],
     "speakers": ["Евгений Голобородько"],
     "topic": "ExtJS – быстро, красиво, удобно!"
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["FpRH23WAWy0"],
     "_vids": ["https://vimeo.com/34197433"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Зачем надо жениться",
@@ -939,36 +1054,42 @@
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["ZHstk7RDneA"],
     "_vids": ["https://vimeo.com/34193474"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Про разные обучающие источники"
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["KSlfuA_wyeU"],
     "_vids": ["https://vimeo.com/34188608"],
     "speakers": ["Юрий Муленко"],
     "topic": "Microsoft Research Labs"
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["Ck7BD2sCBng"],
     "_vids": ["https://vimeo.com/34187569"],
     "speakers": ["Кирилл Линник"],
     "topic": "Marketing Bullshits"
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["iGZj7VsWWx0"],
     "_vids": ["https://vimeo.com/34184517"],
     "speakers": ["Михаил Бешкин"],
     "topic": "Социальное предпринемательство"
   },
   {
     "date": "21.12.2011",
+    "youtubeIds": ["wS7pI5ybCqM"],
     "_vids": ["https://vimeo.com/34176209"],
     "speakers": ["Андрей Бреслав"],
     "topic": "Язык программирования Kotlin"
   },
   {
     "date": "30.11.2011",
+    "youtubeIds": ["xbYElideOms"],
     "_vids": ["https://vimeo.com/33022539"],
     "speakers": ["Юрий Муленко"],
     "topic": "LINQ",
@@ -976,18 +1097,21 @@
   },
   {
     "date": "30.11.2011",
+    "youtubeIds": ["vbfn2atZvbY"],
     "_vids": ["https://vimeo.com/33056564"],
     "speakers": ["Евгений Щепотьев"],
     "topic": "Применение MPS"
   },
   {
     "date": "30.11.2011",
+    "youtubeIds": ["5GDNFl4OpmE"],
     "_vids": ["https://vimeo.com/33020346"],
     "speakers": ["Михаил Мухин"],
     "topic": "MetaProgramming System"
   },
   {
     "date": "26.10.2011",
+    "youtubeIds": ["1z32YuiyncI"],
     "_vids": ["https://vimeo.com/31425219"],
     "speakers": [
       "Антон Кекс",
@@ -999,18 +1123,21 @@
   },
   {
     "date": "26.10.2011",
+    "youtubeIds": ["lp8uyJ2Ay8c"],
     "_vids": ["https://vimeo.com/31198295"],
     "speakers": ["Андрей Ткачев"],
     "topic": "ScalaCheck"
   },
   {
     "date": "26.10.2011",
+    "youtubeIds": ["L2_oDoGumqU"],
     "_vids": ["https://vimeo.com/31197861"],
     "speakers": ["Александр Моченов"],
     "topic": "Fronteers 2011"
   },
   {
     "date": "26.10.2011",
+    "youtubeIds": ["ItowIKu2jbA"],
     "_vids": ["https://vimeo.com/31196719"],
     "speakers": ["Денис Платонов"],
     "topic": "HTML5 под соусом CSS3"
@@ -1038,12 +1165,14 @@
   },
   {
     "date": "30.08.2011",
+    "youtubeIds": ["KXF5JqAEUrc"],
     "_vids": ["https://vimeo.com/28408020"],
     "speakers": ["Антон Архипов"],
     "topic": "JVM/Java future"
   },
   {
     "date": "30.08.2011",
+    "youtubeIds": ["dNeuE5cFWio"],
     "_vids": ["https://vimeo.com/28445672"],
     "speakers": ["Александр Мочёнов"],
     "topic": "JavaScript.next",
@@ -1051,114 +1180,136 @@
   },
   {
     "date": "30.08.2011",
+    "youtubeIds": ["0qFZMfaxfQ4"],
     "_vids": ["https://vimeo.com/28395233"],
     "speakers": ["Вадим Кимлайчук"],
     "topic": "Oracle Fusion Middlware 11g"
   },
   {
     "date": "28.07.2011",
+    "youtubeIds": ["r677ObvGXT4"],
     "_vids": ["https://vimeo.com/27032526"],
     "speakers": ["Антон Анисимов"],
     "topic": "Устройства по приему и проверке денег"
   },
   {
     "date": "28.07.2011",
+    "youtubeIds": ["bqkNS5xTDTw"],
     "_vids": ["https://vimeo.com/27031099"],
     "speakers": ["Ян Солодухо"],
     "topic": "knockout.js"
   },
   {
     "date": "28.07.2011",
+    "youtubeIds": ["avEvIMhN_-0"],
     "_vids": ["https://vimeo.com/27026620"],
     "speakers": ["Андрей Тукин"],
     "topic": "Мой новый start-up"
   },
   {
     "date": "28.07.2011",
+    "youtubeIds": ["aWeUSzWlNOE"],
     "_vids": ["https://vimeo.com/27027479"],
     "speakers": ["Дмитрий Филимонов"],
     "topic": "Облачные вычисления с Microsoft Azure"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": [
+      "L2i7iAq7MOw",
+      "q9YXk8vKheY"
+    ],
     "_vids": ["https://vimeo.com/25751274"],
     "speakers": ["Антон Архипов"],
     "topic": "Pimp My IDEA!"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["KhOEDb2IIk0"],
     "_vids": ["https://vimeo.com/25743465"],
     "speakers": ["Яков Сироткин"],
     "topic": "Спектры и Протеины"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["KVCLnkMGk9I"],
     "_vids": ["https://vimeo.com/25743952"],
     "speakers": ["Алек Козлов"],
     "topic": "Генерация Бизнес-Модели – Инструмент Беневалентного Диктатора"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["ZmU0rTrXQnU"],
     "_vids": ["https://vimeo.com/25744262"],
     "speakers": ["Юрий Муленко"],
     "topic": "Semantic Web"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["B0ZrfE5KtOU"],
     "_vids": ["https://vimeo.com/25744836"],
     "speakers": ["Евгений Холодков"],
     "topic": "GitHub"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["vHrLGmyyQtE"],
     "_vids": ["https://vimeo.com/25745306"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Lisp-подобный код на JavaScript"
   },
   {
     "date": "28.06.2011",
+    "youtubeIds": ["CFyLnXq_CM8"],
     "_vids": ["https://vimeo.com/25742455"],
     "speakers": ["Андрей Соколов"],
     "topic": "Мир Лиспа"
   },
   {
     "date": "31.05.2011",
+    "youtubeIds": ["eeKLwvWbaGA"],
     "_vids": ["https://vimeo.com/24502413"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Real-life unit tests"
   },
   {
     "date": "31.05.2011",
+    "youtubeIds": ["wJA18d0HbFs"],
     "_vids": ["https://vimeo.com/24502683"],
     "speakers": ["Филипп Савкин"],
     "topic": "Scala by Example"
   },
   {
     "date": "31.05.2011",
+    "youtubeIds": ["rrE5MwV71cs"],
     "_vids": ["https://vimeo.com/24502927"],
     "speakers": ["Дмитрий Буздин"],
     "topic": "Google Web Toolkit с 2007 до 2012"
   },
   {
     "date": "27.04.2011",
+    "youtubeIds": ["r2WYregWiDY"],
     "_vids": ["https://vimeo.com/22979363"],
     "speakers": ["Владислав Иванищев"],
     "topic": "Что нас ждёт в будущем"
   },
   {
     "date": "27.04.2011",
+    "youtubeIds": ["udeYPJnk92U"],
     "_vids": ["https://vimeo.com/22972277"],
     "speakers": ["Юрий Гуляев"],
     "topic": "Как спроектировать БД так, что бы потом не надо было тюнить"
   },
   {
     "date": "27.04.2011",
+    "youtubeIds": ["QCKUkr8XCkw"],
     "_vids": ["https://vimeo.com/22967629"],
     "speakers": ["Константин Третьяков"],
     "topic": "Machine Learning"
   },
   {
     "date": "25.03.2011",
+    "youtubeIds": ["RmaTatjf2os"],
     "_vids": ["https://vimeo.com/21513455"],
     "speakers": ["Александр Ястремский"],
     "topic": "БОТы и Автоматизация процессов",
@@ -1166,12 +1317,14 @@
   },
   {
     "date": "25.03.2011",
+    "youtubeIds": ["VXrpK_kUiPI"],
     "_vids": ["https://vimeo.com/21511867"],
     "speakers": ["Антон Кекс"],
     "topic": "Рефакторинг Баз Данных"
   },
   {
     "date": "25.02.2011",
+    "youtubeIds": ["kyXriUBppMk"],
     "_vids": ["https://vimeo.com/20403696"],
     "speakers": ["Евгений Холодков"],
     "topic": "Мир Lisp’а",
@@ -1179,18 +1332,21 @@
   },
   {
     "date": "25.02.2011",
+    "youtubeIds": ["YCc3g7pNZFI"],
     "_vids": ["https://vimeo.com/20401054"],
     "speakers": ["Эдуард Шустров"],
     "topic": "Регулярные выражения"
   },
   {
     "date": "25.02.2011",
+    "youtubeIds": ["0D2kqPSn3DE"],
     "_vids": ["https://vimeo.com/20388824"],
     "speakers": ["Дмитрий Жучков"],
     "topic": "Garage48"
   },
   {
     "date": "26.01.2011",
+    "youtubeIds": ["Q5L3R7kyE7E"],
     "_vids": ["https://vimeo.com/19230557"],
     "speakers": ["Тыну Самуель"],
     "topic": "О безопасности веб-сайтов.",
@@ -1198,36 +1354,42 @@
   },
   {
     "date": "26.01.2011",
+    "youtubeIds": ["TGOFX5vrfgo"],
     "_vids": ["https://vimeo.com/19273009"],
     "speakers": ["Дмитрий Нестерук"],
     "topic": "ReSharper: Архитектура и Расширения"
   },
   {
     "date": "22.12.2010",
+    "youtubeIds": ["V3QqbYozjeg"],
     "_vids": ["https://vimeo.com/18105141"],
     "speakers": ["Михаил Бешкин"],
     "topic": "Второе пришествие: “Человек 2.0″"
   },
   {
     "date": "22.12.2010",
+    "youtubeIds": ["w0EENBYf_Ak"],
     "_vids": ["https://vimeo.com/18170384"],
     "speakers": ["Алексей Разин"],
     "topic": "О ГеймКлубе"
   },
   {
     "date": "22.12.2010",
+    "youtubeIds": ["SLHIqf8MqYk"],
     "_vids": ["https://vimeo.com/18104065"],
     "speakers": ["Александр Мочёнов"],
     "topic": "AI contest"
   },
   {
     "date": "22.12.2010",
+    "youtubeIds": ["0L4cjpsFduU"],
     "_vids": ["https://vimeo.com/18102648"],
     "speakers": ["Кирилл Линник"],
     "topic": "Progress VS Devoxx VS Devclub"
   },
   {
     "date": "23.11.2010",
+    "youtubeIds": ["3DHM-XzfHaM"],
     "_vids": ["https://vimeo.com/17134998"],
     "speakers": ["Александр Рудаков"],
     "topic": "Эра перерождения PHP",
@@ -1235,6 +1397,7 @@
   },
   {
     "date": "23.11.2010",
+    "youtubeIds": ["4indjKPKBQU"],
     "_vids": ["https://vimeo.com/17135822"],
     "speakers": ["Евгений Голобородько"],
     "topic": "Нет плохих технологий, есть плохие практики",
@@ -1242,42 +1405,49 @@
   },
   {
     "date": "23.11.2010",
+    "youtubeIds": ["OUXTQc-PxCo"],
     "_vids": ["https://vimeo.com/17136348"],
     "speakers": ["Артём Курапов"],
     "topic": "Oauth"
   },
   {
     "date": "26.10.2010",
+    "youtubeIds": ["mH15Djb9wnE"],
     "_vids": ["https://vimeo.com/16221665"],
     "speakers": ["Андрей Солнцев"],
     "topic": "BDD Workshop"
   },
   {
     "date": "26.10.2010",
+    "youtubeIds": ["kj6OdfKEh-o"],
     "_vids": ["https://vimeo.com/16222535"],
     "speakers": ["Евгений Запорожец"],
     "topic": "Автодиагностика"
   },
   {
     "date": "29.09.2010",
+    "youtubeIds": ["2kis7Svn4D0"],
     "_vids": ["https://vimeo.com/15405162"],
     "speakers": ["Юрий Муленко"],
     "topic": "Что за зверь NoSQL?"
   },
   {
     "date": "29.09.2010",
+    "youtubeIds": ["0rojGPOBYdo"],
     "_vids": ["https://vimeo.com/15421721"],
     "speakers": ["Игорь Меньков"],
     "topic": "Размышления на тему… CEPEDA – другой подход к проектированию систем"
   },
   {
     "date": "29.09.2010",
+    "youtubeIds": ["L75gDNE_cdk"],
     "_vids": ["https://vimeo.com/15421412"],
     "speakers": ["Антон Архипов"],
     "topic": "Practical *nix utilities"
   },
   {
     "date": "26.08.2010",
+    "youtubeIds": ["tzhoCKLLzc0"],
     "_vids": ["https://vimeo.com/14489233"],
     "speakers": ["Антон Кекс"],
     "topic": "Юнит-тесты",
@@ -1285,24 +1455,28 @@
   },
   {
     "date": "26.08.2010",
+    "youtubeIds": ["WmmUfUyA2b8"],
     "_vids": ["https://vimeo.com/14483986"],
     "speakers": ["Антон Литвиненко"],
     "topic": "DevPulse"
   },
   {
     "date": "26.08.2010",
+    "youtubeIds": ["tomWSZjdIHU"],
     "_vids": ["https://vimeo.com/14462910"],
     "speakers": ["Андрей Соснин"],
     "topic": "Микроконтроллеры и микроэлектроника как хобби"
   },
   {
     "date": "27.07.2010",
+    "youtubeIds": ["7WiEduiDnkQ"],
     "_vids": ["https://vimeo.com/13818756"],
     "speakers": ["Сергей Авдеев"],
     "topic": "Инфотехнологии в строительстве"
   },
   {
     "date": "27.07.2010",
+    "youtubeIds": ["WPfmbUkjqfk"],
     "_vids": ["https://vimeo.com/13697449"],
     "speakers": ["Андрей Лунёв"],
     "topic": "Агрессивные XML решения"
@@ -1314,24 +1488,28 @@
   },
   {
     "date": "28.06.2010",
+    "youtubeIds": ["ITWmC-e5XmE"],
     "_vids": ["https://vimeo.com/15898107"],
     "speakers": ["Евгений Кабанов"],
     "topic": "Про евангелизм и как делается маркетинг для программистов"
   },
   {
     "date": "28.06.2010",
+    "youtubeIds": ["y-f-R1UvgbM"],
     "_vids": ["https://vimeo.com/15898758"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Google App Engine"
   },
   {
     "date": "28.06.2010",
+    "youtubeIds": ["k7XZi5LUsgI"],
     "_vids": ["https://vimeo.com/15898252"],
     "speakers": ["Виктор Ларионов"],
     "topic": "POSМодернизм"
   },
   {
     "date": "26.05.2010",
+    "youtubeIds": ["9ozWTKRasv8"],
     "_vids": ["https://vimeo.com/14121775"],
     "speakers": ["Андрей Солнцев"],
     "topic": "WTF code",
@@ -1339,18 +1517,21 @@
   },
   {
     "date": "26.05.2010",
+    "youtubeIds": ["euB0gLFgt_I"],
     "_vids": ["https://vimeo.com/12692751"],
     "speakers": ["Евгений Чайкин"],
     "topic": "Windows Phone 7"
   },
   {
     "date": "26.05.2010",
+    "youtubeIds": ["vub9lLtiojw"],
     "_vids": ["https://vimeo.com/12659234"],
     "speakers": ["Арсений Григорьев"],
     "topic": "Aspect-Oriented Programming using Spring Framework"
   },
   {
     "date": "30.04.2010",
+    "youtubeIds": ["BAPKM-j1BFY"],
     "_vids": ["https://vimeo.com/11382206"],
     "speakers": ["Антон Кекс"],
     "topic": "Git",
@@ -1358,24 +1539,28 @@
   },
   {
     "date": "30.04.2010",
+    "youtubeIds": ["Rk1hW72Ad4g"],
     "_vids": ["https://vimeo.com/11458707"],
     "speakers": ["Никита Кошелев"],
     "topic": "Getting Things Done and Common Sense"
   },
   {
     "date": "30.04.2010",
+    "youtubeIds": ["h71k_JH0RRs"],
     "_vids": ["https://vimeo.com/11413473"],
     "speakers": ["Евгений Холодков"],
     "topic": "Clojure как практический Lisp, или как полюбить скобочки"
   },
   {
     "date": "30.03.2010",
+    "youtubeIds": ["2P4hE-xcanM"],
     "_vids": ["https://vimeo.com/10732531"],
     "speakers": ["Илья Хямяляйнен"],
     "topic": "Обзор платформы Android"
   },
   {
     "date": "30.03.2010",
+    "youtubeIds": ["BSMH-KkYbpI"],
     "_vids": ["https://vimeo.com/10693395"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Секреты JavaScript",
@@ -1383,12 +1568,14 @@
   },
   {
     "date": "30.03.2010",
+    "youtubeIds": ["U6hWXFpqLgE"],
     "_vids": ["https://vimeo.com/10694122"],
     "speakers": ["Эдуард Шустров"],
     "topic": "Scala для новичков"
   },
   {
     "date": "26.02.2010",
+    "youtubeIds": ["VFFp_ziHzNo"],
     "_vids": ["https://vimeo.com/10175629"],
     "speakers": ["Антон Архипов"],
     "topic": "Считаем людей",
@@ -1396,24 +1583,31 @@
   },
   {
     "date": "26.02.2010",
+    "youtubeIds": ["f9AdmMxWXKw"],
     "_vids": ["https://vimeo.com/10176007"],
     "speakers": ["Андрей Зиновьев"],
     "topic": "Плюсы и минусы парного программирования"
   },
   {
     "date": "26.01.2010",
+    "youtubeIds": ["GdF_ZGWP8go"],
     "_vids": ["https://vimeo.com/9060462"],
     "speakers": ["Антон Архипов"],
     "topic": "Domain Specific Language"
   },
   {
     "date": "26.01.2010",
+    "youtubeIds": ["8Yp426KEFZw"],
     "_vids": ["https://vimeo.com/9055964"],
     "speakers": ["Игорь Меньков"],
     "topic": "Шаблоны/паттерны программирования"
   },
   {
     "date": "26.01.2010",
+    "youtubeIds": [
+      "skZToKvnlt4",
+      "Xr8pzBuGLrU"
+    ],
     "_vids": [
       "https://vimeo.com/9032285",
       "https://vimeo.com/9045680"
@@ -1423,6 +1617,7 @@
   },
   {
     "date": "22.12.2009",
+    "youtubeIds": ["S2k_RO0557A"],
     "_vids": ["https://vimeo.com/8434609"],
     "speakers": ["Алек Козлов"],
     "topic": "Alice.org"
@@ -1435,12 +1630,14 @@
   },
   {
     "date": "22.12.2009",
+    "youtubeIds": ["nu8FrqKDY_k"],
     "_vids": ["https://vimeo.com/8431535"],
     "speakers": ["Евгений Холодков"],
     "topic": "Ericsson labs"
   },
   {
     "date": "22.12.2009",
+    "youtubeIds": ["6qYISXZLGpY"],
     "_vids": ["https://vimeo.com/8434767"],
     "speakers": ["Михаил Бешкин"],
     "topic": "WEB 2.0 – истоки и последствия в мировой культуре",
@@ -1448,24 +1645,28 @@
   },
   {
     "date": "22.12.2009",
+    "youtubeIds": ["NRhtAQbkG_4"],
     "_vids": ["https://vimeo.com/8430306"],
     "speakers": ["Кирилл Линник"],
     "topic": "Scratch"
   },
   {
     "date": "26.11.2009",
+    "youtubeIds": ["e1f8ebEPcNE"],
     "_vids": ["https://vimeo.com/7885067"],
     "speakers": ["Юрий Муленко"],
     "topic": "Функциональное программирование в C#"
   },
   {
     "date": "26.11.2009",
+    "youtubeIds": ["xQixV8C_G-A"],
     "_vids": ["https://vimeo.com/7872596"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Это же Python!"
   },
   {
     "date": "26.11.2009",
+    "youtubeIds": ["bedo5DNeVGQ"],
     "_vids": ["https://vimeo.com/7863984"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Функциональное программирование на Java. Практикум на ЭВМ",
@@ -1493,6 +1694,7 @@
   },
   {
     "date": "29.09.2009",
+    "youtubeIds": ["n1tOBnSpyWc"],
     "_vids": ["https://vimeo.com/7139653"],
     "speakers": [
       "Антон Кекс",
@@ -1503,12 +1705,14 @@
   },
   {
     "date": "29.09.2009",
+    "youtubeIds": ["6mqm-aM0Xmk"],
     "_vids": ["https://vimeo.com/6891469"],
     "speakers": ["Роман Шестаков"],
     "topic": "Мобильные устройства Honeywell"
   },
   {
     "date": "29.09.2009",
+    "youtubeIds": ["1O2bSA87Ozc"],
     "_vids": ["https://vimeo.com/6887189"],
     "speakers": ["Николай Павлов"],
     "topic": "Мобильниге",
@@ -1516,12 +1720,14 @@
   },
   {
     "date": "27.08.2009",
+    "youtubeIds": ["DL0ZEC0OpXk"],
     "_vids": ["https://vimeo.com/6511539"],
     "speakers": ["Игорь Меньков"],
     "topic": "Управление командой и… нужен ли вам архитектор?"
   },
   {
     "date": "27.08.2009",
+    "youtubeIds": ["BhvIFmEuW_g"],
     "_vids": ["https://vimeo.com/6455834"],
     "speakers": ["Станислав Васильев"],
     "topic": "Что такое Agile или мой первый урок японского",
@@ -1529,18 +1735,21 @@
   },
   {
     "date": "27.08.2009",
+    "youtubeIds": ["nj6O86RqlhA"],
     "_vids": ["https://vimeo.com/6454912"],
     "speakers": ["Марк Кофман"],
     "topic": "Привлечение инвестиций в Эстонии"
   },
   {
     "date": "28.07.2009",
+    "youtubeIds": ["zpa1x8zF81g"],
     "_vids": ["https://vimeo.com/5995249"],
     "speakers": ["Ярослав Калищук"],
     "topic": "Ruby On Rails hands-on"
   },
   {
     "date": "28.07.2009",
+    "youtubeIds": ["fNg2aP-IV8c"],
     "_vids": ["https://vimeo.com/5994327"],
     "speakers": ["Захар Кириллов"],
     "topic": "Айтишник в бизнесе. Коллекция граблей 2006-2009",
@@ -1553,6 +1762,7 @@
   },
   {
     "date": "28.07.2009",
+    "youtubeIds": ["bwFsjS18GM8"],
     "_vids": ["https://vimeo.com/5995255"],
     "speakers": ["Андрей Тукин"],
     "topic": "IT-бизнес с точки зрения бизнеса"
@@ -1565,48 +1775,56 @@
   },
   {
     "date": "30.06.2009",
+    "youtubeIds": ["lhKleb7aRjw"],
     "_vids": ["https://vimeo.com/5494697"],
     "speakers": ["Мартин Киуру"],
     "topic": "Oracle Secrets"
   },
   {
     "date": "30.06.2009",
+    "youtubeIds": ["ugqzrlmH8VM"],
     "_vids": ["https://vimeo.com/5494665"],
     "speakers": ["Сергей Мудрецов"],
     "topic": "Мир баз данных, его тенденции и тонкости"
   },
   {
     "date": "28.05.2009",
+    "youtubeIds": ["8dQEDNfhUgc"],
     "_vids": ["https://vimeo.com/5042958"],
     "speakers": ["Арсений Григорьев"],
     "topic": "DWR"
   },
   {
     "date": "28.05.2009",
+    "youtubeIds": ["QllNRTrvx7M"],
     "_vids": ["https://vimeo.com/5043231"],
     "speakers": ["Олег Чернецов"],
     "topic": "Aranea"
   },
   {
     "date": "28.05.2009",
+    "youtubeIds": ["E-0_o4nEcxs"],
     "_vids": ["https://vimeo.com/4908037"],
     "speakers": ["Александр Моченов"],
     "topic": "jQuery"
   },
   {
     "date": "23.04.2009",
+    "youtubeIds": ["fOa--TThL_A"],
     "_vids": ["https://vimeo.com/4564313"],
     "speakers": ["Елена Григорьева"],
     "topic": "Семиотика"
   },
   {
     "date": "23.04.2009",
+    "youtubeIds": ["Nhu495_XzIE"],
     "_vids": ["https://vimeo.com/4412497"],
     "speakers": ["Евгений Холодков"],
     "topic": "Servicemix ESB"
   },
   {
     "date": "23.04.2009",
+    "youtubeIds": ["ZtRGAMrq3lM"],
     "_vids": ["https://vimeo.com/4410464"],
     "speakers": ["Антон Архипов"],
     "topic": "Apache Camel"
@@ -1619,48 +1837,56 @@
   },
   {
     "date": "23.04.2009",
+    "youtubeIds": ["7Vl6jHmpVCY"],
     "_vids": ["https://vimeo.com/4324555"],
     "speakers": ["Кирилл Линник"],
     "topic": "XBRL [2]"
   },
   {
     "date": "28.03.2009",
+    "youtubeIds": ["KF-Iik4Htmg"],
     "_vids": ["https://vimeo.com/3988419"],
     "speakers": ["Евгений Холодков"],
     "topic": "Технологии в предвыборной компании мистера Обама."
   },
   {
     "date": "28.03.2009",
+    "youtubeIds": ["jHY_J0LiDTw"],
     "_vids": ["https://vimeo.com/4108438"],
     "speakers": ["Юрий Муленко"],
     "topic": "Crystal Reports"
   },
   {
     "date": "28.03.2009",
+    "youtubeIds": ["S19ZQAHCiBM"],
     "_vids": ["https://vimeo.com/3904620"],
     "speakers": ["Кирилл Линник"],
     "topic": "XBRL [1]"
   },
   {
     "date": "19.02.2009",
+    "youtubeIds": ["BDNpgO3yqB0"],
     "_vids": ["https://vimeo.com/4599992"],
     "speakers": ["Роман Васёхо"],
     "topic": "SMS & Mobi"
   },
   {
     "date": "19.02.2009",
+    "youtubeIds": ["G8M-Jc8GcG0"],
     "_vids": ["https://vimeo.com/4638177"],
     "speakers": ["Сергей Кузнецов"],
     "topic": "Kaardikeskus"
   },
   {
     "date": "19.02.2009",
+    "youtubeIds": ["VAjTuAVTQqg"],
     "_vids": ["https://vimeo.com/3392788"],
     "speakers": ["Артём Курапов"],
     "topic": "Pangalink"
   },
   {
     "date": "19.02.2009",
+    "youtubeIds": ["6laoZtjGv0k"],
     "_vids": ["https://vimeo.com/3377701"],
     "speakers": ["Алекс Бург"],
     "topic": "Webmoney"
@@ -1682,18 +1908,21 @@
   },
   {
     "date": "26.12.2008",
+    "youtubeIds": ["FQz9EYZAphc"],
     "_vids": ["https://vimeo.com/5399511"],
     "speakers": ["Евгений Холодков"],
     "topic": "Введение в JavaFX 1.0"
   },
   {
     "date": "26.12.2008",
+    "youtubeIds": ["uk5qJWgb51o"],
     "_vids": ["https://vimeo.com/5344172"],
     "speakers": ["Юрий Муленко"],
     "topic": "Обзор Silverlight "
   },
   {
     "date": "26.12.2008",
+    "youtubeIds": ["C0fOKuxoknM"],
     "_vids": ["https://vimeo.com/5404394"],
     "speakers": ["Юрий Рейнсалу"],
     "topic": "Flex в действии"
