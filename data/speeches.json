@@ -1,5 +1,41 @@
 [
   {
+    "date": "28.10.2015",
+    "youtubeIds": [""],
+    "speakers": ["Никита Сальников-Тарновский"],
+    "topic": ""
+  },
+  {
+    "date": "28.10.2015",
+    "youtubeIds": [""],
+    "speakers": ["Антон Архипов"],
+    "topic": ""
+  },
+  {
+    "date": "28.10.2015",
+    "youtubeIds": [""],
+    "speakers": ["Артём Курапов"],
+    "topic": ""
+  },
+  {
+    "date": "29.09.2015",
+    "youtubeIds": [""],
+    "speakers": ["Константин Третьяков"],
+    "topic": "Весёлые картинки"
+  },
+  {
+    "date": "29.09.2015",
+    "youtubeIds": ["QmluxspuS8E"],
+    "speakers": ["Антон Кекс"],
+    "topic": "Digital Signatures: Estonia vs The World"
+  },
+  {
+    "date": "29.09.2015",
+    "youtubeIds": ["nttZNPPC1cQ"],
+    "speakers": ["Виталий Нартов"],
+    "topic": "Эффективная разработка пользовательских интерфейсов под Android"
+  },
+  {
     "date": "19.08.2015",
     "youtubeIds": ["cGXorQkw3JE"],
     "speakers": ["Антон Архипов"],
