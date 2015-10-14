@@ -1,11 +1,19 @@
 [
   {
+    "date": "28.10.2015",
+    "time": "19:00",
+    "place": "Tallink SPA",
+    "name": "#86",
+    "moderator": "Кирилл Линник",
+    "photoUrls": []
+  },
+  {
     "date": "29.09.2015",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#85",
-    "moderator": "",
-    "photoUrls": []
+    "moderator": "Кирилл Линник",
+    "photoUrls": ["https://photos.google.com/u/0/b/105266766340206558621/album/AF1QipPDKGRHPLHv-Olzs9NtHkVjXlCDnxrpD80hsLoM"]
   },
   {
     "date": "19.08.2015",
