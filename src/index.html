@@ -31,7 +31,7 @@
   <![endif]-->
 </head>
 
-<body data-spy="scroll" ng-app="devclub" ng-controller="RootController">
+<body ng-app="devclub" ng-controller="RootController">
 
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -44,10 +44,10 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<header id="header" class="header">
+<header id="header" class="header {{navbarClass}}">
   <div class="container">
     <h1 class="logo pull-left">
-      <a class="scrollto" href="#next">
+      <a href="#next" du-smooth-scroll du-scrollspy>
         <span class="logo-title">DevClub</span>
       </a>
     </h1>
@@ -62,13 +62,13 @@
       </div>
       <div class="navbar-collapse collapse" id="navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active nav-item sr-only"><a class="scrollto" href="#next">Встреча</a></li>
-          <li class="nav-item"><a class="scrollto" href="#about">Клуб</a></li>
-          <li class="nav-item"><a class="scrollto" href="#sponsors">Спонсоры</a></li>
-          <li class="nav-item"><a class="scrollto" href="#last">Свежак</a></li>
-          <li class="nav-item"><a class="scrollto" href="#archive">Архив</a></li>
-          <li class="nav-item"><a class="scrollto" href="#speaker">Хочу выступить</a></li>
-          <li class="nav-item last"><a class="scrollto" href="#contact">Контакты</a></li>
+          <li class="nav-item sr-only"><a href="#next" offset="30" du-smooth-scroll du-scrollspy>Встреча</a></li>
+          <li class="nav-item"><a href="#about" offset="30" du-smooth-scroll du-scrollspy>Клуб</a></li>
+          <li class="nav-item"><a href="#sponsors" offset="30" du-smooth-scroll du-scrollspy>Спонсоры</a></li>
+          <li class="nav-item"><a href="#last" offset="30" du-smooth-scroll du-scrollspy>Свежак</a></li>
+          <li class="nav-item"><a href="#archive" offset="30" du-smooth-scroll du-scrollspy>Архив</a></li>
+          <li class="nav-item"><a href="#speaker" offset="30" du-smooth-scroll du-scrollspy>Хочу выступить</a></li>
+          <li class="nav-item last"><a href="#contact" offset="30" du-smooth-scroll du-scrollspy>Контакты</a></li>
         </ul>
       </div>
     </nav>
@@ -81,7 +81,7 @@
       <img src="assets/logo-small.png"/>
     </div>
     <div class="clearfix visible-xs"></div>
-    <div class="col-xs-12 col-sm-8 text-right">
+    <div class="col-xs-12 col-sm-8 text-right" ng-if="state">
       <div>DevClub {{state.next.name}}</div>
       <div>{{state.next.date | date:'HH:mm, d MMMM yyyy, EEEE'}}</div>
 
@@ -155,7 +155,8 @@
         достаточно <a target="_blank"
                       href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">написать
         нам</a> о темах, и мы свяжемся с вами. Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
-        (<a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">YouTube-канал</a>)
+        (<a target="_blank"
+            href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists">YouTube-канал</a>)
         - всё это возможно благодаря нашим спонсорам и добровольным пожертвованиям.
       </p>
     </div>
@@ -224,14 +225,21 @@
     <h2 class="title text-center">Как прошли наши последние встречи?</h2>
 
     <div class="mt20 row">
-      <div class="col-xs-4 text-center" ng-repeat="photo in state.lastPhotos | limitTo:3">
-        <a target="_blank" ng-href="{{photo.url}}">
-          <i class="fa fa-camera"></i> {{photo.date | date:'dd.MM.yyyy'}} {{photo.name}}
-        </a>
+      <div class="col-xs-4 text-right">
+        <i class="fa fa-5x fa-camera-retro"></i>
       </div>
+      <div class="col-xs-8 text-left">
+        <div ng-repeat="photo in state.lastPhotos | limitTo:5">
+          <a target="_blank" ng-href="{{photo.url}}">
+            {{photo.date | date:'dd.MM.yyyy'}} {{photo.name}}
+          </a>
+        </div>
+      </div>
+    </div>
 
-      <div class="clearfix"></div>
+    <div class="clearfix"></div>
 
+    <div class="mt20 row">
       <div class="col-xs-12 col-sm-6 text-center" ng-repeat="youtubeId in state.lastYoutubeIds | limitTo:6">
         <a target="_blank" ng-href="https://www.youtube.com/watch?v={{youtubeId}}">
           <img class="img-responsive" ng-src="http://img.youtube.com/vi/{{youtubeId}}/sddefault.jpg"/>
@@ -249,24 +257,24 @@
 
       <div class="mt20" role="tabpanel">
         <ul class="nav nav-tabs" role="tablist" id="archive-tabs">
-          <li role="presentation" class="active">
-            <a href="#meetings" aria-controls="meetings" role="tab" data-toggle="tab">
+          <li role="presentation" ng-click="activeTab = 'MEETING'" ng-class="{'active': activeTab == 'MEETING'}">
+            <a aria-controls="meetings" role="tab">
               <i class="fa fa fa-beer tab-ico-meeting"></i> Встречи
             </a>
           </li>
-          <li role="presentation">
-            <a href="#best" aria-controls="best" role="tab" data-toggle="tab">
+          <li role="presentation" ng-click="activeTab = 'BEST'" ng-class="{'active': activeTab == 'BEST'}">
+            <a aria-controls="best" role="tab">
               <i class="fa fa fa-trophy tab-ico-top"></i> Лучшие
             </a>
           </li>
-          <li role="presentation">
-            <a href="#speakers" aria-controls="speakers" role="tab" data-toggle="tab">
+          <li role="presentation" ng-click="activeTab = 'SPEAKERS'" ng-class="{'active': activeTab == 'SPEAKERS'}">
+            <a aria-controls="speakers" role="tab">
               <i class="fa fa fa-users tab-ico-speakers"></i> Докладчики
             </a>
           </li>
         </ul>
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="meetings">
+          <div role="tabpanel" class="tab-pane" ng-class="{'active': activeTab == 'MEETING'}">
             <div class="mt10 font80p">
               * Информация по всем нашим встречам, начиная с 2008 года. Фильтр поможет найти нужные встречи или все
               выступления конкретного докладчика.
@@ -320,7 +328,7 @@
               </div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane" id="best">
+          <div role="tabpanel" class="tab-pane" ng-class="{'active': activeTab == 'BEST'}">
             <div class="mt10 font80p">
               * Каждый год Devclub выбирает лучшие доклады и награждает выступающих.
             </div>
@@ -341,7 +349,7 @@
               </div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane" id="speakers">
+          <div role="tabpanel" class="tab-pane" ng-class="{'active': activeTab == 'SPEAKERS'}">
             <div class="mt10 font80p">
               * Информация по всем выступавшим в Devclub в порядке их последнего выступления в клубе.
             </div>
@@ -364,6 +372,15 @@
   <div class="container">
     <h2 class="title text-center">Хотите выступить в DevClub?</h2>
 
+    <div class="mt20 row">
+      <div class="col-xs-12 text-center">
+        <a class="btn btn-success" role="button" target="_blank"
+           href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">
+          <i class="fa fa-file-text"></i> &nbsp; Заполнить форму &nbsp; <i class="fa fa-thumbs-up"></i>
+        </a>
+      </div>
+    </div>
+
     <div class="col-xs-12 col-sm-offset-1 col-sm-10">
       <p class="text-justify">
         Мы всегда рады новым людям и интересным докладам. Даже если ваш доклад не связан с инфотехнологиями, нам он
@@ -378,10 +395,7 @@
           расцениваться как бонусом к вашим социальным навыкам в вашем CV.
         </li>
       </ul>
-      <p class="text-justify">Вы заинтересованы? У вас есть тема?
-        <a class="sct-speaker-form" target="_blank"
-           href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">
-          Заполните форму</a>, и мы свяжемся с вами.</p>
+      <p class="text-justify">Вы заинтересованы? У вас есть тема? Заполняйте форму, и мы свяжемся с вами!</p>
     </div>
 
     <div class="clearfix"></div>

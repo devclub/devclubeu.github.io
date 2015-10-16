@@ -10,14 +10,14 @@ module.exports = function (grunt) {
   project.libs = [
     'vendor/underscore/underscore.js',
     'vendor/moment/moment.js',
-    'vendor/jquery/dist/jquery.js',
-    'vendor/jquery.easing/js/jquery.easing.js',
-    'vendor/jquery.scrollTo/jquery.scrollTo.js',
-    'vendor/bootstrap/dist/js/bootstrap.js',
     'vendor/angular/angular.js',
-    'vendor/angular-i18n/angular-locale_ru.js'
+    'vendor/angular-i18n/angular-locale_ru.js',
+    'vendor/angular-scroll/angular-scroll.js'
   ];
-  project.styles = 'styles/custom.less';
+  project.srcs = [
+    'src/scripts.js'
+  ];
+  project.styles = 'styles.less';
   project.vendor_assets = [
     {
       src: ['fonts/*'],
@@ -99,7 +99,7 @@ module.exports = function (grunt) {
     },
     concat: {
       js: {
-        src: project.libs.concat(getSrcFiles()),
+        src: project.libs.concat(project.srcs),
         dest: 'scripts.js'
       }
     },
@@ -163,14 +163,11 @@ module.exports = function (grunt) {
       },
       html: {
         files: ['src/index.html'],
-        tasks: ['copy:html']
+        tasks: ['copy:index']
       },
       js: {
         files: 'src/**/*.js',
-        tasks: [],
-        options: {
-          event: ['changed']
-        }
+        tasks: ['concat:js']
       }
     }
   };
@@ -207,28 +204,4 @@ module.exports = function (grunt) {
     'ngAnnotate:js',
     'uglify:js'
   ]);
-
-
-  // HELPERS
-
-  function contains(text, value) {
-    return !text || text.indexOf(value, text.length - value.length) !== -1
-  }
-
-  function getSrcFiles(array) {
-    var priorArray = [];
-    array = array || [];
-    grunt.file.recurse('src', function (abspath, rootdir, subdir, filename) {
-      if (abspath !== undefined && abspath.indexOf('/assets/') > 0) {
-        return;
-      }
-      var subdirString = subdir !== undefined ? subdir + '/' : '';
-      if (contains(filename, '-base.js')) {
-        priorArray.push('src/' + subdirString + filename);
-      } else if (contains(filename, '.js')) {
-        array.push('src/' + subdirString + filename);
-      }
-    });
-    return priorArray.concat(array);
-  }
 };
