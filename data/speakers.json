@@ -1,0 +1,57 @@
+{
+  "Кирилл Линник": {
+    "url": "https://ee.linkedin.com/pub/kirill-linnik/50/a65/976",
+    "image": "assets/speakers/klinnik.jpg"
+  },
+  "Антон Архипов": {
+    "url": "https://ee.linkedin.com/in/antonarhipov",
+    "image": "assets/speakers/aarhipov.jpg"
+  },
+  "Андрей Солнцев": {
+    "url": "https://ee.linkedin.com/in/asolntsev",
+    "image": "assets/speakers/asolntsev.jpg"
+  },
+  "Юрий Тимошин": {
+    "url": "https://ee.linkedin.com/in/juritimoshin",
+    "image": "assets/speakers/jtimosin.jpg"
+  },
+  "Эрвин Вебер": {
+    "url": "https://ee.linkedin.com/in/webervin",
+    "image": "assets/speakers/eweber.jpg"
+  },
+  "Антон Стальнухин": {
+    "url": "https://ee.linkedin.com/in/astalnuhhin",
+    "image": "assets/speakers/astalnuhhin.jpg"
+  },
+  "Александр Мочёнов": {
+    "url": "https://au.linkedin.com/pub/aleksandr-motsjonov/11/306/719",
+    "image": "assets/speakers/amotsenov.jpg"
+  },
+  "Юрий Муленко": {
+    "url": "https://ee.linkedin.com/in/jurimulenko",
+    "image": "assets/speakers/jmulenko.jpg"
+  },
+  "Евгений Холодков": {
+    "url": "https://ch.linkedin.com/in/jevgeni",
+    "image": "assets/speakers/jholodkov.jpg"
+  },
+  "Кирилл Бухалко": {
+    "url": "https://ee.linkedin.com/pub/kirill-buhhalko/2/584/7b6",
+    "image": "assets/speakers/kbuhhalko.jpg"
+  },
+  "Захар Кириллов": {
+    "url": "https://ee.linkedin.com/in/zahhar",
+    "image": "assets/speakers/zkirillov.jpg"
+  },
+  "Арсений Григорьев": {
+    "url": "https://ee.linkedin.com/in/arsenig",
+    "image": "assets/speakers/agrigorjev.jpg"
+  },
+  "Никита Сальников-Тарновский": {
+    "url": "https://ee.linkedin.com/in/nikem",
+    "image": "assets/speakers/nsalnikov.jpg"
+  },
+  "Алексей Фёдоров": {
+    "image": "assets/speakers/afjodorov.jpg"
+  }
+}

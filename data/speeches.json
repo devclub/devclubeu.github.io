@@ -1,43 +1,37 @@
 [
   {
-    "date": ".11.2015",
+    "date": "25.11.2015",
+    "youtubeIds": [],
+    "speakers": ["Алексей Фёдоров"],
+    "topic": "Atomics"
+  },
+  {
+    "date": "25.11.2015",
     "youtubeIds": [],
     "speakers": ["Никита Сальников-Тарновский"],
-    "topic": ""
-  },
-  {
-    "date": ".11.2015",
-    "youtubeIds": [],
-    "speakers": ["Антон Архипов"],
-    "topic": ""
-  },
-  {
-    "date": ".11.2015",
-    "youtubeIds": [],
-    "speakers": ["Игорь Босенко"],
-    "topic": ""
+    "topic": "How reinventing wheels saved our company"
   },
   {
     "date": "28.10.2015",
-    "youtubeIds": [],
-    "speakers": ["Роберт Каэв"],
-    "topic": "Reactive Enterprise Architecture"
-  },
-  {
-    "date": "28.10.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["OdbXwQPV3dw"],
     "speakers": ["Дмитрий Нестерук"],
     "topic": "Обзор технологий высокопроизводительных вычислений (HPC)"
   },
   {
     "date": "28.10.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["A8MetRHGv4U"],
     "speakers": ["Артём Курапов"],
     "topic": "Многообразие автоматических тестов"
   },
   {
+    "date": "28.10.2015",
+    "youtubeIds": ["GMK_0b6Wgjw"],
+    "speakers": ["Роберт Каэв"],
+    "topic": "Reactive Enterprise Architecture"
+  },
+  {
     "date": "29.09.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["DbLYqRqbQSw"],
     "speakers": ["Константин Третьяков"],
     "topic": "Весёлые картинки"
   },

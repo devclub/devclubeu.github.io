@@ -1,11 +1,20 @@
 [
   {
+    "date": "25.11.2015",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#87",
+    "moderator": "",
+    "photoUrls": [],
+    "registerUrl": ""
+  },
+  {
     "date": "28.10.2015",
     "time": "19:00",
     "place": "Tallink SPA & Conference",
     "name": "#86",
     "moderator": "Кирилл Линник",
-    "photoUrls": []
+    "photoUrls": ["https://plus.google.com/photos/105266766340206558621/albums/6210823207533670865"]
   },
   {
     "date": "29.09.2015",
@@ -13,7 +22,7 @@
     "place": "Von Stackelberg",
     "name": "#85",
     "moderator": "Кирилл Линник",
-    "photoUrls": ["https://goo.gl/photos/EcfhuHqdCqezpUKq7"]
+    "photoUrls": ["https://plus.google.com/photos/105266766340206558621/albums/6200352494143601265"]
   },
   {
     "date": "19.08.2015",

@@ -9,18 +9,6 @@
 @fa-font-path: "/assets/fonts";
 
 // custom mixins
-.section(@name, @bgcolor, @color, @title-color, @padding-top, @padding-bottom: 60) {
-  .sct-@{name} {
-    color: @color;
-    background-color: @bgcolor;
-    padding: ~"@{padding-top}px" 0px ~"@{padding-bottom}px" 0px;
-    .title {
-      color: @title-color;
-      margin-top: 0;
-    }
-  }
-}
-
 .border-radius (@radius: 5px) {
   -webkit-border-radius: @radius;
   -moz-border-radius:    @radius;
@@ -33,123 +21,20 @@
   background-clip:         padding-box;
 }
 
-// current variables
-@color-blue: #0079B4;
-@color-orange: #F99D1C;
-
-@color1: #8E81CE;
-@color2: #8B728E;
-@color3: #5C4B5E;
-
-@promo-color: #000000;
-@color: #b4ca65;
-@color-2: #dd7c4f;
-
-@text-color: #444;
-@text-secondary: #666;
-@grey: #999;
-@darker-grey: #666;
-@smoky-white: #f5f5f5;
-@white: #ffffff;
-@divider: #efefef;
-@heart: #fb866a;
-
-.header {
-  padding: 10px 0;
-  background: @color;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-
-  &.navbar-fixed-top {
-    background: #fff;
-    z-index: 9999;
-    .box-shadow (0 0 4px rgba(0, 0, 0, 0.4));
-    .logo {
-      a {
-        color: @color;
-      }
+// default colors are bright to see, if the default color is used accidentally
+.colors(@name, @bgcolor: #FF1F04, @color: #FF1F04, @a-color: #FF1F04, @title-color: #FF1F04) {
+  .colors-@{name} {
+    color: @color;
+    background-color: @bgcolor;
+    .title {
+      color: @title-color;
     }
-    .main-nav .nav .nav-item a {
-      color: @text-secondary;
-    }
-  }
-
-  .logo {
-    margin: 0;
-    font-size: 26px;
-    padding-top: 10px;
     a {
-      color: #fff;
+      color: @a-color;
       &:hover {
-        text-decoration: none;
+        color: darken(@a-color, 10%);
       }
     }
-  }
-  .main-nav {
-    button {
-      background: darken(@color, 30%);
-      color: #fff !important;
-      .border-radius(4px);
-      &:focus {
-        outline: none;
-      }
-      .icon-bar {
-        background-color: #fff;
-      }
-    }
-    .navbar-collapse {
-      padding: 0;
-    }
-    .nav {
-      .nav-item {
-        font-weight: normal;
-        font-family: 'Montserrat', sans-serif;
-        margin-right: 10px;
-        &.active {
-          a {
-            color: @color;
-            background: none;
-          }
-        }
-        a {
-          color: darken(@color, 20%);
-          .transition (none);
-          font-size: 14px;
-          padding: 15px 10px;
-          &:hover {
-            color: darken(@color, 30%);
-            background: none;
-          }
-          &:focus {
-            outline: none;
-            background: none;
-          }
-          &:active {
-            outline: none;
-            background: none;
-          }
-        }
-        &.active {
-          color: @color;
-        }
-        &.last {
-          margin-right: 0px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 767px) {
-
-  .header .main-nav button {
-    margin-right: 0;
-  }
-
-  .header .main-nav .navbar-collapse {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -167,16 +52,104 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: @color;
   .transition (all 0.4s ease-in-out);
   &:hover {
     text-decoration: underline;
-    color: darken(@color, 10%);
+  }
+  &:active {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
   }
 }
 
-.fixed-container {
+// font-weight
+.bold {
+  font-weight: bold;
+}
+
+// font-size
+.font50p {
+  font-size: 50%;
+}
+
+.font80p {
+  font-size: 80%;
+}
+
+.opacity8 {
+  .opacity(0.8);
+}
+
+// urls
+.no-decoration {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dashed1 {
+  border-bottom: dashed 1px;
+}
+
+.dashed2 {
+  border-bottom: dashed 2px;
+}
+
+// max-min height-width
+.mw800 {
   max-width: 800px;
+}
+
+.miw30 {
+  min-width: 30px;
+}
+
+.mih80 {
+  min-height: 80px;
+}
+
+.mih300 {
+  min-height: 300px;
+}
+
+// padding
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt60 {
+  padding-top: 60px;
+}
+
+.pt90 {
+  padding-top: 90px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb60 {
+  padding-bottom: 60px;
+}
+
+// margin
+.m0 {
+  margin: 0 auto;
+}
+
+.mt0 {
+  margin-top: 0px;
 }
 
 .mt10 {
@@ -191,20 +164,19 @@ a {
   margin-top: 60px;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
 .mr10 {
   margin-right: 10px;
 }
 
-.font80p {
-  font-size: 80%;
-}
-
-.group-name {
-  font-size: 80%;
-  border-bottom: solid 1px;
-}
-
-// icons
+// icon colors
 .medal-gold {
   color: #eea910;
 }
@@ -226,89 +198,86 @@ a {
 }
 
 .tab-ico-top {
-  .medal-gold();
+  color: #eea910;
 }
 
 .tab-ico-speakers {
   color: #0079B4;
 }
 
-.speaker-click {
-  cursor: pointer;
-  border-bottom: dashed 1px;
+// constants
+@color-logo-blue: #0079B4;
+@color-logo-orange: #F99D1C;
+@color-google-calendar: #e3e9ff;
+
+// variables
+// try new colors here: https://coolors.co/app/0079b4-173753-6DAEDB-1B4353-FFC43D
+@color-attention: #dd291b;
+@color-black: #000000;
+@color-dark: #173753;
+@color-neutral: #6DAEDB;
+@color-light: #FFC43D;
+@color-white: #ffffff;
+
+// all colors for the page
+// colors signature: name, bg color, text color, url color, title color
+.colors(header, @color-neutral, @color-white, @color-dark);
+@header-logo-color: @color-light;
+@header-fixed-background-color: @color-white;
+@header-fixed-logo-color: @color-logo-blue;
+@header-fixed-a-color: darken(@color-neutral, 20%);
+@toggle-button-background-color: darken(@color-neutral, 30%);
+@toggle-button-lines-color: @color-white;
+.colors(next, @color-dark, @color-white, @color-white);
+.colors(social, darken(@color-neutral, 15%), darken(@color-neutral, 15%), darken(@color-neutral, 15%));
+.colors(about, lighten(@color-neutral, 15%), @color-dark, darken(@color-neutral, 30%), @color-dark);
+.colors(go, @color-google-calendar, @color-dark, darken(@color-neutral, 30%), @color-dark);
+.colors(sponsors, @color-white, @color-dark, darken(@color-neutral, 30%), @color-dark);
+@sponsors-toggle-color: @color-attention;
+.colors(last, @color-black, lighten(@color-neutral, 20%), lighten(@color-neutral, 20%), @color-light);
+.colors(archive, darken(@color-white, 5%), @color-black, darken(@color-neutral, 30%), @color-black);
+@archive-container-color: @color-white;
+.colors(speaker, @color-dark, @color-white, @color-light, @color-light);
+@form-submit-background-color: darken(@color-neutral, 20%);
+@form-submit-color: @color-light;
+.colors(contact, @color-neutral, darken(@color-neutral, 30%), @color-white, @color-white);
+@social-icons-a-background: darken(@color-neutral, 15%);
+@social-icons-a-background-hover: darken(@color-attention, 10%);
+.colors(members, @color-dark, @color-light, @color-light, @color-light);
+.colors(help, @color-neutral, @color-white, darken(@color-neutral, 30%), darken(@color-neutral, 30%));
+.colors(footer, darken(@color-neutral, 40%), @color-white, darken(@color-neutral, 30%), @color-white);
+
+// custom styles
+.archive-group {
+  font-size: 80%;
+  border-bottom: solid 1px;
 }
 
-.section(next, @promo-color, @white, darken(@color, 30%), 90);
-.section(social, darken(@color, 15%), @text-color, @text-color, 10, 0);
-.section(about, @color, @text-color, darken(@color, 30%), 60);
-.section(sponsors, @white, @text-color, darken(@color, 30%), 60);
-.section(last, @promo-color, @white, @color, 60);
-.section(archive, @smoky-white, @text-color, darken(@color, 30%), 60);
-.section(speaker, darken(@color, 15%), @text-color, darken(@color, 40%), 60);
-.section(contact, @color, @white, darken(@color, 30%), 60);
+.form-submit {
+  background: @form-submit-background-color;
+  color: @form-submit-color;
+}
 
-.sct-sponsors-toggle {
+.sponsors-toggle {
   cursor: pointer;
-  color: darken(@color, 30%);
+  color: @sponsors-toggle-color;
   border-bottom: 2px dashed;
 }
 
-.sct-next-social {
-  background: darken(@color, 15%);
-  padding: 10px 0;
-  margin: 0 auto;
-  li {
-    margin-top: 15px;
-    &.facebook-like {
-      margin-top: 0;
-      position: relative;
-      top: -5px;
-    }
-  }
+.facebook-like-correction {
+  margin-top: 0;
+  position: relative;
+  top: -5px;
 }
 
-.sct-about-text {
-  margin: 0 auto;
-  a {
-    color: darken(@color, 30%);
-    &:hover {
-      color: darken(@color, 40%);
-    }
-  }
-}
-
-.sct-archive-inner {
+.archive-container {
   max-width: 800px;
-  background: #fff;
+  background: @archive-container-color;
   padding: 30px;
   .border-radius(4px);
-  margin: 0 auto;
 }
 
-.sct-speaker-form {
-  font-weight: bold;
-  margin-top: 0;
-  color: @white;
-  text-decoration: underline;
-  &:hover {
-    color: @white;
-  }
-}
-
-.sct-contact-subtitle {
-  color: darken(@color, 20%);
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.sct-contact-user {
-}
-
-.sct-contact-user-text {
-  font-weight: bold;
-}
-
-.sct-contact-social-icons {
+.social-icons {
   list-style: none;
   padding: 10px 0;
   display: inline-block;
@@ -321,7 +290,7 @@ a {
 
   a {
     display: inline-block;
-    background: darken(@color, 15%);
+    background: @social-icons-a-background;
     width: 48px;
     height: 48px;
     text-align: center;
@@ -331,11 +300,10 @@ a {
     float: left;
 
     &:hover {
-      background: darken(@color-2, 10%);
+      background: @social-icons-a-background-hover;
     }
 
     .fa {
-      color: #fff;
       &:before {
         font-size: 26px;
         text-align: center;
@@ -345,11 +313,85 @@ a {
   }
 }
 
-.footer {
-  padding: 15px 0;
-  background: darken(@color, 40%);
-  color: #fff;
-  .copyright {
-    .opacity(0.8);
+.header {
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  &.navbar-fixed-top {
+    background: @header-fixed-background-color;
+    .box-shadow (0 0 20px rgba(0, 0, 0, 0.4));
+    .logo {
+      a {
+        color: @header-fixed-logo-color;
+      }
+    }
+    .main-nav .nav .nav-item a {
+      color: @header-fixed-a-color;
+    }
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 26px;
+    padding-top: 10px;
+    a {
+      color: @header-logo-color;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .main-nav {
+    button {
+      background: @toggle-button-background-color;
+      .border-radius(4px);
+      &:focus {
+        outline: none;
+      }
+      .icon-bar {
+        background-color: @toggle-button-lines-color;
+      }
+    }
+    .navbar-collapse {
+      padding: 0;
+    }
+    .nav {
+      .nav-item {
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+        a {
+          .transition (none);
+          font-size: 14px;
+          padding: 15px 10px;
+          &:hover {
+            background: none;
+          }
+          &:focus {
+            outline: none;
+            background: none;
+          }
+          &:active {
+            outline: none;
+            background: none;
+          }
+        }
+        &.last {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header .main-nav button {
+    margin-right: 0;
+  }
+  .header .main-nav .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

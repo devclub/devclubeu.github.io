@@ -10,6 +10,10 @@ module.exports = function (grunt) {
   project.libs = [
     'vendor/underscore/underscore.js',
     'vendor/moment/moment.js',
+    'vendor/jquery/dist/jquery.js',
+    'vendor/bootstrap/js/transition.js',
+    'vendor/bootstrap/js/collapse.js',
+    'vendor/bootstrap/js/carousel.js',
     'vendor/angular/angular.js',
     'vendor/angular-i18n/angular-locale_ru.js',
     'vendor/angular-scroll/angular-scroll.js'
@@ -158,7 +162,7 @@ module.exports = function (grunt) {
         livereload: true
       },
       style: {
-        files: ['src/styles/*.less', 'src/styles/*.css'],
+        files: ['src/*.less', 'src/*.css'],
         tasks: ['less:styles']
       },
       html: {

@@ -1,5 +1,5 @@
 function RootController($scope, $http, $document, $sce, DevclubUtil) {
-  var currentScrollTop = $document.scrollTop();
+  var currentScrollTop = 0;
   $document.on('scroll', function (a, b) {
     if (currentScrollTop < 20 && $document.scrollTop() > 20
       || currentScrollTop > 20 && $document.scrollTop() < 20) {
@@ -33,8 +33,8 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
   $scope.showSpeeches = function (speakerName) {
     $scope.filter.text = speakerName;
     $scope.filter.year = null;
-    $('#archive-tabs a:first').tab('show');
-    $('body').scrollTo('#archive', 800, {offset: -70, 'axis': 'y', easing: 'easeOutQuad'});
+    $scope.activeTab = 'MEETING';
+    $document.scrollTo(angular.element(document.getElementById('archive')), 60, 200);
   }
 
   $scope.getEmbedYoutubeUrl = function (youtubeId) {
@@ -63,37 +63,19 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
 
   function prepareData(meetings, speeches) {
     $scope.meetings = DevclubUtil.prepareMeetings(meetings, speeches);
-    $scope.state = DevclubUtil.getMeetingState(meetings);
+    $scope.state = DevclubUtil.getMeetingState($scope.meetings);
     $scope.topSpeeches = DevclubUtil.getTopSpeechesList(speeches);
     $scope.topSpeakers = DevclubUtil.getTopSpeakersList(speeches);
   }
 
   $http.get("data/meetings.json").success(function (meetings) {
     $http.get("data/speeches.json").success(function (speeches) {
-      prepareData(meetings, speeches);
+      $http.get("data/speakers.json").success(function (speakers) {
+        $scope.speakers = speakers;
+        prepareData(meetings, speeches);
+      });
     });
   });
-}
-
-function DevclubMedal() {
-  return {
-    restrict: 'E',
-    scope: {
-      year: '=',
-      place: '='
-    },
-    templateUrl: 'devclub-medal.html'
-  };
-}
-
-function DevclubUser() {
-  return {
-    restrict: 'E',
-    scope: {
-      member: '='
-    },
-    templateUrl: 'devclub-user.html'
-  };
 }
 
 function DevclubUtil() {
@@ -174,6 +156,9 @@ function DevclubUtil() {
         if (current.isAfter(today)
           && (state.next === null || current.isBefore(state.next.date))) {
           state.next = meeting;
+          state.next.showDate = true;
+          state.next.showLocation = state.next.place != undefined && state.next.place.length > 0;
+          state.next.showRegistration = state.next.registerUrl != undefined && state.next.registerUrl.length > 0;
         }
         if (_.size(state.lastPhotos) < 7 && current.isBefore(today)) {
           _.each(meeting.photoUrls, function (url) {
@@ -196,5 +181,17 @@ function DevclubUtil() {
 angular.module('devclub', ['ngLocale', 'duScroll'])
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
-  .directive('medal', DevclubMedal)
-  .directive('user', DevclubUser);
+  .directive('medal', function () {
+    return {restrict: 'E', replace: true, scope: {year: '=', place: '='}, templateUrl: 'devclub-medal.html'}
+  })
+  .directive('user', function () {
+    return {restrict: 'E', replace: true, templateUrl: 'devclub-user.html'}
+  })
+  // fucking fix to close mobile menu on menu item click
+  .directive('closeNavbarOnClick', function () {
+    return {restrict: 'A', link: function(scope, element) {
+      element.bind("click", function(){
+        $('.navbar-toggle').click();
+      });
+    }}
+  });
