@@ -8,6 +8,7 @@
     "bootstrap": "3.3.5",
     "font-awesome": "4.4.0",
     "moment": "2.10.6",
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "angulartics": "0.20.1"
   }
 }

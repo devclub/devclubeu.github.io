@@ -178,7 +178,7 @@ function DevclubUtil() {
   };
 }
 
-angular.module('devclub', ['ngLocale', 'duScroll'])
+angular.module('devclub', ['ngLocale', 'duScroll', 'angulartics', 'angulartics.google.analytics.cordova'])
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
   .directive('medal', function () {

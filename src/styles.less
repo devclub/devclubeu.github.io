@@ -1,5 +1,6 @@
 // bootsrtap
 @import "../vendor/bootstrap/less/bootstrap.less";
+
 .label {
   font-size: 55%;
 }
@@ -11,14 +12,14 @@
 // custom mixins
 .border-radius (@radius: 5px) {
   -webkit-border-radius: @radius;
-  -moz-border-radius:    @radius;
-  -ms-border-radius:     @radius;
-  -o-border-radius:      @radius;
-  border-radius:         @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+  -o-border-radius: @radius;
+  border-radius: @radius;
 
-  -moz-background-clip:    padding;
+  -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
-  background-clip:         padding-box;
+  background-clip: padding-box;
 }
 
 // default colors are bright to see, if the default color is used accidentally
@@ -39,6 +40,10 @@
 }
 
 // common
+[ng-cloak] {
+  display: none !important;
+}
+
 body {
   font-family: 'Lato', arial, sans-serif;
   font-size: 16px;
@@ -390,6 +395,7 @@ a {
   .header .main-nav button {
     margin-right: 0;
   }
+
   .header .main-nav .navbar-collapse {
     padding-left: 15px;
     padding-right: 15px;
