@@ -151,7 +151,8 @@
         </div>
         <div class="col-xs-8 col-sm-12">
           <div ng-repeat="speaker in speech.speakers">
-            <span class="font80p dashed1 pointer" ng-click="showSpeeches(speaker)" ga-click="url|||click_in|||speaker_speeches">
+            <span class="font80p dashed1 pointer" ng-click="showSpeeches(speaker)"
+                  ga-click="url|||click_in|||speaker_speeches">
               <i class="fa fa-user"></i> {{speaker}}
             </span>
           </div>
@@ -208,7 +209,8 @@
                       href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">написать
         нам</a> о темах, и мы свяжемся с вами. Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
         (<a target="_blank"
-            href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists" ga-click="url|||click_out|||youtube">YouTube-канал</a>)
+            href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists"
+            ga-click="url|||click_out|||youtube">YouTube-канал</a>)
         - всё это возможно благодаря нашим спонсорам и добровольным пожертвованиям.
       </p>
     </div>
@@ -240,7 +242,8 @@
     <div class="row">
       <div class="col-sm-12 col-md-offset-2 col-md-8 text-justify">
         <h3 class="text-center">
-          <span class="sponsors-toggle" ng-click="showSponsorText = !showSponsorText" ga-click="url|||click_in|||toggle_sponsors">
+          <span class="sponsors-toggle" ng-click="showSponsorText = !showSponsorText"
+                ga-click="url|||click_in|||toggle_sponsors">
             Как нам помочь? Как стать спонсором?
           </span>
         </h3>
@@ -304,7 +307,7 @@
 
     <div class="mt20 row">
       <div class="col-xs-12 col-sm-6 text-center" ng-repeat="youtubeId in state.lastYoutubeIds | limitTo:6">
-        <a target="_blank" ng-href="https://www.youtube.com/watch?v={{youtubeId}}" 
+        <a target="_blank" ng-href="https://www.youtube.com/watch?v={{youtubeId}}"
            ga-click="url|||click_out|||youtube|||https://www.youtube.com/watch?v={{youtubeId}}">
           <img class="img-responsive" ng-src="http://img.youtube.com/vi/{{youtubeId}}/sddefault.jpg"/>
         </a>
@@ -373,14 +376,16 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 {{::meeting.name}}
                 <div class="pull-right">
-                  <a ng-href="{{url}}" ng-repeat="url in ::meeting.photoUrls" class="mr10" target="_blank" ga-click="url|||click_out|||photos|||{{url}}">
+                  <a ng-href="{{url}}" ng-repeat="url in ::meeting.photoUrls" class="mr10" target="_blank"
+                     ga-click="url|||click_out|||photos|||{{url}}">
                     <i class="fa fa-camera"></i>
                   </a>
                 </div>
               </div>
 
               <div ng-repeat="speech in meeting.speeches | filter:{date:filter.year||undefined, $:filter.text}">
-                <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank" ga-click="url|||click_out|||youtube|||{{url}}">
+                <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank"
+                   ga-click="url|||click_out|||youtube|||{{url}}">
                   <i class="fa fa fa-video-camera"></i>
                 </a>
                 <span ng-repeat="speaker in speech.speakers">
@@ -409,7 +414,8 @@
             <div class="mt10" ng-repeat="top in topSpeeches">
               <div class="archive-group">{{::top.year}}</div>
               <div ng-repeat="speech in top.speeches | orderBy:'top.place'">
-                <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank" ga-click="url|||click_out|||youtube|||{{url}}">
+                <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank"
+                   ga-click="url|||click_out|||youtube|||{{url}}">
                   <i class="fa fa fa-video-camera"></i>
                 </a>
                 <span>{{speech.top.place}}.&nbsp;</span>
@@ -434,7 +440,8 @@
               * Информация по всем выступавшим в Devclub в порядке их последнего выступления в клубе.
             </div>
             <div class="mt10" ng-repeat="speaker in topSpeakers">
-              <span class="pointer dashed1" ng-click="showSpeeches(speaker.name)" ga-click="url|||click_in|||speaker_speeches">{{::speaker.name}}</span>
+              <span class="pointer dashed1" ng-click="showSpeeches(speaker.name)"
+                    ga-click="url|||click_in|||speaker_speeches">{{::speaker.name}}</span>
               <span>&nbsp;({{::speaker.speechCount}})&nbsp;</span>
               <span ng-repeat="top in ::speaker.tops">
                 <medal place="top.place" year="top.year"></medal>
@@ -513,22 +520,26 @@
     <div class="text-center">
       <ul class="social-icons list-inline">
         <li>
-          <a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists" ga-click="url|||click_out|||youtube">
+          <a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists"
+             ga-click="url|||click_out|||youtube">
             <i class="fa fa-youtube"></i>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://plus.google.com/u/0/105266766340206558621/posts" ga-click="url|||click_out|||google_plus">
+          <a target="_blank" href="https://plus.google.com/u/0/105266766340206558621/posts"
+             ga-click="url|||click_out|||google_plus">
             <i class="fa fa-google-plus"></i>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.facebook.com/groups/devclub.eu/" ga-click="url|||click_out|||facebook_group">
+          <a target="_blank" href="https://www.facebook.com/groups/devclub.eu/"
+             ga-click="url|||click_out|||facebook_group">
             <i class="fa fa-facebook"></i>
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://groups.google.com/forum/#!forum/devclub-eu" ga-click="url|||click_out|||google_group">
+          <a target="_blank" href="https://groups.google.com/forum/#!forum/devclub-eu"
+             ga-click="url|||click_out|||google_group">
             <i class="fa fa-users"></i>
           </a>
         </li>
@@ -581,10 +592,13 @@
 </script>
 
 <script type="text/ng-template" id="devclub-user.html">
-  <a ng-href="{{speakers[member.name].url}}" class="no-decoration" target="_blank" ga-click="url|||click_out|||member|||{{member.name}}">
-    <img ng-src="assets/members/{{member.userpick}}" class="img-circle img-responsive center-block"/>
+  <a ng-href="{{speakers[member.name].url}}" class="no-decoration" target="_blank"
+     ga-click="url|||click_out|||member|||{{member.name}}">
+    <div class="mw200 center-block">
+      <img ng-src="assets/members/{{member.userpick}}" class="img-circle img-responsive center-block"/>
+    </div>
 
-    <div class="mih80 bold">
+    <div class="mih50 bold">
       <p class="text-center" ng-bind="member.name"></p>
     </div>
   </a>
@@ -602,10 +616,17 @@
 
 <!-- GOOGLE ANALYTICS BEGIN -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-69567304-2', 'auto');
   ga('send', 'pageview');
