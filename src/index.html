@@ -64,35 +64,35 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="nav-item sr-only">
-            <a href="#next" offset="30" analytics-on="click" analytics-event="Menu go to next meeting"
+            <a href="#next" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to next meeting"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Встреча</a>
           </li>
           <li class="nav-item">
-            <a href="#about" offset="30" analytics-on="click" analytics-event="Menu go to about text"
+            <a href="#about" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to about text"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Клуб</a>
           </li>
           <li class="nav-item">
-            <a href="#sponsors" offset="30" analytics-on="click" analytics-event="Menu go to sponsors"
+            <a href="#sponsors" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to sponsors"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Спонсоры</a>
           </li>
           <li class="nav-item">
-            <a href="#last" offset="30" analytics-on="click" analytics-event="Menu go to latest data"
+            <a href="#last" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to latest data"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Свежак</a>
           </li>
           <li class="nav-item">
-            <a href="#archive" offset="30" analytics-on="click" analytics-event="Menu go to archive"
+            <a href="#archive" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to archive"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Архив</a>
           </li>
           <li class="nav-item">
-            <a href="#speaker" offset="30" analytics-on="click" analytics-event="Menu go to speakers form"
+            <a href="#speaker" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to speakers form"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Хочу выступить</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" offset="30" analytics-on="click" analytics-event="Menu go to contacts"
+            <a href="#contact" offset="30" analytics-on="click" analytics-category="Inside" analytics-event="Menu go to contacts"
                du-smooth-scroll du-scrollspy close-navbar-on-click>Контакты</a>
           </li>
           <li class="nav-item last">
-            <a href="http://www.devclub.eu" analytics-on="click" analytics-event="Menu go to blog"
+            <a href="http://www.devclub.eu" analytics-on="click" analytics-category="Out" analytics-event="Menu go to blog"
                target="_blank" close-navbar-on-click>Блог</a>
           </li>
         </ul>
@@ -130,7 +130,7 @@
 
         <div class="mt20">
           <a ng-if="state.next.showRegistration" ng-href="{{state.next.registerUrl}}" class="btn btn-danger"
-             role="button" target="_blank" analytics-on="click" analytics-event="Open register on event form">
+             role="button" target="_blank" analytics-on="click" analytics-category="Out" analytics-event="Open register on event form">
             <i class="fa fa-ticket"></i> Зарегистрироваться!
           </a>
           <span ng-if="!state.next.showRegistration">Регистрация откроется за неделю до встречи.</span>
@@ -149,7 +149,7 @@
         <div class="col-xs-8 col-sm-12">
           <div ng-repeat="speaker in speech.speakers">
             <span class="font80p dashed1 pointer" ng-click="showSpeeches(speaker)"
-                  analytics-on="click" analytics-event="Show speaker speeches">
+                  analytics-on="click" analytics-category="Inside" analytics-event="Show speaker speeches">
               <i class="fa fa-user"></i> {{speaker}}
             </span>
           </div>
@@ -202,12 +202,12 @@
         Это ежемесячные открытые для каждого встречи, на которых в неформальной обстановке выступают, как правило, на
         русском языке на темы, связанные с инфотехнологиями, три докладчика. Каждый может стать зрителем - для этого
         достаточно совершенно бесплатно зарегистрироваться на встречу. Каждый может стать докладчиком - для этого
-        достаточно <a target="_blank" analytics-on="click" analytics-event="Open speech form"
+        достаточно <a target="_blank" analytics-on="click" analytics-category="Out" analytics-event="Open speech form"
                       href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform">написать
         нам</a> о темах, и мы свяжемся с вами. Мы существуем с 2008 года, а с 2009 года встречи проходят каждый месяц
         (<a target="_blank"
             href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists"
-            analytics-on="click" analytics-event="Open YouTube channel">YouTube-канал</a>)
+            analytics-on="click" analytics-category="Out" analytics-event="Open YouTube channel">YouTube-канал</a>)
         - всё это возможно благодаря нашим спонсорам и добровольным пожертвованиям.
       </p>
     </div>
@@ -240,7 +240,7 @@
       <div class="col-sm-12 col-md-offset-2 col-md-8 text-justify">
         <h3 class="text-center">
           <span class="sponsors-toggle" ng-click="showSponsorText = !showSponsorText"
-                analytics-on="click" analytics-event="Toggle sponsor info">
+                analytics-on="click" analytics-category="Inside" analytics-event="Toggle sponsor info">
             Как нам помочь? Как стать спонсором?
           </span>
         </h3>
@@ -294,7 +294,7 @@
       <div class="col-xs-8 text-left">
         <div ng-repeat="photo in state.lastPhotos | limitTo:5">
           <a target="_blank" ng-href="{{photo.url}}"
-             analytics-on="click" analytics-event="Show photo album">
+             analytics-on="click" analytics-category="Out" analytics-event="Show photo album">
             {{photo.date | date:'dd.MM.yyyy'}} {{photo.name}}
           </a>
         </div>
@@ -306,7 +306,7 @@
     <div class="mt20 row">
       <div class="col-xs-12 col-sm-6 text-center" ng-repeat="youtubeId in state.lastYoutubeIds | limitTo:6">
         <a target="_blank" ng-href="https://www.youtube.com/watch?v={{youtubeId}}"
-           analytics-on="click" analytics-event="Show YouTube video">
+           analytics-on="click" analytics-category="Out" analytics-event="Show YouTube video">
           <img class="img-responsive" ng-src="http://img.youtube.com/vi/{{youtubeId}}/sddefault.jpg"/>
         </a>
       </div>
@@ -324,21 +324,21 @@
         <ul class="nav nav-tabs" role="tablist" id="archive-tabs">
           <li role="presentation" ng-click="activeTab = 'MEETING'" class="pointer"
               ng-class="{'active': activeTab == 'MEETING'}"
-              analytics-on="click" analytics-event="Show MEETING tab">
+              analytics-on="click" analytics-category="Inside" analytics-event="Show MEETING tab">
             <a aria-controls="meetings" role="tab">
               <i class="fa fa fa-beer tab-ico-meeting"></i> Встречи
             </a>
           </li>
           <li role="presentation" ng-click="activeTab = 'BEST'" class="pointer"
               ng-class="{'active': activeTab == 'BEST'}"
-              analytics-on="click" analytics-event="Show BEST tab">
+              analytics-on="click" analytics-category="Inside" analytics-event="Show BEST tab">
             <a aria-controls="best" role="tab">
               <i class="fa fa fa-trophy tab-ico-top"></i> Лучшие
             </a>
           </li>
           <li role="presentation" ng-click="activeTab = 'SPEAKERS'" class="pointer"
               ng-class="{'active': activeTab == 'SPEAKERS'}"
-              analytics-on="click" analytics-event="Show SPEAKERS tab">
+              analytics-on="click" analytics-category="Inside" analytics-event="Show SPEAKERS tab">
             <a aria-controls="speakers" role="tab">
               <i class="fa fa fa-users tab-ico-speakers"></i> Докладчики
             </a>
@@ -378,7 +378,7 @@
                 {{::meeting.name}}
                 <div class="pull-right">
                   <a ng-href="{{url}}" ng-repeat="url in ::meeting.photoUrls" class="mr10" target="_blank"
-                     analytics-on="click" analytics-event="Show photo album">
+                     analytics-on="click" analytics-category="Out" analytics-event="Show photo album">
                     <i class="fa fa-camera"></i>
                   </a>
                 </div>
@@ -386,7 +386,7 @@
 
               <div ng-repeat="speech in meeting.speeches | filter:{date:filter.year||undefined, $:filter.text}">
                 <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank"
-                   analytics-on="click" analytics-event="Show YouTube video">
+                   analytics-on="click" analytics-category="Out" analytics-event="Show YouTube video">
                   <i class="fa fa fa-video-camera"></i>
                 </a>
                 <span ng-repeat="speaker in speech.speakers">
@@ -409,7 +409,7 @@
               <div class="archive-group">{{::top.year}}</div>
               <div ng-repeat="speech in top.speeches | orderBy:'top.place'">
                 <a ng-href="{{url}}" ng-repeat="url in ::getVideoUrls(speech)" class="mr10" target="_blank"
-                   analytics-on="click" analytics-event="Show YouTube video">
+                   analytics-on="click" analytics-category="Out" analytics-event="Show YouTube video">
                   <i class="fa fa fa-video-camera"></i>
                 </a>
                 <span>{{speech.top.place}}.&nbsp;</span>
@@ -429,7 +429,7 @@
             </div>
             <div class="mt10" ng-repeat="speaker in topSpeakers">
               <span class="pointer dashed1" ng-click="showSpeeches(speaker.name)"
-                    analytics-on="click" analytics-event="Show speaker speeches">{{::speaker.name}}</span>
+                    analytics-on="click" analytics-category="Inside" analytics-event="Show speaker speeches">{{::speaker.name}}</span>
               <span>&nbsp;({{::speaker.speechCount}})&nbsp;</span>
               <span ng-repeat="top in ::speaker.tops">
                 <medal place="top.place" year="top.year"></medal>
@@ -450,7 +450,7 @@
     <div class="col-xs-12 text-center">
       <a class="btn form-submit mt20 mb20" role="button" target="_blank"
          href="https://docs.google.com/forms/d/1xdBXhnLIIpP3ll-1zWIHtOStGG8XH2M65TApPn77JK4/viewform"
-         analytics-on="click" analytics-event="Open speech form">
+         analytics-on="click" analytics-category="Out" analytics-event="Open speech form">
         <i class="fa fa-file-text"></i> &nbsp; Заполни форму! &nbsp; <i class="fa fa-thumbs-up"></i>
       </a>
     </div>
@@ -510,31 +510,31 @@
       <ul class="social-icons list-inline">
         <li>
           <a target="_blank" href="https://www.youtube.com/channel/UCLq7vcHtwDtx4m9ZUrgxEBA/playlists"
-             analytics-on="click" analytics-event="Open YouTube channel">
+             analytics-on="click" analytics-category="Out" analytics-event="Open YouTube channel">
             <i class="fa fa-youtube"></i>
           </a>
         </li>
         <li>
           <a target="_blank" href="https://plus.google.com/u/0/105266766340206558621/posts"
-             analytics-on="click" analytics-event="Open Google+">
+             analytics-on="click" analytics-category="Out" analytics-event="Open Google+">
             <i class="fa fa-google-plus"></i>
           </a>
         </li>
         <li>
           <a target="_blank" href="https://www.facebook.com/groups/devclub.eu/"
-             analytics-on="click" analytics-event="Open Facebook group">
+             analytics-on="click" analytics-category="Out" analytics-event="Open Facebook group">
             <i class="fa fa-facebook"></i>
           </a>
         </li>
         <li>
           <a target="_blank" href="https://groups.google.com/forum/#!forum/devclub-eu"
-             analytics-on="click" analytics-event="Open Google group">
+             analytics-on="click" analytics-category="Out" analytics-event="Open Google group">
             <i class="fa fa-users"></i>
           </a>
         </li>
         <li class="last">
           <a href="mailto:info@devclub.eu"
-             analytics-on="click" analytics-event="Write mail">
+             analytics-on="click" analytics-category="Out" analytics-event="Write mail">
             <i class="fa fa-envelope"></i>
           </a>
         </li>
@@ -583,7 +583,7 @@
 
 <script type="text/ng-template" id="devclub-user.html">
   <a ng-href="{{speakers[member.name].url}}" class="no-decoration" target="_blank"
-     analytics-on="click" analytics-event="Open member url ({{member.name}})">
+     analytics-on="click" analytics-category="Out" analytics-event="Open member url ({{member.name}})">
     <img ng-src="assets/members/{{member.userpick}}" class="img-circle img-responsive center-block"/>
 
     <div class="mih80 bold">
