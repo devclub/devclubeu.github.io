@@ -178,7 +178,7 @@ function DevclubUtil() {
   };
 }
 
-angular.module('devclub', ['ngLocale', 'duScroll', 'angulartics', 'angulartics.google.analytics.cordova'])
+angular.module('devclub', ['ngLocale', 'duScroll'])
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
   .directive('medal', function () {
@@ -187,11 +187,30 @@ angular.module('devclub', ['ngLocale', 'duScroll', 'angulartics', 'angulartics.g
   .directive('user', function () {
     return {restrict: 'E', replace: true, templateUrl: 'devclub-user.html'}
   })
+  .directive('gaClick', function () {
+    return {
+      restrict: 'A', scope: {gaClick: '@'}, link: function (scope, element) {
+        element.bind("click", function () {
+          var params = scope.gaClick.split('|||');
+          ga(
+            'send',
+            'event',
+            params[0],
+            params[1],
+            params.length > 2 ? params[2] : undefined,
+            params.length > 3 ? params[3] : undefined
+          );
+        });
+      }
+    }
+  })
   // fucking fix to close mobile menu on menu item click
   .directive('closeNavbarOnClick', function () {
-    return {restrict: 'A', link: function(scope, element) {
-      element.bind("click", function(){
-        $('.navbar-toggle').click();
-      });
-    }}
+    return {
+      restrict: 'A', link: function (scope, element) {
+        element.bind("click", function () {
+          $('.navbar-toggle').click();
+        });
+      }
+    }
   });

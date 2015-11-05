@@ -16,9 +16,7 @@ module.exports = function (grunt) {
     'vendor/bootstrap/js/carousel.js',
     'vendor/angular/angular.js',
     'vendor/angular-i18n/angular-locale_ru.js',
-    'vendor/angular-scroll/angular-scroll.js',
-    'vendor/angulartics/src/angulartics.js',
-    'vendor/angulartics/src/angulartics-ga-cordova.js'
+    'vendor/angular-scroll/angular-scroll.js'
   ];
   project.srcs = [
     'src/scripts.js'
