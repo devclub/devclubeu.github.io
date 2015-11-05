@@ -383,7 +383,14 @@
                 <span ng-repeat="speaker in speech.speakers">
                   {{::speaker}}<span ng-if="!$last">,&nbsp;</span>
                 </span>
-                <span>&nbsp;-&nbsp;</span><b>{{::speech.topic}}</b><span>&nbsp;&nbsp;</span>
+                <span>&nbsp;-&nbsp;</span><b>{{::speech.topic}}</b>
+                <span ng-repeat="presentation in speech.presentations">
+                  <span>&nbsp;&nbsp;</span>
+                  <a ng-href="{{presentation}}" target="_blank" ga-click="url|||click_out|||slides|||{{presentation}}">
+                    <i class="fa fa-clipboard"></i>
+                  </a>
+                </span>
+                <span>&nbsp;&nbsp;</span>
                 <span ng-if="::speech.top">
                   <medal place="::speech.top.place" year="::speech.top.year"></medal>
                 </span>
@@ -408,6 +415,12 @@
                 </span>
                 <span>&nbsp;-&nbsp;</span>
                 <b>{{::speech.topic}}</b>
+                <span>&nbsp;&nbsp;</span>
+                <span ng-repeat="presentation in speech.presentations">
+                  <a ng-href="{{presentation}}" target="_blank" ga-click="url|||click_out|||slides|||{{presentation}}">
+                    <i class="fa fa-clipboard"></i>
+                  </a>
+                </span>
                 <span>&nbsp;&nbsp;</span>
                 <span class="label label-default" ng-repeat="label in ::speech.labels">{{::label}}</span>
               </div>
