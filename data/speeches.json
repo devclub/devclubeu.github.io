@@ -12,6 +12,12 @@
     "topic": "How reinventing wheels saved our company"
   },
   {
+    "date": "25.11.2015",
+    "youtubeIds": [],
+    "speakers": ["Михаил Лапушкин"],
+    "topic": "Node.js"
+  },
+  {
     "date": "28.10.2015",
     "youtubeIds": ["OdbXwQPV3dw"],
     "speakers": ["Дмитрий Нестерук"],

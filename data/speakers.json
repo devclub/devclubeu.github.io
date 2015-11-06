@@ -53,5 +53,9 @@
   },
   "Алексей Фёдоров": {
     "image": "assets/speakers/afjodorov.jpg"
+  },
+  "Михаил Лапушкин": {
+    "url": "https://ee.linkedin.com/in/mihhail",
+    "image": "assets/speakers/mlapushkin.jpg"
   }
 }
