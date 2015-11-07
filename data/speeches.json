@@ -27,7 +27,8 @@
     "date": "28.10.2015",
     "youtubeIds": ["A8MetRHGv4U"],
     "speakers": ["Артём Курапов"],
-    "topic": "Многообразие автоматических тестов"
+    "topic": "Многообразие автоматических тестов",
+    "presentations": ["http://www.slideshare.net/totra/variety-of-automated-tests"]
   },
   {
     "date": "28.10.2015",
@@ -45,7 +46,8 @@
     "date": "29.09.2015",
     "youtubeIds": ["QmluxspuS8E"],
     "speakers": ["Антон Кекс"],
-    "topic": "Digital Signatures: Estonia vs The World"
+    "topic": "Digital Signatures: Estonia vs The World",
+    "presentations": ["https://prezi.com/vsm7g2gbjtmy/digital-signatures"]
   },
   {
     "date": "29.09.2015",
@@ -503,6 +505,7 @@
     "youtubeIds": ["ACAqMxvClvg"],
     "speakers": ["Антон Кекс"],
     "topic": "Про пиво",
+    "presentations": ["https://prezi.com/ra0kqqglymo2/craft-beer"],
     "top": {"year": 2014, "place": 2}
   },
   {
@@ -590,6 +593,7 @@
     "_vids": ["https://vimeo.com/73440304"],
     "speakers": ["Антон Кекс"],
     "topic": "Разработка мультиплатформенных Desktop-приложений",
+    "presentations": ["https://prezi.com/k1i5lmcdl8cy/angry-ip-scanner"],
     "top": {"year": 2013, "place": 6}
   },
   {
@@ -696,7 +700,8 @@
     "youtubeIds": ["GZ079h5AcCs"],
     "_vids": ["https://vimeo.com/65233400"],
     "speakers": ["Антон Кекс"],
-    "topic": "Создание мультиплатформенных приложений для десктопа"
+    "topic": "Создание мультиплатформенных Desktop-приложений",
+    "presentations": ["https://prezi.com/k1i5lmcdl8cy/angry-ip-scanner"]
   },
   {
     "date": "30.04.2013",
@@ -1089,7 +1094,8 @@
     "youtubeIds": ["DYa1Jpjrox4"],
     "_vids": ["https://vimeo.com/35947379"],
     "speakers": ["Антон Кекс"],
-    "topic": "Асинхронное программирование на NodeJS"
+    "topic": "Асинхронное программирование на NodeJS",
+    "presentations": ["https://prezi.com/gt7tlu3rhooz/nodejs"]
   },
   {
     "date": "27.01.2012",
@@ -1172,6 +1178,7 @@
       "Александр Ястремский"
     ],
     "topic": "Java vs .NET",
+    "presentations": ["https://prezi.com/v9hxrsrs-grm/java-strengths"],
     "labels": ["батл"],
     "top": {"year": 2011, "place": 4}
   },
@@ -1469,7 +1476,8 @@
     "youtubeIds": ["mH15Djb9wnE"],
     "_vids": ["https://vimeo.com/16221665"],
     "speakers": ["Андрей Солнцев"],
-    "topic": "BDD Workshop"
+    "topic": "BDD Workshop",
+    "presentations": ["https://prezi.com/zfjermx0qw41/bdd"]
   },
   {
     "date": "26.10.2010",
@@ -1505,6 +1513,7 @@
     "_vids": ["https://vimeo.com/14489233"],
     "speakers": ["Антон Кекс"],
     "topic": "Юнит-тесты",
+    "presentations": ["https://prezi.com/bvs_5sphpp3s/unit-tests"],
     "top": {"year": 2010, "place": 4}
   },
   {
