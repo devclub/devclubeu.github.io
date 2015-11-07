@@ -38,8 +38,7 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
   }
 
   $scope.getEmbedYoutubeUrl = function (youtubeId) {
-    return $sce.trustAsResourceUrl('http://www.youtube.com/embed/' + youtubeId);
-    //return "https://www.youtube.com/embed/" + youtubeId;
+    return $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId);
   }
 
   $scope.getVideoUrls = function (speech) {
@@ -209,7 +208,7 @@ angular.module('devclub', ['ngLocale', 'duScroll'])
     return {
       restrict: 'A', link: function (scope, element) {
         element.bind("click", function () {
-          $('.navbar-toggle').click();
+          $('.navbar-collapse').collapse('hide');
         });
       }
     }
