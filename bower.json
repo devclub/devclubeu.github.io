@@ -4,6 +4,7 @@
   "dependencies": {
     "angular": "1.4.7",
     "angular-i18n": "1.4.7",
+    "angular-sanitize": "1.4.7",
     "angular-scroll": "~0.7.3",
     "bootstrap": "3.3.5",
     "font-awesome": "4.4.0",

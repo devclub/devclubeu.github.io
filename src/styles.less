@@ -5,6 +5,10 @@
   font-size: 55%;
 }
 
+.modal-dialog {
+  margin-top: 100px;
+}
+
 // font-awesome
 @import "../vendor/font-awesome/less/font-awesome.less";
 @fa-font-path: "/assets/fonts";
@@ -115,6 +119,10 @@ a {
   max-width: 200px;
 }
 
+.mh300 {
+  max-height: 300px;
+}
+
 .miw30 {
   min-width: 30px;
 }
@@ -125,6 +133,12 @@ a {
 
 .mih300 {
   min-height: 300px;
+}
+
+// overflow
+
+.of-y {
+  overflow-y: auto;
 }
 
 // padding
@@ -242,6 +256,7 @@ a {
 .colors(about, lighten(@color-neutral, 15%), @color-dark, darken(@color-neutral, 30%), @color-dark);
 .colors(go, @color-google-calendar, @color-dark, darken(@color-neutral, 30%), @color-dark);
 .colors(sponsors, @color-white, @color-dark, darken(@color-neutral, 30%), @color-dark);
+.colors(blog, @color-white, @color-dark, darken(@color-neutral, 30%), @color-dark);
 @sponsors-toggle-color: @color-attention;
 .colors(last, @color-black, lighten(@color-neutral, 20%), lighten(@color-neutral, 20%), @color-light);
 .colors(archive, darken(@color-white, 5%), @color-black, darken(@color-neutral, 30%), @color-black);

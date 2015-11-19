@@ -1,4 +1,8 @@
 function RootController($scope, $http, $document, $sce, DevclubUtil) {
+  var EVENTBRITE_TOKEN = "AWURDQ7N6QCZES6ZQNVG";
+  var EVENTBRITE_ORGANIZATION = "910302825";
+  var EVENTBRITE_URL = "https://www.eventbriteapi.com/v3/events/search/?token=" + EVENTBRITE_TOKEN + "&organizer.id=" + EVENTBRITE_ORGANIZATION;
+
   var currentScrollTop = 0;
   $document.on('scroll', function (a, b) {
     if (currentScrollTop < 20 && $document.scrollTop() > 20
@@ -37,8 +41,16 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     $document.scrollTo(angular.element(document.getElementById('archive')), 60, 200);
   }
 
+  $scope.getDaysLeft = function(date) {
+    return moment(date).fromNow();
+  }
+
   $scope.getEmbedYoutubeUrl = function (youtubeId) {
     return $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId);
+  }
+
+  $scope.trustAsHtml = function(html) {
+    return $sce.trustAsHtml(html);
   }
 
   $scope.getVideoUrls = function (speech) {
@@ -60,9 +72,15 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     $scope.places = data;
   });
 
-  function prepareData(meetings, speeches) {
+  function prepareData(meetings, speeches, eventbriteData) {
     $scope.meetings = DevclubUtil.prepareMeetings(meetings, speeches);
-    $scope.state = DevclubUtil.getMeetingState($scope.meetings);
+
+    var event;
+    if (eventbriteData && eventbriteData.events && eventbriteData.events.length > 0) {
+      event = eventbriteData.events[0];
+    }
+
+    $scope.state = DevclubUtil.getMeetingState($scope.meetings, event);
     $scope.topSpeeches = DevclubUtil.getTopSpeechesList(speeches);
     $scope.topSpeakers = DevclubUtil.getTopSpeakersList(speeches);
   }
@@ -70,8 +88,10 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
   $http.get("data/meetings.json").success(function (meetings) {
     $http.get("data/speeches.json").success(function (speeches) {
       $http.get("data/speakers.json").success(function (speakers) {
-        $scope.speakers = speakers;
-        prepareData(meetings, speeches);
+        $http.get(EVENTBRITE_URL).success(function (eventbriteData) {
+          $scope.speakers = speakers;
+          prepareData(meetings, speeches, eventbriteData);
+        });
       });
     });
   });
@@ -148,14 +168,15 @@ function DevclubUtil() {
         .value()
         .reverse();
     },
-    getMeetingState: function (meetings) {
-      var state = {next: null, lastPhotos: [], lastYoutubeIds: []}, today = new Date();
+    getMeetingState: function (meetings, event) {
+      var state = {lastPhotos: [], lastYoutubeIds: []}, today = new Date();
       _.each(meetings, function (meeting) {
         var current = moment(meeting.date);
-        if (current.isAfter(today)
-          && (state.next === null || current.isBefore(state.next.date))) {
+        if (current.isAfter(today) && (state.next === undefined || current.isBefore(state.next.date))) {
           state.next = meeting;
-          state.next.showDate = true;
+          if (event && !state.next.registerUrl) {
+            state.next.registerUrl = event.url;
+          }
           state.next.showLocation = state.next.place != undefined && state.next.place.length > 0;
           state.next.showRegistration = state.next.registerUrl != undefined && state.next.registerUrl.length > 0;
         }
@@ -172,12 +193,25 @@ function DevclubUtil() {
           });
         }
       });
+
+      if (event) {
+        if (!state.next) {
+          state.next = {};
+          state.next.date = event.start && event.start.local ? new Date(event.start.utc) : undefined;
+          state.next.registerUrl = event.url;
+          state.next.showRegistration = state.next.registerUrl != undefined && state.next.registerUrl.length > 0;
+        }
+        state.next.event = {};
+        state.next.event.name = event.name.html;
+        state.next.event.description = event.description.html;
+      }
+
       return state;
     }
   };
 }
 
-angular.module('devclub', ['ngLocale', 'duScroll'])
+angular.module('devclub', ['ngLocale', 'ngSanitize', 'duScroll'])
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
   .directive('medal', function () {

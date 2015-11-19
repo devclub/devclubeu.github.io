@@ -102,6 +102,22 @@
   </div>
 </header>
 
+<div class="modal fade" id="event-info-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Информация о встрече</h4>
+      </div>
+      <div class="modal-body mh300 of-y">
+        <div ng-bind-html="trustAsHtml(state.next.event.description)"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section id="next" class="colors-next pt90 pb60">
   <div class="container mw800 black">
     <div class="col-xs-12 visible-xs">
@@ -112,10 +128,11 @@
       <div ng-if="state.next">
         <h3>Встреча {{state.next.name}}</h3>
 
-        <div ng-if="state.next.showDate">
+        <div ng-if="state.next.date">
           <i class="miw30 fa fa-calendar"></i> {{state.next.date | date:'HH:mm, d MMMM yyyy, EEEE'}}
+          <span class="label label-primary">{{getDaysLeft(state.next.date)}}</span>
         </div>
-        <div ng-if="!state.next.showDate">
+        <div ng-if="!state.next.date">
           <i class="miw30 fa fa-calendar"></i> Дата ещё неизвестна.<br/>
           <span class="font80p">* обычно в 19:00 в последний вторник или среду или четверг месяца</span>
         </div>
@@ -126,14 +143,20 @@
           </a>
         </div>
         <div ng-if="!state.next.showLocation">
-          <i class="miw30 fa fa-map-marker"></i> Место ещё неизвестно.<br/>
+          <i class="miw30 fa fa-map-marker"></i> {{state.next.event ? 'Место проведения по ссылке на регистрацию.' :
+          'Место ещё неизвестно.'}}<br/>
         </div>
 
         <div class="mt20">
           <a ng-if="state.next.showRegistration" ng-href="{{state.next.registerUrl}}" class="btn btn-danger"
              role="button" target="_blank" ga-click="url|||click_out|||register_on_event">
-            <i class="fa fa-ticket"></i> Зарегистрироваться!
+            <i class="fa fa-ticket"></i> &nbsp; Зарегистрироваться на встречу!
           </a>
+          <button ng-if="state.next.event" ng-click="showEventInfo()"
+                  type="button" class="btn btn-primary"
+                  data-toggle="modal" data-target="#event-info-modal">
+            Информация о встрече
+          </button>
           <span ng-if="!state.next.showRegistration">
             Регистрация откроется за неделю до встречи.<br/>
             До этого времени все данные о встрече предварительные.
@@ -286,6 +309,16 @@
     </div>
   </div>
 </section>
+
+<!--<section class="colors-blog pt20 pb20">-->
+  <!--<div class="container mw800">-->
+    <!--<h2 class="title mt0 text-center">Блог</h2>-->
+
+    <!--<div class="row">-->
+      <!--<iframe class="col-xs-12 mih300" style="border-width:0" frameborder="0" scrolling="yes" src="http://www.devclub.eu"></iframe>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</section>-->
 
 <section id="last" class="colors-last pt60 pb60">
   <div class="container">

@@ -10,11 +10,14 @@ module.exports = function (grunt) {
   project.libs = [
     'vendor/underscore/underscore.js',
     'vendor/moment/moment.js',
+    'vendor/moment/locale/ru.js',
     'vendor/jquery/dist/jquery.js',
     'vendor/bootstrap/js/transition.js',
     'vendor/bootstrap/js/collapse.js',
     'vendor/bootstrap/js/carousel.js',
+    'vendor/bootstrap/js/modal.js',
     'vendor/angular/angular.js',
+    'vendor/angular-sanitize/angular-sanitize.js',
     'vendor/angular-i18n/angular-locale_ru.js',
     'vendor/angular-scroll/angular-scroll.js'
   ];
