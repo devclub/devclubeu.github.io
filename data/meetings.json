@@ -1,12 +1,19 @@
 [
   {
+    "date": "22.12.2015",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#88",
+    "moderator": "Антон Архипов",
+    "photoUrls": []
+  },
+  {
     "date": "25.11.2015",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#87",
-    "moderator": "",
-    "photoUrls": [],
-    "registerUrl": ""
+    "moderator": "Антон Архипов",
+    "photoUrls": []
   },
   {
     "date": "28.10.2015",
