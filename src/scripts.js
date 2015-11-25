@@ -41,11 +41,11 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     $document.scrollTo(angular.element(document.getElementById('archive')), 60, 200);
   }
 
-  $scope.getDaysLeft = function(date) {
+  $scope.getDaysLeft = function (date) {
     return moment(date).fromNow();
   }
 
-  $scope.registrationFinished = function(date) {
+  $scope.registrationFinished = function (date) {
     var sec = moment.duration(moment(date).diff(new Date())).asSeconds();
     return sec < 4 * 24 * 60 * 60;
   }
@@ -54,7 +54,7 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     return $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId);
   }
 
-  $scope.trustAsHtml = function(html) {
+  $scope.trustAsHtml = function (html) {
     return $sce.trustAsHtml(html);
   }
 
@@ -219,6 +219,13 @@ function DevclubUtil() {
 angular.module('devclub', ['ngLocale', 'ngSanitize', 'duScroll'])
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
+  .directive('tooltip', function () {
+    return {
+      restrict: 'A', scope: {tooltip: '='}, link: function (scope, element) {
+        $(element).tooltip({title: scope.tooltip, placement: 'right'});
+      }
+    }
+  })
   .directive('medal', function () {
     return {restrict: 'E', replace: true, scope: {year: '=', place: '='}, templateUrl: 'devclub-medal.html'}
   })

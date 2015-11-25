@@ -13,6 +13,7 @@ module.exports = function (grunt) {
     'vendor/moment/locale/ru.js',
     'vendor/jquery/dist/jquery.js',
     'vendor/bootstrap/js/transition.js',
+    'vendor/bootstrap/js/tooltip.js',
     'vendor/bootstrap/js/collapse.js',
     'vendor/bootstrap/js/carousel.js',
     'vendor/bootstrap/js/modal.js',

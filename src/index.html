@@ -430,6 +430,7 @@
                    ga-click="url|||click_out|||youtube|||{{url}}">
                   <i class="fa fa fa-video-camera"></i>
                 </a>
+                <i ng-if="speech.videoInfo" class="pointer mr10 fa fa fa-info-circle" tooltip="speech.videoInfo"></i>
                 <span ng-repeat="speaker in speech.speakers">
                   {{::speaker}}<span ng-if="!$last">,&nbsp;</span>
                 </span>
