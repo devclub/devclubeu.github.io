@@ -45,6 +45,11 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     return moment(date).fromNow();
   }
 
+  $scope.registrationFinished = function(date) {
+    var sec = moment.duration(moment(date).diff(new Date())).asSeconds();
+    return sec < 4 * 24 * 60 * 60;
+  }
+
   $scope.getEmbedYoutubeUrl = function (youtubeId) {
     return $sce.trustAsResourceUrl('https://www.youtube.com/embed/' + youtubeId);
   }

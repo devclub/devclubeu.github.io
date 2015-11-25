@@ -148,11 +148,11 @@
           'Место ещё неизвестно.'}}<br/>
         </div>
 
-        <div ng-if="state.next.showLocation">
+        <div ng-if="state.next.event">
           <i class="miw30 fa fa-info-circle"></i>
           <a class="no-decoration dashed1 pointer" target=_blank
              data-toggle="modal" data-target="#event-info-modal"
-             ng-if="state.next.event" ng-click="showEventInfo()">
+             ng-click="showEventInfo()">
             О встрече
           </a>
         </div>
@@ -162,7 +162,10 @@
              role="button" target="_blank" ga-click="url|||click_out|||register_on_event">
             <i class="fa fa-ticket"></i> &nbsp; Зарегистрироваться на встречу!
           </a>
-          <span ng-if="!state.next.showRegistration">
+          <span ng-if="!state.next.showRegistration && registrationFinished(state.next.date)">
+            Регистрация закрыта. Приходите на следующую встречу!
+          </span>
+          <span ng-if="!state.next.showRegistration && !registrationFinished(state.next.date)">
             Регистрация откроется за неделю до встречи.<br/>
             До этого времени все данные о встрече предварительные.
           </span>
