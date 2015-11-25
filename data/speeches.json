@@ -1,5 +1,29 @@
 [
   {
+    "date": "29.12.2015",
+    "youtubeIds": [],
+    "speakers": ["Антон Кекс"],
+    "topic": "***"
+  },
+  {
+    "date": "29.12.2015",
+    "youtubeIds": [],
+    "speakers": ["Антон Стальнухин"],
+    "topic": "***"
+  },
+  {
+    "date": "29.12.2015",
+    "youtubeIds": [],
+    "speakers": ["Андрей Солнцев"],
+    "topic": "***"
+  },
+  {
+    "date": "29.12.2015",
+    "youtubeIds": [],
+    "speakers": ["Кирилл Линник"],
+    "topic": "***"
+  },
+  {
     "date": "25.11.2015",
     "youtubeIds": [],
     "speakers": ["Алексей Фёдоров"],
@@ -15,7 +39,7 @@
     "date": "25.11.2015",
     "youtubeIds": [],
     "speakers": ["Михаил Лапушкин"],
-    "topic": "Node.js"
+    "topic": "Node.js как платформа для всего"
   },
   {
     "date": "28.10.2015",
