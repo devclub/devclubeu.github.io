@@ -1,4 +1,5 @@
 function RootController($scope, $http, $document, $sce, DevclubUtil) {
+  var DATA_HOST = "http://devclubeu.github.io/";
   var EVENTBRITE_TOKEN = "AWURDQ7N6QCZES6ZQNVG";
   var EVENTBRITE_ORGANIZATION = "910302825";
   var EVENTBRITE_URL = "https://www.eventbriteapi.com/v3/events/search/?token=" + EVENTBRITE_TOKEN + "&organizer.id=" + EVENTBRITE_ORGANIZATION;
@@ -87,13 +88,13 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     });
   }
 
-  $http.get("data/sponsors.json").success(function (data) {
+  $http.get(DATA_HOST + "data/sponsors.json").success(function (data) {
     $scope.sponsors = data;
   })
-  $http.get("data/members.json").success(function (data) {
+  $http.get(DATA_HOST + "data/members.json").success(function (data) {
     $scope.members = data;
   });
-  $http.get("data/places.json").success(function (data) {
+  $http.get(DATA_HOST + "data/places.json").success(function (data) {
     $scope.places = data;
   });
 
@@ -110,9 +111,9 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     $scope.topSpeakers = DevclubUtil.getTopSpeakersList(speeches);
   }
 
-  $http.get("data/meetings.json").success(function (meetings) {
-    $http.get("data/speeches.json").success(function (speeches) {
-      $http.get("data/speakers.json").success(function (speakers) {
+  $http.get(DATA_HOST + "data/meetings.json").success(function (meetings) {
+    $http.get(DATA_HOST + "data/speeches.json").success(function (speeches) {
+      $http.get(DATA_HOST + "data/speakers.json").success(function (speakers) {
         $http.get(EVENTBRITE_URL).success(function (eventbriteData) {
           $scope.speakers = speakers;
           prepareData(meetings, speeches, eventbriteData);

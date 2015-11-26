@@ -93,7 +93,7 @@
                du-smooth-scroll du-scrollspy close-navbar-on-click>Контакты</a>
           </li>
           <li class="nav-item last">
-            <a href="http://www.devclub.eu" ga-click="url|||click_out|||blog"
+            <a href="http://blog.devclub.eu" ga-click="url|||click_out|||blog"
                target="_blank" close-navbar-on-click>Блог</a>
           </li>
         </ul>
@@ -256,7 +256,7 @@
     <h2 class="title mt0 text-center">Календарь событий</h2>
 
     <div class="row">
-      <iframe class="col-xs-12 mih300" style="border-width:0" frameborder="0" scrolling="no"
+      <iframe class="col-xs-12 mih150" style="border-width:0" frameborder="0" scrolling="no"
               src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;hl=ru&amp;bgcolor=%23ffffff&amp;src=fmju94mnjv0a5s70hat38evqm8%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FTallinn"></iframe>
     </div>
   </div>
@@ -268,7 +268,7 @@
 
     <div class="row">
       <div class="col-xs-3 col-sm-2" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
-        <img class="img-responsive" ng-src="assets/sponsors/{{sponsor.code}}.png"/>
+        <img class="img-responsive" ng-src="{{sponsor.logo}}"/>
       </div>
     </div>
     <div class="clearfix"></div>
@@ -319,16 +319,6 @@
     </div>
   </div>
 </section>
-
-<!--<section class="colors-blog pt20 pb20">-->
-<!--<div class="container mw800">-->
-<!--<h2 class="title mt0 text-center">Блог</h2>-->
-
-<!--<div class="row">-->
-<!--<iframe class="col-xs-12 mih300" style="border-width:0" frameborder="0" scrolling="yes" src="http://www.devclub.eu"></iframe>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
 
 <section id="last" class="colors-last pt60 pb60">
   <div class="container">
@@ -655,7 +645,7 @@
   <a ng-href="{{speakers[member.name].url}}" class="no-decoration" target="_blank"
      ga-click="url|||click_out|||member|||{{member.name}}">
     <div class="mw200 center-block">
-      <img ng-src="assets/members/{{member.userpick}}" class="img-circle img-responsive center-block"/>
+      <img ng-src="{{member.userpick}}" class="img-circle img-responsive center-block"/>
     </div>
 
     <div class="mih50 bold">
@@ -688,10 +678,12 @@
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-69567304-2', 'auto');
+  ga('create', 'UA-69567304-1', 'auto');
   ga('send', 'pageview');
 
 </script>
+<!-- devclub.eu: UA-69567304-1 -->
+<!-- devclubeu.github.io: UA-69567304-2 -->
 <!-- GOOGLE ANALYTICS END -->
 
 </body>

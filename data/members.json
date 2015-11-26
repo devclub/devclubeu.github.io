@@ -1,62 +1,62 @@
 [
   {
     "name": "Кирилл Линник",
-    "userpick": "klinnik.jpg",
+    "userpick": "assets/members/klinnik.jpg",
     "active": true
   },
   {
     "name": "Антон Архипов",
-    "userpick": "aarhipov.jpg",
+    "userpick": "assets/members/aarhipov.jpg",
     "active": true
   },
   {
     "name": "Андрей Солнцев",
-    "userpick": "asolntsev.jpg",
+    "userpick": "assets/members/asolntsev.jpg",
     "active": true
   },
   {
     "name": "Юрий Тимошин",
-    "userpick": "jtimosin.jpg",
+    "userpick": "assets/members/jtimosin.jpg",
     "active": true
   },
   {
     "name": "Эрвин Вебер",
-    "userpick": "eweber.jpg",
+    "userpick": "assets/members/eweber.jpg",
     "active": true
   },
   {
     "name": "Антон Стальнухин",
-    "userpick": "astalnuhhin.jpg",
+    "userpick": "assets/members/astalnuhhin.jpg",
     "active": true
   },
   {
     "name": "Александр Мочёнов",
-    "userpick": "amotsenov.jpg",
+    "userpick": "assets/members/amotsenov.jpg",
     "active": false
   },
   {
     "name": "Юрий Муленко",
-    "userpick": "jmulenko.jpg",
+    "userpick": "assets/members/jmulenko.jpg",
     "active": false
   },
   {
     "name": "Евгений Холодков",
-    "userpick": "jholodkov.jpg",
+    "userpick": "assets/members/jholodkov.jpg",
     "active": false
   },
   {
     "name": "Кирилл Бухалко",
-    "userpick": "kbuhhalko.jpg",
+    "userpick": "assets/members/kbuhhalko.jpg",
     "active": false
   },
   {
     "name": "Захар Кириллов",
-    "userpick": "zkirillov.jpg",
+    "userpick": "assets/members/zkirillov.jpg",
     "active": false
   },
   {
     "name": "Арсений Григорьев",
-    "userpick": "agrigorjev.jpg",
+    "userpick": "assets/members/agrigorjev.jpg",
     "active": false
   }
 ]

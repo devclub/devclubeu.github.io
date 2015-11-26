@@ -31,6 +31,7 @@
     "grunt-ng-annotate": "^0.10.0",
     "grunt-replace": "^0.8.0",
     "grunt-shell": "^1.1.2",
+    "grunt-hashres": "*",
     "load-grunt-tasks": "^3.1.0",
     "time-grunt": "^1.1.1"
   }

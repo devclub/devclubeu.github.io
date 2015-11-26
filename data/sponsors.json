@@ -1,42 +1,42 @@
 [
   {
-    "code": "swedbank",
+    "logo": "assets/sponsors/swedbank.png",
     "hidden": false
   },
   {
-    "code": "codeborne",
+    "logo": "assets/sponsors/codeborne.png",
     "hidden": false
   },
   {
-    "code": "ignite",
+    "logo": "assets/sponsors/ignite.png",
     "hidden": false
   },
   {
-    "code": "jetbrains",
+    "logo": "assets/sponsors/jetbrains.png",
     "hidden": false
   },
   {
-    "code": "kuehne_nagel",
+    "logo": "assets/sponsors/kuehne_nagel.png",
     "hidden": false
   },
   {
-    "code": "nortal",
+    "logo": "assets/sponsors/nortal.png",
     "hidden": true
   },
   {
-    "code": "transferwise",
+    "logo": "assets/sponsors/transferwise.png",
     "hidden": false
   },
   {
-    "code": "symantec",
+    "logo": "assets/sponsors/symantec.png",
     "hidden": false
   },
   {
-    "code": "linn",
+    "logo": "assets/sponsors/linn.png",
     "hidden": false
   },
   {
-    "code": "devtraining",
+    "logo": "assets/sponsors/devtraining.png",
     "hidden": false
   }
 ]

@@ -41,11 +41,11 @@ module.exports = function (grunt) {
   var config = {
     connect: {
       options: {
-        base: ['.'],
+        base: ['build'],
         middleware: function (connect, options, middlewares) {
           middlewares.push(connect.static(__dirname));
           middlewares.push(function (req, res) {
-            require('fs').createReadStream('./index.html').pipe(res);
+            require('fs').createReadStream('build/index.html').pipe(res);
           });
           return middlewares;
         }
@@ -79,7 +79,7 @@ module.exports = function (grunt) {
         files: [
           {
             src: ['index.html'],
-            dest: '.',
+            dest: 'build',
             cwd: 'src',
             expand: true
           }
@@ -101,14 +101,14 @@ module.exports = function (grunt) {
           cleancss: false
         },
         files: {
-          'styles.css': 'src/' + project.styles
+          'build/styles.css': 'src/' + project.styles
         }
       }
     },
     concat: {
       js: {
         src: project.libs.concat(project.srcs),
-        dest: 'scripts.js'
+        dest: 'build/scripts.js'
       }
     },
     cssmin: {
@@ -117,8 +117,8 @@ module.exports = function (grunt) {
           keepSpecialComments: 0
         },
         src: 'styles.css',
-        cwd: '.',
-        dest: '.',
+        cwd: 'build',
+        dest: 'build',
         expand: true
       }
     },
@@ -131,8 +131,8 @@ module.exports = function (grunt) {
         files: [
           {
             src: ['index.html'],
-            dest: '.',
-            cwd: '.',
+            dest: 'build',
+            cwd: 'build',
             expand: true
           }
         ]
@@ -147,7 +147,7 @@ module.exports = function (grunt) {
       },
       js: {
         files: {
-          'scripts.js': ['scripts.js']
+          'build/scripts.js': ['build/scripts.js']
         }
       }
     },
@@ -156,9 +156,23 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            src: 'scripts.js'
+            src: 'build/scripts.js'
           }
         ]
+      }
+    },
+    hashres: {
+      options: {
+        encoding: 'utf8',
+        fileNameFormat: '${hash}.${name}.${ext}',
+        renameFiles: true
+      },
+      dist: {
+        src: [
+          'build/styles.css',
+          'build/scripts.js'
+        ],
+        dest: 'build/index.html'
       }
     },
     watch: {
@@ -184,11 +198,11 @@ module.exports = function (grunt) {
   grunt.registerTask('default', ['product']);
   grunt.registerTask('info', ['file_info']);
 
-  grunt.registerTask('serve', function (target) {
+  grunt.registerTask('serve', function () {
     grunt.task.run(['build', 'connect:build', 'watch']);
   });
 
-  grunt.registerTask('serve-product', function (target) {
+  grunt.registerTask('serve-product', function () {
     grunt.task.run(['product', 'connect:product']);
   });
 
@@ -210,6 +224,7 @@ module.exports = function (grunt) {
     'cssmin:styles',
     'htmlmin:index',
     'ngAnnotate:js',
-    'uglify:js'
+    'uglify:js',
+    'hashres:dist'
   ]);
 };
