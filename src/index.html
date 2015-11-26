@@ -176,19 +176,21 @@
       <img src="assets/logo-small.png"/>
     </div>
     <div class="clearfix mb20"></div>
-    <div class="col-xs-12 col-sm-4" ng-repeat="speech in state.next.speeches">
-      <div class="row">
-        <div class="col-xs-4 col-sm-12">
-          <img ng-src="{{speakers[speech.speakers[0]].image}}" class="img-circle img-responsive center-block mb10">
-        </div>
-        <div class="col-xs-8 col-sm-12">
-          <div ng-repeat="speaker in speech.speakers">
+    <div class="row" ng-repeat="speechRow in getMeetingSpeechRows()">
+      <div ng-repeat="speech in speechRow" class="col-xs-12" ng-class="{'col-sm-4': speechRow.length < 4, 'col-sm-3': speechRow.length == 4}">
+        <div class="row">
+          <div class="col-xs-4 col-sm-12">
+            <img ng-src="{{speakers[speech.speakers[0]].image}}" class="img-circle img-responsive center-block mb10">
+          </div>
+          <div class="col-xs-8 col-sm-12">
+            <div ng-repeat="speaker in speech.speakers">
             <span class="font80p dashed1 pointer" ng-click="showSpeeches(speaker)"
                   ga-click="url|||click_in|||speaker_speeches">
               <i class="fa fa-user"></i> {{speaker}}
             </span>
+            </div>
+            <div class="bold">{{speech.topic}}</div>
           </div>
-          <div class="bold">{{speech.topic}}</div>
         </div>
       </div>
     </div>
@@ -319,13 +321,13 @@
 </section>
 
 <!--<section class="colors-blog pt20 pb20">-->
-  <!--<div class="container mw800">-->
-    <!--<h2 class="title mt0 text-center">Блог</h2>-->
+<!--<div class="container mw800">-->
+<!--<h2 class="title mt0 text-center">Блог</h2>-->
 
-    <!--<div class="row">-->
-      <!--<iframe class="col-xs-12 mih300" style="border-width:0" frameborder="0" scrolling="yes" src="http://www.devclub.eu"></iframe>-->
-    <!--</div>-->
-  <!--</div>-->
+<!--<div class="row">-->
+<!--<iframe class="col-xs-12 mih300" style="border-width:0" frameborder="0" scrolling="yes" src="http://www.devclub.eu"></iframe>-->
+<!--</div>-->
+<!--</div>-->
 <!--</section>-->
 
 <section id="last" class="colors-last pt60 pb60">

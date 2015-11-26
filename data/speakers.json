@@ -57,5 +57,9 @@
   "Михаил Лапушкин": {
     "url": "https://ee.linkedin.com/in/mihhail",
     "image": "assets/speakers/mlapushkin.jpg"
+  },
+  "Антон Кекс": {
+    "url": "https://www.linkedin.com/in/antonkeks",
+    "image": "assets/speakers/akeks.jpg"
   }
 }

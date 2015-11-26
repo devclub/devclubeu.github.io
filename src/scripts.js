@@ -41,6 +41,26 @@ function RootController($scope, $http, $document, $sce, DevclubUtil) {
     $document.scrollTo(angular.element(document.getElementById('archive')), 60, 200);
   }
 
+  var meetingSpeechRows = [];
+  $scope.getMeetingSpeechRows = function () {
+    if (meetingSpeechRows.length > 0) {
+      return meetingSpeechRows;
+    }
+    if (!$scope.state || !$scope.state.next || !$scope.state.next.speeches || $scope.state.next.speeches.length == 0) {
+      return meetingSpeechRows;
+    }
+    var speeches = $scope.state.next.speeches;
+    var size = speeches.length;
+    if (size < 5) {
+      meetingSpeechRows = [speeches];
+    } else if (size < 7) {
+      meetingSpeechRows = [speeches.slice(0, 3), speeches.slice(3, size)];
+    } else if (size < 9) {
+      meetingSpeechRows = [speeches.slice(0, 4), speeches.slice(4, size)];
+    }
+    return meetingSpeechRows;
+  }
+
   $scope.getDaysLeft = function (date) {
     return moment(date).fromNow();
   }
