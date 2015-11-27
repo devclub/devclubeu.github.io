@@ -32,16 +32,16 @@
   },
   {
     "date": "25.11.2015",
-    "youtubeIds": ["xBYkGBqFPeI"],
-    "speakers": ["Никита Сальников-Тарновский"],
-    "topic": "Как изобретение велосипедов спасло компанию Plumbr"
-  },
-  {
-    "date": "25.11.2015",
     "youtubeIds": [],
     "speakers": ["Михаил Лапушкин"],
     "topic": "Node.js как платформа для всего",
     "examples": ["https://github.com/mihhail-lapushkin/devclub_nov2015"]
+  },
+ {
+    "date": "25.11.2015",
+    "youtubeIds": ["xBYkGBqFPeI"],
+    "speakers": ["Никита Сальников-Тарновский"],
+    "topic": "Как изобретение велосипедов спасло компанию Plumbr"
   },
   {
     "date": "28.10.2015",
