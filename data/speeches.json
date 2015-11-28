@@ -32,7 +32,7 @@
   },
   {
     "date": "25.11.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["j8EoGX5at1w"],
     "speakers": ["Михаил Лапушкин"],
     "topic": "Node.js как платформа для всего",
     "examples": ["https://github.com/mihhail-lapushkin/devclub_nov2015"]
