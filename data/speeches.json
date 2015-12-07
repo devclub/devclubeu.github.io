@@ -25,23 +25,23 @@
   },
   {
     "date": "25.11.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["qKTREnERaec"],
     "speakers": ["Алексей Фёдоров"],
     "topic": "Синхронизация без блокировок и СМС",
     "presentations": ["http://www.slideshare.net/23derevo/ss-55524945"]
   },
   {
     "date": "25.11.2015",
-    "youtubeIds": [],
-    "speakers": ["Никита Сальников-Тарновский"],
-    "topic": "Как изобретение велосипедов спасло компанию Plumbr"
-  },
-  {
-    "date": "25.11.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["j8EoGX5at1w"],
     "speakers": ["Михаил Лапушкин"],
     "topic": "Node.js как платформа для всего",
     "examples": ["https://github.com/mihhail-lapushkin/devclub_nov2015"]
+  },
+ {
+    "date": "25.11.2015",
+    "youtubeIds": ["xBYkGBqFPeI"],
+    "speakers": ["Никита Сальников-Тарновский"],
+    "topic": "Как изобретение велосипедов спасло компанию Plumbr"
   },
   {
     "date": "28.10.2015",
