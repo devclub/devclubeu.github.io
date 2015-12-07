@@ -1,4 +1,14 @@
-function RootController($scope, $http, $document, $sce, DevclubUtil) {
+function Config($locationProvider) {
+  $locationProvider.html5Mode(true).hashPrefix('#');
+}
+
+function Run($location, $window) {
+  if ($location.path() && $location.path() != "/") {
+    $window.location = "http://blog.devclub.eu" + $location.path();
+  }
+}
+
+function RootController($scope, $http, $location, $document, $anchorScroll, $sce, DevclubUtil) {
   var DATA_HOST = "http://devclubeu.github.io/";
   var EVENTBRITE_TOKEN = "AWURDQ7N6QCZES6ZQNVG";
   var EVENTBRITE_ORGANIZATION = "910302825";
@@ -238,6 +248,8 @@ function DevclubUtil() {
 }
 
 angular.module('devclub', ['ngLocale', 'ngSanitize', 'duScroll'])
+  .config(Config)
+  .run(Run)
   .controller('RootController', RootController)
   .factory('DevclubUtil', DevclubUtil)
   .directive('tooltip', function () {

@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteBase /
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !\.(json|js|html|css|jpg|png|php)$
+  RewriteRule ^(.*)$ %{DOCUMENT_ROOT}/index.html [QSA,L]
+</IfModule>
+
+Options Indexes FollowSymLinks
+ServerSignature Off
+
+<IfModule mod_deflate.c>
+  # compress text, HTML, JavaScript, CSS, and XML
+  AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/rss+xml application/javascript application/x-javascript
+  # remove browser bugs
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
