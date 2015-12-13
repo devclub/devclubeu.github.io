@@ -21,7 +21,7 @@
   },
   {
     "logo": "assets/sponsors/nortal.png",
-    "hidden": true
+    "hidden": false
   },
   {
     "logo": "assets/sponsors/transferwise.png",
