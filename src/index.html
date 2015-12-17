@@ -113,7 +113,7 @@
         <h4 class="modal-title">Информация о встрече</h4>
       </div>
       <div class="modal-body mh300 of-y">
-        <div ng-bind-html="trustAsHtml(state.next.event.description)"></div>
+        <div class="info-modal" ng-bind-html="trustAsHtml(state.next.event.description)"></div>
       </div>
     </div>
   </div>
@@ -152,8 +152,7 @@
         <div ng-if="state.next.event">
           <i class="miw30 fa fa-info-circle"></i>
           <a class="no-decoration dashed1 pointer" target=_blank
-             data-toggle="modal" data-target="#event-info-modal"
-             ng-click="showEventInfo()">
+             data-toggle="modal" data-target="#event-info-modal">
             О встрече
           </a>
         </div>
