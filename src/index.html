@@ -133,6 +133,12 @@
           <i class="miw30 fa fa-calendar"></i> {{state.next.date | date:'HH:mm, d MMMM yyyy, EEEE'}}
           <span class="label label-primary">{{getDaysLeft(state.next.date)}}</span>
         </div>
+        <div ng-if="state.next.addToGoogleCalendarUrl">
+          <i class="miw30 fa fa-calendar-plus-o"></i>
+          <a class="no-decoration pointer" ng-href="{{state.next.addToGoogleCalendarUrl}}" target="_blank" rel="nofollow">
+            Добавить в Google Calendar
+          </a>
+        </div>
         <div ng-if="!state.next.date">
           <i class="miw30 fa fa-calendar"></i> Дата ещё неизвестна.<br/>
           <span class="font80p">* обычно в 19:00 в последний вторник или среду или четверг месяца</span>
@@ -140,7 +146,7 @@
 
         <div ng-if="state.next.showLocation">
           <i class="miw30 fa fa-map-marker"></i>
-          <a class="no-decoration" target=_blank ng-href="{{places[state.next.place]}}">
+          <a class="no-decoration pointer" target=_blank ng-href="{{places[state.next.place]}}">
             {{state.next.place}}
           </a>
         </div>

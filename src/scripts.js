@@ -242,6 +242,18 @@ function DevclubUtil() {
         state.next.event.description = event.description.html;
       }
 
+      if (state.next) {
+        var date = moment(state.next.date), format = "YYYYMMDD\THHmmss";
+        state.next.addToGoogleCalendarUrl =
+          "http://www.google.com/calendar/event?action=TEMPLATE&text=Devclub+встреча"
+          + "&dates="
+          + date.format(format)
+          + "/"
+          + date.add(3, 'hours').format(format)
+          + (state.next.registerUrl ? "&details=Больше+деталей+" + state.next.registerUrl : "")
+          + (state.next.place ? "&location=" + state.next.place : "");
+      }
+
       return state;
     }
   };
