@@ -474,8 +474,8 @@
                 </span>
                 <span>&nbsp;-&nbsp;</span>
                 <b>{{::speech.topic}}</b>
-                <span>&nbsp;&nbsp;</span>
                 <span ng-repeat="presentation in speech.presentations">
+                  <span>&nbsp;&nbsp;</span>
                   <a ng-href="{{presentation}}" target="_blank" ga-click="url|||click_out|||slides|||{{presentation}}">
                     <i class="fa fa-clipboard"></i>
                   </a>
@@ -486,7 +486,6 @@
                     <i class="fa fa-files-o"></i>
                   </a>
                 </span>
-                <span>&nbsp;&nbsp;</span>
                 <span class="label label-default" ng-repeat="label in ::speech.labels">{{::label}}</span>
               </div>
             </div>
