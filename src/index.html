@@ -177,6 +177,10 @@
           </span>
         </div>
       </div>
+      <div ng-if="!state.next">
+        Данных о следующей встрече ещё нет.<br/>
+        Данные появятся в течение недели.
+      </div>
     </div>
     <div class="col-sm-4 hidden-xs">
       <img src="assets/logo-small.png"/>
@@ -439,6 +443,12 @@
                     <i class="fa fa-clipboard"></i>
                   </a>
                 </span>
+                <span ng-repeat="example in speech.examples">
+                  <span>&nbsp;&nbsp;</span>
+                  <a ng-href="{{example}}" target="_blank" ga-click="url|||click_out|||examples|||{{example}}">
+                    <i class="fa fa-files-o"></i>
+                  </a>
+                </span>
                 <span ng-if="::speech.top">
                   <span>&nbsp;&nbsp;</span>
                   <medal place="::speech.top.place" year="::speech.top.year"></medal>
@@ -468,6 +478,12 @@
                 <span ng-repeat="presentation in speech.presentations">
                   <a ng-href="{{presentation}}" target="_blank" ga-click="url|||click_out|||slides|||{{presentation}}">
                     <i class="fa fa-clipboard"></i>
+                  </a>
+                </span>
+                <span ng-repeat="example in speech.examples">
+                  <span>&nbsp;&nbsp;</span>
+                  <a ng-href="{{example}}" target="_blank" ga-click="url|||click_out|||examples|||{{example}}">
+                    <i class="fa fa-files-o"></i>
                   </a>
                 </span>
                 <span>&nbsp;&nbsp;</span>
