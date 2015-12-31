@@ -8,14 +8,16 @@
   {
     "date": "29.12.2015",
     "youtubeIds": [],
-    "speakers": ["Кирилл Линник"],
-    "topic": "Выйти замуж за иностранца"
+    "speakers": ["Антон Стальнухин"],
+    "topic": "Код в кино #1",
+    "presentations": ["/assets/slides/20151229_astalnuhhin_movies.pdf"]
   },
   {
     "date": "29.12.2015",
     "youtubeIds": [],
-    "speakers": ["Антон Стальнухин"],
-    "topic": "Каким мы видим IT в кино"
+    "speakers": ["Кирилл Линник"],
+    "topic": "Выйти замуж за иностранца",
+    "presentations": ["/assets/slides/20151229_klinnik_marriage.pptx"]
   },
   {
     "date": "29.12.2015",
@@ -28,7 +30,8 @@
     "youtubeIds": ["qKTREnERaec"],
     "speakers": ["Алексей Фёдоров"],
     "topic": "Синхронизация без блокировок и СМС",
-    "presentations": ["http://www.slideshare.net/23derevo/ss-55524945"]
+    "presentations": ["http://www.slideshare.net/23derevo/ss-55524945"],
+    "top": {"year": 2015, "place": 4}
   },
   {
     "date": "25.11.2015",
@@ -41,13 +44,15 @@
     "date": "25.11.2015",
     "youtubeIds": ["xBYkGBqFPeI"],
     "speakers": ["Никита Сальников-Тарновский"],
-    "topic": "Как изобретение велосипедов спасло компанию Plumbr"
+    "topic": "Как изобретение велосипедов спасло компанию Plumbr",
+    "top": {"year": 2015, "place": 4}
   },
   {
     "date": "28.10.2015",
     "youtubeIds": ["OdbXwQPV3dw"],
     "speakers": ["Дмитрий Нестерук"],
-    "topic": "Обзор технологий высокопроизводительных вычислений (HPC)"
+    "topic": "Обзор технологий высокопроизводительных вычислений (HPC)",
+    "top": {"year": 2015, "place": 7}
   },
   {
     "date": "28.10.2015",
@@ -66,14 +71,16 @@
     "date": "29.09.2015",
     "youtubeIds": ["DbLYqRqbQSw"],
     "speakers": ["Константин Третьяков"],
-    "topic": "Весёлые картинки"
+    "topic": "Весёлые картинки",
+    "top": {"year": 2015, "place": 3}
   },
   {
     "date": "29.09.2015",
     "youtubeIds": ["QmluxspuS8E"],
     "speakers": ["Антон Кекс"],
     "topic": "Digital Signatures: Estonia vs The World",
-    "presentations": ["https://prezi.com/vsm7g2gbjtmy/digital-signatures"]
+    "presentations": ["https://prezi.com/vsm7g2gbjtmy/digital-signatures"],
+    "top": {"year": 2015, "place": 1}
   },
   {
     "date": "29.09.2015",
@@ -137,13 +144,15 @@
     "date": "02.07.2015",
     "youtubeIds": ["5ZHSdwRnKvQ"],
     "speakers": ["Игорь Босенко"],
-    "topic": "Трансформация данных чайником"
+    "topic": "Трансформация данных чайником",
+    "examples": ["/assets/examples/20150702_ibossenko_kettle.zip"]
   },
   {
     "date": "26.05.2015",
     "youtubeIds": ["kZDa5hD-oQI"],
     "speakers": ["Андрей Солнцев"],
-    "topic": "50 оттенков Play!"
+    "topic": "50 оттенков Play!",
+    "top": {"year": 2015, "place": 4}
   },
   {
     "date": "26.05.2015",
@@ -173,7 +182,8 @@
     "date": "30.04.2015",
     "youtubeIds": ["PzYGWCCDK7M"],
     "speakers": ["Таави Котка"],
-    "topic": "Всё, что вы хотели знать об IT в Эстонии"
+    "topic": "Всё, что вы хотели знать об IT в Эстонии",
+    "top": {"year": 2015, "place": 2}
   },
   {
     "date": "26.03.2015",
