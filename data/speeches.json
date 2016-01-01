@@ -7,14 +7,14 @@
   },
   {
     "date": "29.12.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["kPC043A0Op0"],
     "speakers": ["Антон Стальнухин"],
     "topic": "Код в кино #1",
     "presentations": ["/assets/slides/20151229_astalnuhhin_movies.pdf"]
   },
   {
     "date": "29.12.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["H739IbLytyQ"],
     "speakers": ["Кирилл Линник"],
     "topic": "Выйти замуж за иностранца",
     "presentations": ["/assets/slides/20151229_klinnik_marriage.pptx"]
