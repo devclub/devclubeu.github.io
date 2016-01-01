@@ -111,6 +111,11 @@ function RootController($scope, $http, $location, $document, $anchorScroll, $sce
   function prepareData(meetings, speeches, eventbriteData) {
     $scope.meetings = DevclubUtil.prepareMeetings(meetings, speeches);
 
+    // this sets the year of the latest meeting
+    if ($scope.meetings.length > 0) {
+      $scope.filter.year = $scope.meetings[0].date.getFullYear();
+    }
+
     var event;
     if (eventbriteData && eventbriteData.events && eventbriteData.events.length > 0) {
       event = eventbriteData.events[0];
