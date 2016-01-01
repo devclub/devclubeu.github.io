@@ -1,7 +1,7 @@
 [
   {
     "date": "29.12.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["d_oOvd793Lo"],
     "speakers": ["Антон Кекс"],
     "topic": "Про чувство стиля"
   },
@@ -21,7 +21,7 @@
   },
   {
     "date": "29.12.2015",
-    "youtubeIds": [],
+    "youtubeIds": ["n3APDzvPF0k"],
     "speakers": ["Никита Макаров"],
     "topic": "Микросервисы в тестировании"
   },
