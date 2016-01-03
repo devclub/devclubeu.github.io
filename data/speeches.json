@@ -1932,7 +1932,8 @@
     "youtubeIds": ["E-0_o4nEcxs"],
     "_vids": ["https://vimeo.com/4908037"],
     "speakers": ["Александр Моченов"],
-    "topic": "jQuery"
+    "topic": "jQuery",
+    "presentations": ["http://www.slideshare.net/soswow/js-libraries-and-jquery-overview"]
   },
   {
     "date": "23.04.2009",
@@ -1953,13 +1954,16 @@
     "youtubeIds": ["ZtRGAMrq3lM"],
     "_vids": ["https://vimeo.com/4410464"],
     "speakers": ["Антон Архипов"],
-    "topic": "Apache Camel"
+    "topic": "Apache Camel",
+    "presentations": ["http://www.slideshare.net/helggeist/apache-camel-1336249"]
   },
   {
     "date": "23.04.2009",
     "_vids": ["https://vimeo.com/4327417"],
     "speakers": ["Андрей Солнцев"],
-    "topic": "Fiorano ESB"
+    "topic": "Fiorano ESB",
+    "presentations": ["http://www.slideshare.net/helggeist/fiorano"],
+    "videoInfo": "Из-за конфликтной ситуации видео было закрыто для просмотра."
   },
   {
     "date": "23.04.2009",
@@ -1994,14 +1998,16 @@
     "youtubeIds": ["BDNpgO3yqB0"],
     "_vids": ["https://vimeo.com/4599992"],
     "speakers": ["Роман Васёхо"],
-    "topic": "SMS & Mobi"
+    "topic": "SMS & Mobi",
+    "presentations": ["http://www.slideshare.net/jevgeni_holodkov/mobi"]
   },
   {
     "date": "19.02.2009",
     "youtubeIds": ["G8M-Jc8GcG0"],
     "_vids": ["https://vimeo.com/4638177"],
     "speakers": ["Сергей Кузнецов"],
-    "topic": "Kaardikeskus"
+    "topic": "Kaardikeskus",
+    "presentations": ["http://www.slideshare.net/jevgeni_holodkov/kaardikeskus"]
   },
   {
     "date": "19.02.2009",
