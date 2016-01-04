@@ -1878,7 +1878,8 @@
     "_vids": ["https://vimeo.com/5994327"],
     "speakers": ["Захар Кириллов"],
     "topic": "Айтишник в бизнесе. Коллекция граблей 2006-2009",
-    "top": {"year": 2009, "place": 1}
+    "top": {"year": 2009, "place": 1},
+    "presentations": ["http://devclubeu.github.io/assets/slides/20090728_zkirillov_grabli.pdf"]
   },
   {
     "date": "28.07.2009",
@@ -1897,7 +1898,8 @@
     "date": "30.06.2009",
     "_vids": ["https://vimeo.com/5496714"],
     "speakers": ["Андрей Солнцев"],
-    "topic": "Evolutionary database design"
+    "topic": "Evolutionary database design",
+    "videoInfo": "По забытым причинам видео закрыто для просмотра."
   },
   {
     "date": "30.06.2009",
