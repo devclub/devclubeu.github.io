@@ -828,7 +828,8 @@
     "youtubeIds": ["1C7sFXPXLkM"],
     "_vids": ["https://vimeo.com/58582083"],
     "speakers": ["Антон Архипов"],
-    "topic": "Плюшки в Groovy"
+    "topic": "Плюшки в Groovy",
+    "presentations": ["http://www.slideshare.net/arhan/introduction-to-groovy-16256118"]
   },
   {
     "date": "30.01.2013",
@@ -1217,14 +1218,16 @@
     "youtubeIds": ["vbfn2atZvbY"],
     "_vids": ["https://vimeo.com/33056564"],
     "speakers": ["Евгений Щепотьев"],
-    "topic": "Применение MPS"
+    "topic": "Применение MPS",
+    "presentations": ["http://www.slideshare.net/arhan/applied-mps"]
   },
   {
     "date": "30.11.2011",
     "youtubeIds": ["5GDNFl4OpmE"],
     "_vids": ["https://vimeo.com/33020346"],
     "speakers": ["Михаил Мухин"],
-    "topic": "MetaProgramming System"
+    "topic": "MetaProgramming System",
+    "presentations": ["http://www.slideshare.net/arhan/intro-to-mps"]
   },
   {
     "date": "26.10.2011",
@@ -1566,7 +1569,8 @@
     "youtubeIds": ["L75gDNE_cdk"],
     "_vids": ["https://vimeo.com/15421412"],
     "speakers": ["Антон Архипов"],
-    "topic": "Practical *nix utilities"
+    "topic": "Practical *nix utilities",
+    "presentations": ["http://www.slideshare.net/arhan/practical-unix-utilities-for-text-processing"]
   },
   {
     "date": "26.08.2010",
@@ -1603,7 +1607,8 @@
     "youtubeIds": ["WPfmbUkjqfk"],
     "_vids": ["https://vimeo.com/13697449"],
     "speakers": ["Андрей Лунёв"],
-    "topic": "Агрессивные XML решения"
+    "topic": "Агрессивные XML решения",
+    "presentations": ["http://www.slideshare.net/arhan/agressive-xml-solutions-by-andrei-lunjov"]
   },
   {
     "date": "27.07.2010",
@@ -1692,6 +1697,7 @@
     "_vids": ["https://vimeo.com/10693395"],
     "speakers": ["Александр Мочёнов"],
     "topic": "Секреты JavaScript",
+    "presentations": ["http://www.slideshare.net/arhan/javascript-secrets-by-aleksandr-motsjonov"],
     "top": {"year": 2010, "place": 4}
   },
   {
@@ -1699,7 +1705,8 @@
     "youtubeIds": ["U6hWXFpqLgE"],
     "_vids": ["https://vimeo.com/10694122"],
     "speakers": ["Эдуард Шустров"],
-    "topic": "Scala для новичков"
+    "topic": "Scala для новичков",
+    "presentations": ["http://www.slideshare.net/arhan/introduction-to-scala-by-eduard-shustrov"]
   },
   {
     "date": "26.02.2010",
@@ -1707,6 +1714,7 @@
     "_vids": ["https://vimeo.com/10175629"],
     "speakers": ["Антон Архипов"],
     "topic": "Считаем людей",
+    "presentations": ["http://www.slideshare.net/arhan/counting-people-by-anton-arhipov"],
     "top": {"year": 2010, "place": 4}
   },
   {
@@ -1714,21 +1722,24 @@
     "youtubeIds": ["f9AdmMxWXKw"],
     "_vids": ["https://vimeo.com/10176007"],
     "speakers": ["Андрей Зиновьев"],
-    "topic": "Плюсы и минусы парного программирования"
+    "topic": "Плюсы и минусы парного программирования",
+    "presentations": ["http://www.slideshare.net/arhan/pair-programming-by-andrei-zinovjev"]
   },
   {
     "date": "26.01.2010",
     "youtubeIds": ["GdF_ZGWP8go"],
     "_vids": ["https://vimeo.com/9060462"],
     "speakers": ["Антон Архипов"],
-    "topic": "Domain Specific Language"
+    "topic": "Domain Specific Language",
+    "presentations": ["http://www.slideshare.net/arhan/domain-specific-languages-for-business-rules"]
   },
   {
     "date": "26.01.2010",
     "youtubeIds": ["8Yp426KEFZw"],
     "_vids": ["https://vimeo.com/9055964"],
     "speakers": ["Игорь Меньков"],
-    "topic": "Шаблоны/паттерны программирования"
+    "topic": "Шаблоны/паттерны программирования",
+    "presentations": ["http://www.slideshare.net/arhan/patterns-by-igor-menkov-part-1a"]
   },
   {
     "date": "26.01.2010",
@@ -1841,7 +1852,8 @@
     "youtubeIds": ["6mqm-aM0Xmk"],
     "_vids": ["https://vimeo.com/6891469"],
     "speakers": ["Роман Шестаков"],
-    "topic": "Мобильные устройства Honeywell"
+    "topic": "Мобильные устройства Honeywell",
+    "presentations": ["http://www.slideshare.net/arhan/honeywell-devices-roman-shestakov"]
   },
   {
     "date": "29.09.2009",
@@ -1849,6 +1861,7 @@
     "_vids": ["https://vimeo.com/6887189"],
     "speakers": ["Николай Павлов"],
     "topic": "Мобильниге",
+    "presentations": ["http://www.slideshare.net/arhan/mobile-platforms-nikolai-pavlov"],
     "top": {"year": 2009, "place": 3}
   },
   {
@@ -1856,7 +1869,8 @@
     "youtubeIds": ["DL0ZEC0OpXk"],
     "_vids": ["https://vimeo.com/6511539"],
     "speakers": ["Игорь Меньков"],
-    "topic": "Управление командой и… нужен ли вам архитектор?"
+    "topic": "Управление командой и… нужен ли вам архитектор?",
+    "presentations": ["http://www.slideshare.net/arhan/igor-menkov-who-needs-an-architect"]
   },
   {
     "date": "27.08.2009",
@@ -1872,7 +1886,8 @@
     "youtubeIds": ["nj6O86RqlhA"],
     "_vids": ["https://vimeo.com/6454912"],
     "speakers": ["Марк Кофман"],
-    "topic": "Привлечение инвестиций в Эстонии"
+    "topic": "Привлечение инвестиций в Эстонии",
+    "presentations": ["http://www.slideshare.net/arhan/mark-kofman-raising-money-in-estonia"]
   },
   {
     "date": "28.07.2009",
@@ -2053,6 +2068,7 @@
     "date": "30.01.2009",
     "speakers": ["Антон Архипов"],
     "topic": "JBoss Drools",
+    "presentations": ["http://www.slideshare.net/arhan/jboss-drools-presentation-for-devclubeu"],
     "videoInfo": "Встреча не снималась на камеру. Видео нет."
   },
   {
