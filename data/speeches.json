@@ -92,7 +92,8 @@
     "date": "19.08.2015",
     "youtubeIds": ["cGXorQkw3JE"],
     "speakers": ["Антон Архипов"],
-    "topic": "Go!"
+    "topic": "Go!",
+    "presentations": ["http://www.slideshare.net/arhan/something-about-golang"]
   },
   {
     "date": "19.08.2015",
@@ -343,7 +344,8 @@
     "youtubeIds": ["XQLNAx9DGmk"],
     "_vids": ["https://www.youtube.com/watch?v=k-iw6sRkqpc"],
     "speakers": ["Сергей Егоров"],
-    "topic": "Haxe – универсальный ОО язык программирования высокого уровня"
+    "topic": "Haxe – универсальный ОО язык программирования высокого уровня",
+    "presentations": ["http://www.slideshare.net/SergeiEgorov1/haxe-by-sergei-egorov"]
   },
   {
     "date": "26.08.2014",
@@ -911,7 +913,8 @@
     "youtubeIds": ["BtGjFj77Alc"],
     "_vids": ["https://vimeo.com/50212957"],
     "speakers": ["Евгений Шатохин"],
-    "topic": "Демонстрация Raspberry Pi "
+    "topic": "Демонстрация Raspberry Pi ",
+    "presentations": ["http://www.slideshare.net/kirillica/raspberry-pi-by-jevgeni-shatohhin"]
   },
   {
     "date": "25.09.2012",
@@ -1070,7 +1073,8 @@
     "youtubeIds": ["pHx4yQTHMPI"],
     "_vids": ["https://vimeo.com/41040729"],
     "speakers": ["Павел Григоренко"],
-    "topic": "CoCoViLa: визуальные ДСЛы и автоматический синтез программ"
+    "topic": "CoCoViLa: визуальные ДСЛы и автоматический синтез программ",
+    "presentations": ["http://www.slideshare.net/pgrigorenko/cocovila-devclubeu"]
   },
   {
     "date": "25.04.2012",
@@ -1641,14 +1645,17 @@
     "youtubeIds": ["euB0gLFgt_I"],
     "_vids": ["https://vimeo.com/12692751"],
     "speakers": ["Евгений Чайкин"],
-    "topic": "Windows Phone 7"
+    "topic": "Windows Phone 7",
+    "presentations": ["http://www.slideshare.net/eugenedotnet/windows-phone-7-4332496"]
   },
   {
     "date": "26.05.2010",
     "youtubeIds": ["vub9lLtiojw"],
     "_vids": ["https://vimeo.com/12659234"],
     "speakers": ["Арсений Григорьев"],
-    "topic": "Aspect-Oriented Programming using Spring Framework"
+    "topic": "Aspect-Oriented Programming using Spring Framework",
+    "presentations": ["http://www.slideshare.net/arsenikum/spring-aop-devclubeu"],
+    "presentations-hidden": ["http://www.slideshare.net/arhan/aspectoriented-programming-by-arseni-grigorjev"]
   },
   {
     "date": "30.04.2010",
@@ -1734,7 +1741,8 @@
       "https://vimeo.com/9045680"
     ],
     "speakers": ["Антон Кекс"],
-    "topic": "User Interface guidelines"
+    "topic": "User Interface guidelines",
+    "presentations": ["http://www.slideshare.net/arhan/usability-of-human-interfaces"]
   },
   {
     "date": "22.12.2009",
@@ -1856,6 +1864,7 @@
     "_vids": ["https://vimeo.com/6455834"],
     "speakers": ["Станислав Васильев"],
     "topic": "Что такое Agile или мой первый урок японского",
+    "presentations": ["http://www.slideshare.net/arhan/stanislav-vassiljev-what-is-agile"],
     "top": {"year": 2009, "place": 4}
   },
   {
@@ -1896,7 +1905,7 @@
   },
   {
     "date": "30.06.2009",
-    "_vids": ["https://vimeo.com/5496714"],
+    "_vids-hidden": ["https://vimeo.com/5496714"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Evolutionary database design",
     "videoInfo": "По забытым причинам видео закрыто для просмотра."
@@ -1920,7 +1929,8 @@
     "youtubeIds": ["8dQEDNfhUgc"],
     "_vids": ["https://vimeo.com/5042958"],
     "speakers": ["Арсений Григорьев"],
-    "topic": "DWR"
+    "topic": "DWR",
+    "presentations": ["http://www.slideshare.net/arsenikum/dwr-devclubeu"]
   },
   {
     "date": "28.05.2009",
@@ -1961,7 +1971,7 @@
   },
   {
     "date": "23.04.2009",
-    "_vids": ["https://vimeo.com/4327417"],
+    "_vids-hidden": ["https://vimeo.com/4327417"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Fiorano ESB",
     "presentations": ["http://www.slideshare.net/helggeist/fiorano"],
@@ -1972,7 +1982,8 @@
     "youtubeIds": ["7Vl6jHmpVCY"],
     "_vids": ["https://vimeo.com/4324555"],
     "speakers": ["Кирилл Линник"],
-    "topic": "XBRL [2]"
+    "topic": "XBRL [2]",
+    "presentations": ["http://www.slideshare.net/helggeist/110-introduction-to-xbrl-taxonomies-and-instance-documents-sept-2007-print-version"]
   },
   {
     "date": "28.03.2009",
