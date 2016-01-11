@@ -65,5 +65,9 @@
   "Антон Кекс": {
     "url": "https://www.linkedin.com/in/antonkeks",
     "image": "assets/speakers/akeks.jpg"
+  },
+  "Игорь Босенко": {
+    "url": "https://ee.linkedin.com/in/igor-bossenko-17b7822",
+    "image": "http://devclubeu.github.io/assets/speakers/ibossenko.jpg"
   }
 }
