@@ -35,7 +35,9 @@
     "date": "29.12.2015",
     "youtubeIds": ["n3APDzvPF0k"],
     "speakers": ["Никита Макаров"],
-    "topic": "Микросервисы в тестировании"
+    "topic": "Микросервисы в тестировании",
+    "presentations": ["http://www.slideshare.net/kronar/microservices-for-test-automation"],
+    "examples": ["https://github.com/kronar/one-nio-microservice-example"]
   },
   {
     "date": "25.11.2015",
