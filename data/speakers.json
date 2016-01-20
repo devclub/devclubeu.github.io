@@ -73,5 +73,9 @@
   "Юлия Ёлкин": {
     "url": "https://www.linkedin.com/in/julia-jolkin-b5758645",
     "image": "http://devclubeu.github.io/assets/speakers/jjolkin.jpg"
+  },
+  "Антон Анисимов": {
+    "url": "https://ee.linkedin.com/in/anisimov",
+    "image": "http://devclubeu.github.io/assets/speakers/aanisimov.jpg"
   }
 }
