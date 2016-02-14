@@ -77,5 +77,21 @@
   "Антон Анисимов": {
     "url": "https://ee.linkedin.com/in/anisimov",
     "image": "http://devclubeu.github.io/assets/speakers/aanisimov.jpg"
+  },
+  "Jens Kuehlers": {
+    "url": "https://www.linkedin.com/in/kuehlers",
+    "image": "http://devclubeu.github.io/assets/speakers/jkuehlers.jpg"
+  },
+  "Jens Bussmann": {
+    "url": "https://www.linkedin.com/in/jensbussmann",
+    "image": "http://devclubeu.github.io/assets/speakers/jbussmann.jpg"
+  },
+  "Глеб Смирнов": {
+    "url": "https://www.linkedin.com/in/gvsmirnov",
+    "image": "http://devclubeu.github.io/assets/speakers/gsmirnov.jpg"
+  },
+  "Станислав Катков": {
+    "url": "https://www.linkedin.com/in/stanislav-katkov-582b7832",
+    "image": "http://devclubeu.github.io/assets/speakers/skatkov.jpg"
   }
 }
