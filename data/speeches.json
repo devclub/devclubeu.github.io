@@ -9,7 +9,8 @@
     "date": "24.02.2016",
     "youtubeIds": [],
     "speakers": ["Глеб Смирнов"],
-    "topic": "Расчленяем многопоточность"
+    "topic": "Расчленяем многопоточность",
+    "presentations": ["http://gvsmirnov.ru/docs/presentations/java-concurrency-hands-on/devclub-feb-2016.html"]
   },
   {
     "date": "24.02.2016",
