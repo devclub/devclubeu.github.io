@@ -1,20 +1,20 @@
 [
   {
     "date": "24.02.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["BgkzGCfTkoE"],
     "speakers": ["Jens Kuehlers"],
     "topic": "Big Data at Google"
   },
   {
     "date": "24.02.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["XZi67qYZ1UY"],
     "speakers": ["Глеб Смирнов"],
     "topic": "Расчленяем многопоточность",
     "presentations": ["http://gvsmirnov.ru/docs/presentations/java-concurrency-hands-on/devclub-feb-2016.html"]
   },
   {
     "date": "24.02.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["zaqZYDFm7Wo"],
     "speakers": ["Станислав Катков"],
     "topic": "Дигитальные Номады"
   },
