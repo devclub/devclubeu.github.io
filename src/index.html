@@ -278,7 +278,9 @@
 
     <div class="row">
       <div class="col-xs-3 col-sm-2" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
-        <img class="img-responsive" ng-src="{{sponsor.logo}}"/>
+        <a ng-href="{{sponsor.url}}">
+          <img class="img-responsive" ng-src="{{sponsor.logo}}"/>
+        </a>
       </div>
     </div>
     <div class="clearfix"></div>

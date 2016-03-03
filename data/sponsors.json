@@ -1,42 +1,52 @@
 [
   {
     "logo": "assets/sponsors/swedbank.png",
+    "url": "https://www.swedbank.ee",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/codeborne.png",
+    "url": "https://codeborne.com/ru/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/ignite.png",
+    "url": "https://www.ignite.ee/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/jetbrains.png",
+    "url": "https://www.jetbrains.com/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/kuehne_nagel.png",
+    "url": "http://ee.kuehne-nagel.com/et_ee/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/nortal.png",
+    "url": "http://www.nortal.ee/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/transferwise.png",
+    "url": "https://transferwise.com/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/symantec.png",
+    "url": "http://securityresponse.symantec.com/et/ee/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/linn.png",
+    "url": "http://www.linnsystems.com/",
     "hidden": false
   },
   {
     "logo": "assets/sponsors/devtraining.png",
+    "url": "http://www.devtraining.ee/",
     "hidden": false
   }
 ]
