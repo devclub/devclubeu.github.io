@@ -1,5 +1,23 @@
 [
   {
+    "date": "29.03.2016",
+    "youtubeIds": [],
+    "speakers": ["Илья Рыженков"],
+    "topic": "что-то про Kotlin"
+  },
+  {
+    "date": "29.03.2016",
+    "youtubeIds": [],
+    "speakers": ["Андрей Уткин"],
+    "topic": "Есть ли жизнь без DAO?"
+  },
+  {
+    "date": "29.03.2016",
+    "youtubeIds": [],
+    "speakers": ["Иван Шапран"],
+    "topic": "что-то про data center в йыхви"
+  },
+  {
     "date": "24.02.2016",
     "youtubeIds": ["zaqZYDFm7Wo"],
     "speakers": ["Станислав Катков"],
