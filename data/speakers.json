@@ -93,5 +93,17 @@
   "Станислав Катков": {
     "url": "https://www.linkedin.com/in/stanislav-katkov-582b7832",
     "image": "http://devclubeu.github.io/assets/speakers/skatkov.jpg"
+  },
+  "Андрей Уткин": {
+    "url": "https://ee.linkedin.com/in/andrey-utkin-8b4430100",
+    "image": "http://devclubeu.github.io/assets/speakers/autkin.jpg"
+  },
+  "Илья Рыженков": {
+    "url": "http://vk.com/ilya.ryzhenkov",
+    "image": "http://devclubeu.github.io/assets/speakers/iryzhenkov.jpg"
+  },
+  "Иван Шапран": {
+    "url": "https://ee.linkedin.com/in/ivan-shapran-60142a45",
+    "image": "http://devclubeu.github.io/assets/speakers/ishapran.jpg"
   }
 }
