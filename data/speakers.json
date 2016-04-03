@@ -105,5 +105,17 @@
   "Иван Шапран": {
     "url": "https://ee.linkedin.com/in/ivan-shapran-60142a45",
     "image": "http://devclubeu.github.io/assets/speakers/ishapran.jpg"
+  },
+  "Олег Швайковский": {
+    "url": "https://www.linkedin.com/in/olegshvaikovsky",
+    "image": "http://devclubeu.github.io/assets/speakers/oshvajkovski.jpg"
+  },
+  "Евгений Голобородько": {
+    "url": "https://ee.linkedin.com/in/jevgeni-goloborodko-65a048a",
+    "image": "http://devclubeu.github.io/assets/speakers/jgoloborodko.jpg"
+  },
+  "Jakob Rosin": {
+    "url": "https://www.facebook.com/jakob.rosin",
+    "image": "http://devclubeu.github.io/assets/speakers/jrosin.jpg"
   }
 }
