@@ -1,21 +1,39 @@
 [
   {
-    "date": "29.03.2016",
+    "date": "21.04.2016",
     "youtubeIds": [],
-    "speakers": ["Илья Рыженков"],
-    "topic": "Про Kotlin"
+    "speakers": ["Jakob Rosin"],
+    "topic": "How blind people use Internet? [eng]"
+  },
+  {
+    "date": "21.04.2016",
+    "youtubeIds": [],
+    "speakers": ["Евгений Голобородько"],
+    "topic": "Event Sources"
+  },
+  {
+    "date": "21.04.2016",
+    "youtubeIds": [],
+    "speakers": ["Олег Швайковский"],
+    "topic": "Agile в госсекторе - миф или реальность?"
   },
   {
     "date": "29.03.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["https://www.youtube.com/watch?v=piAFQOAgU5U", "https://www.youtube.com/watch?v=eL1eJEqHPGc"],
     "speakers": ["Андрей Уткин"],
     "topic": "Есть ли жизнь без DAO?"
   },
   {
     "date": "29.03.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["https://www.youtube.com/watch?v=N3AMGsUS-yU"],
     "speakers": ["Иван Шапран"],
     "topic": "AstrecData - дата-центр для разработки"
+  },
+  {
+    "date": "29.03.2016",
+    "youtubeIds": ["https://www.youtube.com/watch?v=DQqOCx2UJ10"],
+    "speakers": ["Илья Рыженков"],
+    "topic": "Про Kotlin"
   },
   {
     "date": "24.02.2016",
