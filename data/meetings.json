@@ -3,8 +3,9 @@
   {
     "date": "21.04.2016",
     "time": "19:00",
+    "place": "Nortal",
     "name": "#92",
-    "moderator": "",
+    "moderator": "Кирилл Линник",
     "photoUrls": []
   },
   {
@@ -12,8 +13,8 @@
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#91",
-    "moderator": "",
-    "photoUrls": []
+    "moderator": "Андрей Солнцев",
+    "photoUrls": ["https://photos.google.com/share/AF1QipNrtE6O0lgIrss1zbvqXbTtXBKohUFJeOKsHlGuhJStmFIdNmXm1gnrKcRRZSUD4Q?key=elVNUS1rMmNtRm9FWXBLZU9DdHRqQzF4UTEtT0pR"]
   },
   {
     "date": "24.02.2016",
