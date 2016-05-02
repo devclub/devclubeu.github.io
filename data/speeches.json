@@ -1,5 +1,23 @@
 [
   {
+    "date": "24.05.2016",
+    "youtubeIds": [],
+    "speakers": ["Сергей Аникин"],
+    "topic": "SaaS в Pipedrive"
+  },
+  {
+    "date": "24.05.2016",
+    "youtubeIds": [],
+    "speakers": ["Сергей Егоров"],
+    "topic": "С нуля в Облака: ваши оценки времени не верны!"
+  },
+  {
+    "date": "24.05.2016",
+    "youtubeIds": [],
+    "speakers": ["***"],
+    "topic": "***"
+  },
+  {
     "date": "21.04.2016",
     "youtubeIds": ["wOdAdXj4TsI"],
     "speakers": ["Евгений Голобородько"],
