@@ -117,5 +117,13 @@
   "Jakob Rosin": {
     "url": "https://www.facebook.com/jakob.rosin",
     "image": "http://devclubeu.github.io/assets/speakers/jrosin.jpg"
+  },
+  "Сергей Аникин": {
+    "url": "https://ee.linkedin.com/in/sergei-anikin-4448714",
+    "image": "http://devclubeu.github.io/assets/speakers/sanikin.jpg"
+  },
+  "Сергей Егоров": {
+    "url": "https://ee.linkedin.com/in/bsideup/en",
+    "image": "http://devclubeu.github.io/assets/speakers/segorov.jpg"
   }
 }
