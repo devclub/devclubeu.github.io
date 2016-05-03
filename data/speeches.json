@@ -2,6 +2,12 @@
   {
     "date": "24.05.2016",
     "youtubeIds": [],
+    "speakers": ["Эрвин Вебер"],
+    "topic": "Ой - BLE"
+  },
+  {
+    "date": "24.05.2016",
+    "youtubeIds": [],
     "speakers": ["Сергей Аникин"],
     "topic": "SaaS в Pipedrive"
   },
