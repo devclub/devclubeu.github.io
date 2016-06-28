@@ -2,8 +2,9 @@
   {
     "date": "28.06.2016",
     "youtubeIds": [],
-    "speakers": ["Константин Роот"],
-    "topic": "ask.fm: про внутренности большой социальной сети"
+    "speakers": ["Сергей Дидык"],
+    "topic": "Эстонское плакатное искусство времён перестройки",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20160628_sdidyk_plakat-1-21.pdf", "http://devclubeu.github.io/assets/slides/20160628_sdidyk_plakat-22-49.pdf"]
   },
   {
     "date": "28.06.2016",
@@ -14,8 +15,9 @@
   {
     "date": "28.06.2016",
     "youtubeIds": [],
-    "speakers": ["Сергей Дидык"],
-    "topic": "Эстонское плакатное искусство времён перестройки"
+    "speakers": ["Константин Роот"],
+    "topic": "ask.fm: про внутренности большой социальной сети",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20160628_kroot_askfm.pptx"]
   },
   {
     "date": "24.05.2016",
