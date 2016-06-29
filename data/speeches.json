@@ -8,9 +8,10 @@
   },
   {
     "date": "28.06.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["1qA8wGJff3g"],
     "speakers": ["Евгений Голобородько"],
-    "topic": "DSL на Scala"
+    "topic": "DSL на Scala",
+    "examples": ["https://github.com/digital-magic-io/dsl-examples"]
   },
   {
     "date": "28.06.2016",
