@@ -133,5 +133,13 @@
   "Сергей Дидык": {
     "url": "https://ee.linkedin.com/in/sergei-didyk-48670549",
     "image": "http://devclubeu.github.io/assets/speakers/sdidyk.jpg"
+  },
+  "Дмитрий Смирнов": {
+    "url": "https://ru.linkedin.com/in/dmitry-smirnov-4a65a370",
+    "image": "http://devclubeu.github.io/assets/speakers/dsmirnov.jpg"
+  },
+  "Виталий Нартов": {
+    "url": "https://ee.linkedin.com/in/vitali-nartov-656ab75b",
+    "image": "http://devclubeu.github.io/assets/speakers/vnartov.jpg"
   }
 }
