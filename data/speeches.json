@@ -19,10 +19,10 @@
   },
   {
     "date": "02.08.2016",
-    "youtubeIds": [],
-    "speakers": ["Антон Кекс"],
-    "topic": "Riot.js",
-    "examples": ["https://github.com/angryziber/riot-demo"]
+    "youtubeIds": ["N4Z2xEGWneU"],
+    "speakers": ["Никита Сальников-Тарновский"],
+    "topic": "Java-погромист, убери за собой!",
+    "examples": ["https://github.com/iNikem/jpoint2016"]
   },
   {
     "date": "02.08.2016",
@@ -33,9 +33,9 @@
   {
     "date": "02.08.2016",
     "youtubeIds": [],
-    "speakers": ["Никита Сальников-Тарновский"],
-    "topic": "Java-погромист, убери за собой!",
-    "examples": ["https://github.com/iNikem/jpoint2016"]
+    "speakers": ["Антон Кекс"],
+    "topic": "Riot.js",
+    "examples": ["https://github.com/angryziber/riot-demo"]
   },
   {
     "date": "28.06.2016",
