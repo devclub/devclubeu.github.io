@@ -32,7 +32,7 @@
   },
   {
     "date": "02.08.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["vRFq2ZwKrUI"],
     "speakers": ["Антон Кекс"],
     "topic": "Riot.js",
     "examples": ["https://github.com/angryziber/riot-demo"]
