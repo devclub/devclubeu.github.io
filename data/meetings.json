@@ -1,10 +1,42 @@
 [
  {
+    "date": "27.12.2016",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#100",
+    "moderator": "",
+    "photoUrls": []
+  },
+ {
+    "date": "30.11.2016",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#99",
+    "moderator": "",
+    "photoUrls": []
+  },
+  {
+    "date": "31.10.2016",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#98",
+    "moderator": "",
+    "photoUrls": []
+  },
+ {
+    "date": "29.09.2016",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#97",
+    "moderator": "",
+    "photoUrls": []
+  },
+ {
     "date": "30.08.2016",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#96",
-    "moderator": "",
+    "moderator": "Кирилл Линник",
     "photoUrls": []
   },
   {
