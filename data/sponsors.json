@@ -48,5 +48,10 @@
     "logo": "assets/sponsors/devtraining.png",
     "url": "http://www.devtraining.ee/",
     "hidden": false
+  },
+  {
+    "logo": "http://devclubeu.github.io/assets/sponsors/tactic.png",
+    "url": "http://tacticrealtime.com/careers/",
+    "hidden": false
   }
 ]
