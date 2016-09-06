@@ -7,15 +7,15 @@
   },
   {
     "date": "30.08.2016",
-    "youtubeIds": [],
-    "speakers": ["Виталий Нартов"],
-    "topic": "To be or not to be: Hybrid vs Native"
+    "youtubeIds": ["iFlAZNvWQP8"],
+    "speakers": ["Павел Новицкий"],
+    "topic": "Обновление и миграция продукционных систем"
   },
   {
     "date": "30.08.2016",
     "youtubeIds": [],
-    "speakers": ["Павел Новицкий"],
-    "topic": "Обновление и миграция продукционных систем"
+    "speakers": ["Виталий Нартов"],
+    "topic": "To be or not to be: Hybrid vs Native"
   },
   {
     "date": "02.08.2016",
