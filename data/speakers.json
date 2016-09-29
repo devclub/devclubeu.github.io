@@ -157,5 +157,21 @@
   "Илья Ливенсон": {
     "url": "https://ee.linkedin.com/in/ilja-livenson-8015674",
     "image": "assets/speakers/ilivenson.jpg"
+  },
+  "Александр Олешкевич": {
+    "url": "https://www.linkedin.com/in/aliashkevich",
+    "image": "http://devclubeu.github.io/assets/speakers/aaliashkevich.jpg"
+  },
+  "Олег Бартунов": {
+    "url": "https://www.linkedin.com/in/olegbartunov",
+    "image": "http://devclubeu.github.io/assets/speakers/obartunov.jpg"
+  },
+  "Александр Коротков": {
+    "url": "https://www.linkedin.com/in/avkorotkov/en",
+    "image": "http://devclubeu.github.io/assets/speakers/akorotkov.jpg"
+  },
+  "Bruce Momjian": {
+    "url": "https://www.linkedin.com/in/bruce-momjian-74ab7b1",
+    "image": "http://devclubeu.github.io/assets/speakers/bmomjian.jpg"
   }
 }
