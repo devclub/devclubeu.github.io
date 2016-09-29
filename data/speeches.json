@@ -18,6 +18,18 @@
     "topic": "Внутренности SQL Tabs"
   },
   {
+    "date": "31.10.2016",
+    "youtubeIds": [],
+    "speakers": ["Олег Бартунов", "Александр Коротков"],
+    "topic": "Российский след в постгресе"
+  },
+  {
+    "date": "31.10.2016",
+    "youtubeIds": [],
+    "speakers": ["Bruce Momjian"],
+    "topic": "PostgreSQL Past, Present and Future"
+  },
+  {
     "date": "29.09.2016",
     "youtubeIds": [],
     "speakers": ["Константин Роот"],
