@@ -16,7 +16,7 @@
     "photoUrls": []
   },
   {
-    "date": "31.10.2016",
+    "date": "31.10.2016 - PostgreSQL",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#98",
@@ -28,7 +28,8 @@
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#97",
-    "moderator": "",
+    "moderator": "Кирилл Линник",
+    "operator": ["Антон Стальнухин"],
     "photoUrls": [],
     "registerUrl": "https://www.eventbrite.com/e/27972867600"
   },
@@ -38,6 +39,7 @@
     "place": "Von Stackelberg",
     "name": "#96",
     "moderator": "Кирилл Линник",
+    "operator": ["Юрий Тимошин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipMK8zdpmhXgCa3M2tj5qG3mbU3E1EyrXXkIZ2uuHAxq_sqqDqUrJV3_x-3SnWb42g?key=YXRhWW5YRTJSZGhfQ1BrX2h0SkIyRDA5ajIzVXp3"]
   },
   {
@@ -46,6 +48,7 @@
     "place": "Von Stackelberg",
     "name": "#95 - 33 июля",
     "moderator": "Антон Архипов",
+    "operator": ["Юрий Тимошин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipNpSNOvKpya3swyGrirkhaN73Qv0Nl52zIZOq0lUISGphVFCKWWJf_j5z0Erot8aQ?key=NmRCTmN5aFY4Mm1PZDlmdlUzb0JjYzdEUGdONy1R"]
   },
  {
@@ -54,6 +57,7 @@
     "place": "Von Stackelberg",
     "name": "#94",
     "moderator": "Антон Архипов",
+    "operator": ["Антон Стальнухин"],
     "photoUrls": ["https://photos.google.com/b/105266766340206558621/share/AF1QipMTmMSGEOFhEJV7eSH9GD0veCaxNcVVx5yO3GU8vIP4cBRvW27bBw71YjW48XYyTg?key=U2laam9CNHdXeVhfMUpkVkJ4Y21BM0Fhd09EZWdn"]
   },
   {
@@ -62,6 +66,7 @@
     "place": "Von Stackelberg",
     "name": "#93",
     "moderator": "Антон Архипов",
+    "operator": ["Антон Стальнухин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipMswSrND-In7Km6LkSM0Oj_DJybkimDeOYLlWhoZh617qXSSL1eIRE-Gw415stqXw?key=UEdZRXBKRVdJa2ZKNmFRaFNZUFdpUWVjNjlPaHZR"],
     "registerUrl": "https://www.eventbrite.com/e/25522212625"
   },
@@ -71,6 +76,7 @@
     "place": "Nortal",
     "name": "#92",
     "moderator": "Кирилл Линник",
+    "operator": ["Антон Стальнухин", "Юрий Тимошин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipOfEEihjou75xbHec0vJIkUSi4aBFmOfFm00XHVDbFXwYrUziQBCs64aPljc7lBVw?key=SzRsSTFoSWhQZ3MxTk41RTNRU0ktdHBDLVRwUTl3"],
     "registerUrl": "https://www.eventbrite.com/e/nortal-tickets-24507074319"
   },
@@ -80,6 +86,7 @@
     "place": "Von Stackelberg",
     "name": "#91",
     "moderator": "Андрей Солнцев",
+    "operator": ["Юрий Тимошин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipNrtE6O0lgIrss1zbvqXbTtXBKohUFJeOKsHlGuhJStmFIdNmXm1gnrKcRRZSUD4Q?key=elVNUS1rMmNtRm9FWXBLZU9DdHRqQzF4UTEtT0pR"]
   },
   {
@@ -88,6 +95,7 @@
     "place": "Von Stackelberg",
     "name": "#90",
     "moderator": "Андрей Солнцев",
+    "operator": ["Антон Стальнухин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipOuHfEqvaNg7xeoYv_xopxB4OV7hjuXRkR1GTnYbMa7xMQpnbenBoAHJKNVsM6BfA?key=MnQxRk1naHJpOVJlSzNud19BMU5kMEdxbzAxc3Jn"],
     "registerUrl": "http://www.eventbrite.com/e/24-tickets-21759454113"
   },
@@ -97,6 +105,7 @@
     "place": "Von Stackelberg",
     "name": "#89",
     "moderator": "Антон Архипов, Антон Стальнухин, Кирилл Линник",
+    "operator": ["Антон Стальнухин", "Юрий Тимошин"],
     "photoUrls": ["https://photos.google.com/share/AF1QipMf1ESWguU8gNXHl7a6bFDKAEPxekX17xDZ2xITFchszJ_Fsyr0kDRA2xgPrShjIg?key=dzQwNzU3THB3Y2FlMURhRDZ5N1VUOHBUc1M2OW9B"],
     "registerUrl": "http://www.eventbrite.com/e/-tv-bi-hr-tickets-20925794615"
   },
@@ -106,6 +115,7 @@
     "place": "Von Stackelberg",
     "name": "#88",
     "moderator": "Антон Архипов",
+    "operator": ["Юрий Тимошин"],
     "photoUrls": ["https://plus.google.com/photos/105266766340206558621/album/6233979055616720961"],
     "registerUrl": "https://www.eventbrite.com/e/3c9eff-tickets-20043606968"
   },
