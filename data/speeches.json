@@ -32,9 +32,8 @@
   {
     "date": "29.09.2016",
     "youtubeIds": [],
-    "speakers": ["Константин Роот"],
-    "topic": "Использование HTTP headers для обеспечения безопасности сайтов",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20160929_kroot_security-headers.pptx"]
+    "speakers": ["Игорь Босенко"],
+    "topic": "Осенние кораблики"
   },
   {
     "date": "29.09.2016",
@@ -44,9 +43,10 @@
   },
   {
     "date": "29.09.2016",
-    "youtubeIds": [],
-    "speakers": ["Игорь Босенко"],
-    "topic": "Осенние кораблики"
+    "youtubeIds": ["nM92asjjde0"],
+    "speakers": ["Константин Роот"],
+    "topic": "Использование HTTP headers для обеспечения безопасности сайтов",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20160929_kroot_security-headers.pptx"]
   },
   {
     "date": "30.08.2016",
