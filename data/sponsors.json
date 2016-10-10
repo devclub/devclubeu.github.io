@@ -53,5 +53,10 @@
     "logo": "assets/sponsors/tactic.png",
     "url": "http://tacticrealtime.com/careers/",
     "hidden": false
+  },
+  {
+    "logo": "http://devclubeu.github.io/assets/sponsors/malwarebytes.png",
+    "url": "https://jobs.malwarebytes.com/",
+    "hidden": false
   }
 ]
