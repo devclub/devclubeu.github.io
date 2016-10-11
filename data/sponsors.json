@@ -42,7 +42,7 @@
   {
     "logo": "assets/sponsors/linn.png",
     "url": "http://www.linnsystems.com/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/devtraining.png",
