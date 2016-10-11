@@ -37,7 +37,7 @@
   {
     "logo": "assets/sponsors/symantec.png",
     "url": "http://securityresponse.symantec.com/et/ee/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/linn.png",
