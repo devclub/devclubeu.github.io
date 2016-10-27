@@ -58,5 +58,10 @@
     "logo": "http://devclubeu.github.io/assets/sponsors/malwarebytes.png",
     "url": "https://jobs.malwarebytes.com/",
     "hidden": false
+  },
+  {
+    "logo": "http://devclubeu.github.io/assets/sponsors/myjar.png",
+    "url": "https://www.myjar.com/news/myjar-jobs",
+    "hidden": false
   }
 ]
