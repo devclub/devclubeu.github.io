@@ -14,6 +14,12 @@ function RootController($scope, $http, $location, $document, $anchorScroll, $sce
   var EVENTBRITE_ORGANIZATION = "910302825";
   var EVENTBRITE_URL = "https://www.eventbriteapi.com/v3/events/search/?token=" + EVENTBRITE_TOKEN + "&organizer.id=" + EVENTBRITE_ORGANIZATION;
 
+  $scope.$on('$locationChangeStart', function(event, next, current) {
+    if($location.hash() == 'sponsors'){
+      $scope.sponsorText.show = true;
+    }
+  });
+
   var currentScrollTop = 0;
   $document.on('scroll', function (a, b) {
     if (currentScrollTop < 20 && $document.scrollTop() > 20
@@ -25,6 +31,7 @@ function RootController($scope, $http, $location, $document, $anchorScroll, $sce
   });
 
   $scope.activeTab = 'MEETING';
+  $scope.sponsorText = {};
   $scope.today = new Date();
   $scope.filterYears = DevclubUtil.getFilterYears();
   $scope.filter = {
@@ -49,7 +56,11 @@ function RootController($scope, $http, $location, $document, $anchorScroll, $sce
     $scope.filter.text = speakerName;
     $scope.filter.year = null;
     $scope.activeTab = 'MEETING';
-    $document.scrollTo(angular.element(document.getElementById('archive')), 60, 200);
+    if ($location.hash() !== 'archive') {
+      $location.hash('archive');
+    } else {
+      $anchorScroll();
+    }
   }
 
   var meetingSpeechRows = [];
@@ -264,7 +275,7 @@ function DevclubUtil() {
   };
 }
 
-angular.module('devclub', ['ngLocale', 'ngSanitize', 'duScroll'])
+angular.module('devclub', ['ngLocale', 'ngSanitize'])
   .config(Config)
   .run(Run)
   .controller('RootController', RootController)

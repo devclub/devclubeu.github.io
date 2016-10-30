@@ -66,32 +66,25 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="nav-item sr-only">
-            <a href="#next" offset="30" ga-click="url|||click_in|||menu_next"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Встреча</a>
+            <a href="#next" ga-click="url|||click_in|||menu_next" close-navbar-on-click>Встреча</a>
           </li>
           <li class="nav-item">
-            <a href="#about" offset="30" ga-click="url|||click_in|||menu_about"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Клуб</a>
+            <a href="#about" ga-click="url|||click_in|||menu_about" close-navbar-on-click>Клуб</a>
           </li>
           <li class="nav-item">
-            <a href="#sponsors" offset="30" ga-click="url|||click_in|||menu_sponsors"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Спонсоры</a>
+            <a href="#sponsors" ga-click="url|||click_in|||menu_sponsors" close-navbar-on-click>Спонсоры</a>
           </li>
           <li class="nav-item">
-            <a href="#last" offset="30" ga-click="url|||click_in|||menu_latest"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Свежак</a>
+            <a href="#last" ga-click="url|||click_in|||menu_latest" close-navbar-on-click>Свежак</a>
           </li>
           <li class="nav-item">
-            <a href="#archive" offset="30" ga-click="url|||click_in|||menu_archive"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Архив</a>
+            <a href="#archive" ga-click="url|||click_in|||menu_archive" close-navbar-on-click>Архив</a>
           </li>
           <li class="nav-item">
-            <a href="#speaker" offset="30" ga-click="url|||click_in|||menu_speaker"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Хочу выступить</a>
+            <a href="#speaker" ga-click="url|||click_in|||menu_speaker" close-navbar-on-click>Хочу выступить</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" offset="30" ga-click="url|||click_in|||menu_contact"
-               du-smooth-scroll du-scrollspy close-navbar-on-click>Контакты</a>
+            <a href="#contact" ga-click="url|||click_in|||menu_contact" close-navbar-on-click>Контакты</a>
           </li>
           <li class="nav-item last">
             <a href="http://blog.devclub.eu" ga-click="url|||click_out|||blog"
@@ -248,7 +241,9 @@
 
 <section class="colors-about pt60 pb60">
   <div class="container mw800">
-    <h2 class="title mt0 text-center">Что такое DevClub?</h2>
+    <h2 class="title mt0 text-center">
+      Что такое DevClub?
+    </h2>
 
     <div class="col-xs-12 col-sm-6">
       <p>
@@ -277,7 +272,9 @@
 
 <section class="colors-sponsors pt60 pb60">
   <div class="container">
-    <h2 class="title mt0 text-center">Спонсоры</h2>
+    <h2 class="title mt0 text-center">
+      Спонсоры
+    </h2>
 
     <div class="row">
       <div class="col-xs-3 col-sm-2" ng-repeat="sponsor in sponsors" ng-if="!sponsor.hidden">
@@ -291,13 +288,13 @@
     <div class="row">
       <div class="col-sm-12 col-md-offset-2 col-md-8 text-justify">
         <h3 class="text-center">
-          <span class="sponsors-toggle" ng-click="showSponsorText = !showSponsorText"
+          <span class="sponsors-toggle" ng-click="sponsorText.show = !sponsorText.show"
                 ga-click="url|||click_in|||toggle_sponsors">
             Узнайте, как нам помочь, как стать спонсором.
           </span>
         </h3>
 
-        <div ng-show="showSponsorText">
+        <div ng-show="sponsorText.show">
           <p>Поддержите инициативу интеллектуального, профессионального и социального развития специалистов
             в области IT на долгосрочной основе. Станьте нашим спонсором!</p>
 
@@ -339,7 +336,9 @@
 
 <section class="colors-last pt60 pb60">
   <div class="container">
-    <h2 class="title mt0 text-center">Как прошли наши последние встречи?</h2>
+    <h2 class="title mt0 text-center">
+      Как прошли наши последние встречи?
+    </h2>
 
     <div class="mt20 row">
       <div class="col-xs-4 text-right">
@@ -373,7 +372,9 @@
   <div class="container">
     <div class="archive-container m0">
 
-      <h2 class="title mt0 text-center">Архив</h2>
+      <h2 class="title mt0 text-center">
+        Архив
+      </h2>
 
       <div class="mt20" role="tabpanel">
         <ul class="nav nav-tabs" role="tablist" id="archive-tabs">
@@ -523,7 +524,9 @@
 
 <section class="colors-speaker pt60 pb60">
   <div class="container">
-    <h2 class="title mt0 text-center">Хотите выступить в DevClub?</h2>
+    <h2 class="title mt0 text-center">
+      Хотите выступить в DevClub?
+    </h2>
 
     <div class="col-xs-12 text-center">
       <a class="btn form-submit mt20 mb20" role="button" target="_blank" ga-click="url|||click_out|||new_speech"
@@ -557,9 +560,9 @@
   <div class="container">
     <div class="col-sm-12 col-md-offset-2 col-md-8 text-justify">
       <h3 class="text-center">
-          <span class="title">
-            Памятка докладчика
-          </span>
+        <span class="title">
+          Памятка докладчика
+        </span>
       </h3>
 
       <div>
@@ -640,7 +643,9 @@
 
 <section class="colors-contact pt60 pb20">
   <div class="container">
-    <h2 class="title mt0 text-center">DEVCLUB MTÜ</h2>
+    <h2 class="title mt0 text-center">
+      DEVCLUB MTÜ
+    </h2>
 
     <div class="text-center">
       <ul class="social-icons list-inline">
