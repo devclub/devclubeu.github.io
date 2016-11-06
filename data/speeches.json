@@ -7,19 +7,19 @@
   },
   {
     "date": "31.10.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["O7aIUQG2rj4"],
     "speakers": ["Александр Олешкевич"],
     "topic": "Внутренности SQL Tabs"
   },
   {
     "date": "31.10.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["GcTP9epXqTc"],
     "speakers": ["Олег Бартунов", "Александр Коротков"],
     "topic": "Российский след в постгресе"
   },
   {
     "date": "31.10.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["VLW-rARakXY"],
     "speakers": ["Bruce Momjian"],
     "topic": "PostgreSQL Past, Present and Future"
   },
