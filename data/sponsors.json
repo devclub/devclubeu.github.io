@@ -1,5 +1,10 @@
 [
   {
+    "logo": "assets/sponsors/paxful.jpg",
+    "url": "https://paxful.com/",
+    "hidden": false
+  },
+  {
     "logo": "assets/sponsors/swedbank.png",
     "url": "https://www.swedbank.ee",
     "hidden": false
