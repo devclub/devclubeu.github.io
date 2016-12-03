@@ -1,21 +1,21 @@
 [
   {
     "date": "30.11.2016",
-    "youtubeIds": [],
-    "speakers": ["Юрий Тимошин"],
-    "topic": "Jenkins pipeline"
+    "youtubeIds": ["JtbR2bTmjkI"],
+    "speakers": ["Илья Хямяляйнен"],
+    "topic": "Concourse CI: «от винта!» или не Дженкинсом единым"
   },
   {
     "date": "30.11.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["WVzzRvtK24M"],
     "speakers": ["Илья Ливенсон"],
     "topic": "Riigipilv: Начало"
   },
   {
     "date": "30.11.2016",
-    "youtubeIds": [],
-    "speakers": ["Илья Хямяляйнен"],
-    "topic": "Concourse CI: «от винта!» или не Дженкинсом единым"
+    "youtubeIds": ["-Dxm3jhk-W0"],
+    "speakers": ["Юрий Тимошин"],
+    "topic": "Jenkins pipeline"
   },
   {
     "date": "31.10.2016",
