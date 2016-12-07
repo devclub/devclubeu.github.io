@@ -1,5 +1,11 @@
 [
   {
+    "date": "26.01.2017",
+    "youtubeIds": [],
+    "speakers": ["Александр Моон"],
+    "topic": "Making ads relevant"
+  },
+  {
     "date": "22.12.2016",
     "youtubeIds": [],
     "speakers": ["Никита Сальников-Тарновский"],
@@ -14,8 +20,8 @@
   {
     "date": "22.12.2016",
     "youtubeIds": [],
-    "speakers": ["Александр Моон"],
-    "topic": "Making ads relevant"
+    "speakers": ["Таави Котка"],
+    "topic": "Вот теперь точно всё, что вы хотели знать об IT в Эстонии"
   },
   {
     "date": "22.12.2016",
