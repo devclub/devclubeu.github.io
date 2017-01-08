@@ -33,13 +33,15 @@
     "date": "30.11.2016",
     "youtubeIds": ["JtbR2bTmjkI"],
     "speakers": ["Илья Хямяляйнен"],
-    "topic": "Concourse CI: «от винта!» или не Дженкинсом единым"
+    "topic": "Concourse CI: «от винта!» или не Дженкинсом единым",
+    "top": {"year": 2016, "place": 5}
   },
   {
     "date": "30.11.2016",
     "youtubeIds": ["WVzzRvtK24M"],
     "speakers": ["Илья Ливенсон"],
-    "topic": "Riigipilv: Начало"
+    "topic": "Riigipilv: Начало",
+    "top": {"year": 2016, "place": 6}
   },
   {
     "date": "30.11.2016",
@@ -69,7 +71,8 @@
     "date": "29.09.2016",
     "youtubeIds": ["k6ng9g0956M"],
     "speakers": ["Игорь Босенко"],
-    "topic": "Осенние кораблики"
+    "topic": "Осенние кораблики",
+    "top": {"year": 2016, "place": 2}
   },
   {
     "date": "29.09.2016",
@@ -107,7 +110,8 @@
     "youtubeIds": ["N4Z2xEGWneU"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Java-погромист, убери за собой!",
-    "examples": ["https://github.com/iNikem/jpoint2016"]
+    "examples": ["https://github.com/iNikem/jpoint2016"],
+    "top": {"year": 2016, "place": 2}
   },
   {
     "date": "02.08.2016",
@@ -120,7 +124,8 @@
     "youtubeIds": ["vRFq2ZwKrUI"],
     "speakers": ["Антон Кекс"],
     "topic": "Riot.js",
-    "examples": ["https://github.com/angryziber/riot-demo"]
+    "examples": ["https://github.com/angryziber/riot-demo"],
+    "top": {"year": 2016, "place": 4}
   },
   {
     "date": "28.06.2016",
@@ -247,7 +252,8 @@
     "youtubeIds": ["kPC043A0Op0"],
     "speakers": ["Антон Стальнухин"],
     "topic": "Код в кино #1",
-    "presentations": ["/assets/slides/20151229_astalnuhhin_movies.pdf"]
+    "presentations": ["/assets/slides/20151229_astalnuhhin_movies.pdf"],
+    "top": {"year": 2016, "place": 1}
   },
   {
     "date": "29.12.2015",
