@@ -1,11 +1,19 @@
 [
  {
+    "date": "31.01.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#101",
+    "moderator": "Антон Архипов",
+    "photoUrls": []
+  },
+ {
     "date": "22.12.2016",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#100",
-    "moderator": "",
-    "photoUrls": []
+    "moderator": "Кирилл Линник",
+    "photoUrls": ["https://photos.google.com/share/AF1QipMNG9vPNrGXV6yzTfeoM0vDLSxU2mA7NiBKTVz6Czh8Jvp2_zpbQNDpo8AKHPtJjg?key=b19vMThZWmtfX2JGTGVNb1hFeF9Mc3RBVDRHSndn"]
   },
  {
     "date": "30.11.2016",
