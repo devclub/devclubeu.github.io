@@ -1,11 +1,36 @@
 [
  {
+    "date": "27.04.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#104",
+    "moderator": "",
+    "photoUrls": []
+  },
+ {
+    "date": "30.03.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#103",
+    "moderator": "",
+    "photoUrls": []
+  },
+ {
+    "date": "28.02.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#102",
+    "moderator": "Антон Архипов",
+    "photoUrls": []
+  },
+ {
     "date": "31.01.2017",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#101",
     "moderator": "Антон Архипов",
-    "photoUrls": []
+    "photoUrls": [],
+    "registerUrl": "https://www.eventbrite.com/e/31464706785"
   },
  {
     "date": "22.12.2016",
