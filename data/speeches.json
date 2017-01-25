@@ -1,5 +1,59 @@
 [
   {
+    "date": "27.04.2017",
+    "youtubeIds": [],
+    "speakers": ["Игорь Губайдулин"],
+    "topic": "???"
+  },
+  {
+    "date": "27.04.2017",
+    "youtubeIds": [],
+    "speakers": [""],
+    "topic": "???"
+  },
+  {
+    "date": "27.04.2017",
+    "youtubeIds": [],
+    "speakers": ["Игорь Губайдулин"],
+    "topic": "???"
+  },
+  {
+    "date": "31.03.2017",
+    "youtubeIds": [],
+    "speakers": [""],
+    "topic": "???"
+  },
+  {
+    "date": "31.03.2017",
+    "youtubeIds": [],
+    "speakers": [""],
+    "topic": "???"
+  },
+  {
+    "date": "31.03.2017",
+    "youtubeIds": [],
+    "speakers": ["Сергей Моренец"],
+    "topic": "Efficiency and code optimization in Java 8"
+  },
+  {
+    "date": "28.02.2017",
+    "youtubeIds": [],
+    "speakers": ["Алексей Буздин"],
+    "topic": "Deep Dive into Cucumber-JVM"
+  },
+  {
+    "date": "28.02.2017",
+    "youtubeIds": [""],
+    "speakers": ["Дмитрий Буздин"],
+    "topic": "Modern Security with OAuth 2.0 and JWT and Spring"
+  },
+  {
+    "date": "28.02.2017",
+    "youtubeIds": [],
+    "speakers": ["Алексей Буздин"],
+    "topic": "Marvel of Annotation Preprocessing in Java"
+  },
+  {
     "date": "31.01.2017",
     "youtubeIds": [],
     "speakers": ["Антон Архипов"],
@@ -8,14 +62,20 @@
   {
     "date": "31.01.2017",
     "youtubeIds": [],
-    "speakers": ["Мартин Киуру"],
-    "topic": "Путь из программиста в предприниматели (и стоит ли по нему идти)"
+    "speakers": ["Артур Шабак"],
+    "topic": "Как защищать от хакеров fintec-приложение на примере bitcoin marketplace"
   },
   {
     "date": "31.01.2017",
     "youtubeIds": [],
-    "speakers": ["Артур Шабак"],
-    "topic": "Как защищать от хакеров fintec-приложение на примере bitcoin marketplace"
+    "speakers": ["Мартин Киуру"],
+    "topic": "Путь из программиста в предприниматели (и стоит ли по нему идти)"
+  },
+  {
+    "date": "22.12.2016",
+    "youtubeIds": [],
+    "speakers": ["Константин Роот"],
+    "topic": "Бег - от мифов до data science"
   },
   {
     "date": "22.12.2016",
@@ -25,7 +85,7 @@
   },
   {
     "date": "22.12.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["luKdI0MXJpQ"],
     "speakers": ["DEVCLUB.EU"],
     "topic": "Небольшой сюрприз к 8-летию и 100-й встрече"
   },
@@ -34,12 +94,6 @@
     "youtubeIds": [],
     "speakers": ["Таави Котка"],
     "topic": "Вот теперь точно всё, что вы хотели знать об IT в Эстонии [eng]"
-  },
-  {
-    "date": "22.12.2016",
-    "youtubeIds": [],
-    "speakers": ["Константин Роот"],
-    "topic": "Бег - от мифов до data science"
   },
   {
     "date": "30.11.2016",
