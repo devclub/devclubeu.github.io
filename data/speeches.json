@@ -43,7 +43,7 @@
   },
   {
     "date": "28.02.2017",
-    "youtubeIds": [""],
+    "youtubeIds": [],
     "speakers": ["Дмитрий Буздин"],
     "topic": "Modern Security with OAuth 2.0 and JWT and Spring"
   },
