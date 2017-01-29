@@ -64,6 +64,8 @@
     "youtubeIds": ["JtbR2bTmjkI"],
     "speakers": ["Илья Хямяляйнен"],
     "topic": "Concourse CI: «от винта!» или не Дженкинсом единым",
+    "presentations": ["https://speakerdeck.com/w32blaster/introduction-to-concourseci"],
+    "examples": ["https://gist.github.com/w32blaster/965bad80a6613fe924eb2f82aa159e4f"],
     "top": {"year": 2016, "place": 5}
   },
   {
