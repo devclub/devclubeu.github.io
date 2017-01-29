@@ -200,5 +200,13 @@
   "Мартин Киуру": {
     "url": "https://ee.linkedin.com/in/martinkiuru",
     "image": "http://devclubeu.github.io/assets/speakers/mkiuru.jpg"
+  },
+  "Алексей Буздин": {
+    "url": "https://www.linkedin.com/in/alexeybuzdin",
+    "image": "http://devclubeu.github.io/assets/speakers/abuzdin.jpg"
+  },
+  "Дмитрий Буздин": {
+    "url": "https://www.linkedin.com/in/dmitrybuzdin",
+    "image": "http://devclubeu.github.io/assets/speakers/dbuzdin.jpg"
   }
 }
