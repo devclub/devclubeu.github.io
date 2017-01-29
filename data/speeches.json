@@ -37,15 +37,17 @@
   },
   {
     "date": "22.12.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["PN2MQF9siBM"],
     "speakers": ["Константин Роот"],
-    "topic": "Бег - от мифов до data science"
+    "topic": "Бег - от мифов до data science",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20161222_kroot_running.pptx"]
   },
   {
     "date": "22.12.2016",
-    "youtubeIds": [],
+    "youtubeIds": ["JyO43q-_TTY"],
     "speakers": ["Никита Сальников-Тарновский"],
-    "topic": "Как один программист себе жизнь улучшил"
+    "topic": "Как один программист себе жизнь улучшил",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20161222_nsalnikovtarnovski_10percent-happier.pdf"]
   },
   {
     "date": "22.12.2016",
