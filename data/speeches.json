@@ -19,21 +19,21 @@
   },
   {
     "date": "31.01.2017",
-    "youtubeIds": [],
-    "speakers": ["Антон Архипов"],
-    "topic": "Неадекватное Java-интервью"
+    "youtubeIds": ["HlNUUAXD-E0"],
+    "speakers": ["Мартин Киуру"],
+    "topic": "Путь из программиста в предприниматели (и стоит ли по нему идти)"
   },
   {
     "date": "31.01.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["0ThCqyNS0ZE"],
     "speakers": ["Артур Шабак"],
     "topic": "Как защищать от хакеров fintec-приложение на примере bitcoin marketplace"
   },
   {
     "date": "31.01.2017",
-    "youtubeIds": [],
-    "speakers": ["Мартин Киуру"],
-    "topic": "Путь из программиста в предприниматели (и стоит ли по нему идти)"
+    "youtubeIds": ["Vlb_Is-rRTQ"],
+    "speakers": ["Антон Архипов"],
+    "topic": "Неадекватное Java-интервью"
   },
   {
     "date": "22.12.2016",
