@@ -3,19 +3,19 @@
     "date": "28.02.2017",
     "youtubeIds": [],
     "speakers": ["Алексей Буздин"],
-    "topic": "Deep Dive into Cucumber-JVM"
+    "topic": "Marvel of Annotation Preprocessing in Java"
   },
   {
     "date": "28.02.2017",
     "youtubeIds": [],
     "speakers": ["Дмитрий Буздин"],
-    "topic": "Modern Security with OAuth 2.0 and JWT and Spring"
+    "topic": "Modern Security with OAuth 2.0, JWT and Spring"
   },
   {
     "date": "28.02.2017",
     "youtubeIds": [],
-    "speakers": ["Алексей Буздин"],
-    "topic": "Marvel of Annotation Preprocessing in Java"
+    "speakers": ["Михаил Раер"],
+    "topic": "Asynchronous IO в .NET"
   },
   {
     "date": "31.01.2017",
