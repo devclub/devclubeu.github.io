@@ -52,7 +52,7 @@
   {
     "logo": "assets/sponsors/devtraining.png",
     "url": "http://www.devtraining.ee/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/tactic.png",
