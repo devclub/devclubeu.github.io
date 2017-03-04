@@ -1,5 +1,11 @@
 [
   {
+    "date": "28.03.2017",
+    "youtubeIds": [],
+    "speakers": ["Константин Чистяков"],
+    "topic": "Использование Swift на сервере"
+  },
+  {
     "date": "28.02.2017",
     "youtubeIds": [],
     "speakers": ["Алексей Буздин"],
@@ -15,7 +21,8 @@
     "date": "28.02.2017",
     "youtubeIds": [],
     "speakers": ["Михаил Раер"],
-    "topic": "Asynchronous IO в .NET"
+    "topic": "Asynchronous IO в .NET",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20170228_mraer_async-io-net.pdf"]
   },
   {
     "date": "31.01.2017",
