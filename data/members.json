@@ -58,5 +58,10 @@
     "name": "Арсений Григорьев",
     "userpick": "assets/members/agrigorjev.jpg",
     "active": false
+  },
+  {
+    "name": "Ivo Jaama",
+    "userpick": "assets/members/ijaama.jpg",
+    "active": false
   }
 ]
