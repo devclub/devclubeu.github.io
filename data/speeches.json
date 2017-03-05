@@ -1,5 +1,35 @@
 [
   {
+    "date": "26.04.2017",
+    "youtubeIds": [],
+    "speakers": ["Михаил Дунаев"],
+    "topic": "d3.js"
+  },
+  {
+    "date": "26.04.2017",
+    "youtubeIds": [],
+    "speakers": ["Кирилл Славецкий"],
+    "topic": "Design-sprint по методу Google Ventures"
+  },
+  {
+    "date": "26.04.2017",
+    "youtubeIds": [],
+    "speakers": ["Игорь Губайдулин"],
+    "topic": "PET design"
+  },
+  {
+    "date": "28.03.2017",
+    "youtubeIds": [],
+    "speakers": [],
+    "topic": ""
+  },
+  {
+    "date": "28.03.2017",
+    "youtubeIds": [],
+    "speakers": [],
+    "topic": ""
+  },
+  {
     "date": "28.03.2017",
     "youtubeIds": [],
     "speakers": ["Константин Чистяков"],
