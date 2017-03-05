@@ -38,18 +38,18 @@
   {
     "date": "28.02.2017",
     "youtubeIds": [],
-    "speakers": ["Алексей Буздин"],
-    "topic": "Marvel of Annotation Preprocessing in Java"
-  },
-  {
-    "date": "28.02.2017",
-    "youtubeIds": [],
     "speakers": ["Дмитрий Буздин"],
     "topic": "Modern Security with OAuth 2.0, JWT and Spring"
   },
   {
     "date": "28.02.2017",
     "youtubeIds": [],
+    "speakers": ["Алексей Буздин"],
+    "topic": "Marvel of Annotation Preprocessing in Java"
+  },
+  {
+    "date": "28.02.2017",
+    "youtubeIds": ["eYobx9EXR_I"],
     "speakers": ["Михаил Раер"],
     "topic": "Asynchronous IO в .NET",
     "presentations": ["http://devclubeu.github.io/assets/slides/20170228_mraer_async-io-net.pdf"]
