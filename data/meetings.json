@@ -1,21 +1,37 @@
 [
  {
+    "date": "20.06.2017",
+    "time": "19:00",
+    "place": "Wabadus",
+    "name": "#106",
+    "moderator": "",
+    "photoUrls": []
+ },
+ {
+    "date": "30.05.2017",
+    "time": "19:00",
+    "place": "Wabadus",
+    "name": "#105",
+    "moderator": "",
+    "photoUrls": []
+ },
+ {
     "date": "26.04.2017",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#104",
-    "moderator": "",
+    "moderator": "Антон Стальнухин",
     "photoUrls": []
-  },
-  {
+ },
+ {
     "date": "28.03.2017",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#103",
     "moderator": "Кирилл Линник",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.google.com/share/AF1QipOkUWBd_goe3NZzqNc7i_YEJt4sEWBoDKYxLKlmDto2PS_X4obsVk01x2qvlWU14w?key=MlYyS0pzeWJVUnp1YlJ0SXlzQlNXd3REOGlPcUh3"],
     "registerUrl": "https://www.eventbrite.com/e/33121810226"
-  },
+ },
  {
     "date": "28.02.2017",
     "time": "19:00",
