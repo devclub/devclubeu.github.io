@@ -1,5 +1,10 @@
 [
   {
+    "logo": "http://devclubeu.github.io/assets/sponsors/taxify.png",
+    "url": "https://taxify.eu/",
+    "hidden": false
+  },
+  {
     "logo": "http://devclubeu.github.io/assets/sponsors/serverscom.jpg",
     "url": "https://www.servers.com/",
     "hidden": false
