@@ -42,7 +42,7 @@
   {
     "logo": "http://devclubeu.github.io/assets/sponsors/nortal.png",
     "url": "http://www.nortal.ee/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/transferwise.png",
