@@ -31,22 +31,22 @@
   },
   {
     "date": "26.04.2017",
-    "youtubeIds": ["pq9JktHh8zA"],
-    "speakers": ["Игорь Губайдулин"],
-    "topic": "«PET design» методика: дизайн на базе воздействия, эмоций и доверия",
-    "examples": ["https://uxdesign.cc/designing-for-persuasion-emotion-and-trust-cdac44c61d53"]
+    "youtubeIds": [],
+    "speakers": ["Михаил Дунаев"],
+    "topic": "Красивые картинки со смыслом. Инфографика и визуализация данных в браузере с помощью d3.js"
   },
   {
     "date": "26.04.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["RxrAiTm5Drk"],
     "speakers": ["Кирилл Славецкий"],
     "topic": "Design-sprint по методу Google Ventures"
   },
   {
     "date": "26.04.2017",
-    "youtubeIds": [],
-    "speakers": ["Михаил Дунаев"],
-    "topic": "Красивые картинки со смыслом. Инфографика и визуализация данных в браузере с помощью d3.js"
+    "youtubeIds": ["pq9JktHh8zA"],
+    "speakers": ["Игорь Губайдулин"],
+    "topic": "«PET design» методика: дизайн на базе воздействия, эмоций и доверия",
+    "examples": ["https://uxdesign.cc/designing-for-persuasion-emotion-and-trust-cdac44c61d53"]
   },
   {
     "date": "28.03.2017",
