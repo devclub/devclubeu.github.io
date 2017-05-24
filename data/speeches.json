@@ -2,32 +2,27 @@
   {
     "date": "20.06.2017",
     "youtubeIds": [],
-    "speakers": ["Таави Эйнасте"],
-    "topic": "[eng]"
-  },
-  {
-    "date": "20.06.2017",
-    "youtubeIds": [],
     "speakers": ["Игорь Босенко"],
-    "topic": ""
+    "topic": "Soft Wars: A New Hope"
   },
   {
     "date": "20.06.2017",
     "youtubeIds": [],
     "speakers": ["Антон Стальнухин"],
-    "topic": ""
+    "topic": "eHL: What the Health?"
   },
   {
     "date": "20.06.2017",
     "youtubeIds": [],
     "speakers": ["Максим Бойко"],
-    "topic": ""
+    "topic": "Lithuania: FHIR walk with me"
   },
   {
     "date": "23.05.2017",
     "youtubeIds": [],
     "speakers": ["Юлия Ёлкин"],
-    "topic": "Выпускной. Как набраться опыта и получить свою первую работу в IT"
+    "topic": "Выпускной. Как набраться опыта и получить свою первую работу в IT",
+    "presentations": ["https://www.slideshare.net/JuliaJolkin/dev-club-2305-pdf", "http://devclubeu.github.io/assets/slides/20170523_jjolkin_1job.pdf"]
   },
   {
     "date": "23.05.2017",
@@ -39,7 +34,8 @@
     "date": "23.05.2017",
     "youtubeIds": [],
     "speakers": ["Андрей Уткин"],
-    "topic": "О стримах наших меньших"
+    "topic": "О стримах наших меньших",
+    "presentations": ["http://devclubeu.github.io/assets/slides/20170523_autkin_stream.pptx"]
   },
   {
     "date": "26.04.2017",
