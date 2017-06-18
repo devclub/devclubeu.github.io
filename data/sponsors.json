@@ -1,5 +1,10 @@
 [
   {
+    "logo": "http://devclubeu.github.io/assets/sponsors/nortal.png",
+    "url": "http://www.nortal.ee/",
+    "hidden": false
+  },
+  {
     "logo": "http://devclubeu.github.io/assets/sponsors/taxify.png",
     "url": "https://taxify.eu/careers/",
     "hidden": false
@@ -37,11 +42,6 @@
   {
     "logo": "assets/sponsors/kuehne_nagel.png",
     "url": "http://ee.kuehne-nagel.com/et_ee/",
-    "hidden": true
-  },
-  {
-    "logo": "http://devclubeu.github.io/assets/sponsors/nortal.png",
-    "url": "http://www.nortal.ee/",
     "hidden": true
   },
   {
