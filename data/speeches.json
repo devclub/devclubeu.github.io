@@ -1,5 +1,41 @@
 [
   {
+    "date": "24.08.2017",
+    "youtubeIds": [],
+    "speakers": ["Михаил Раер"],
+    "topic": "Написание ботов под Skype"
+  },
+  {
+    "date": "24.08.2017",
+    "youtubeIds": [],
+    "speakers": ["Константин Роот"],
+    "topic": "Prisma AI своими руками"
+  },
+  {
+    "date": "24.08.2017",
+    "youtubeIds": [],
+    "speakers": ["Константин Третьяков"],
+    "topic": "???"
+  },
+  {
+    "date": "27.07.2017",
+    "youtubeIds": [],
+    "speakers": ["Анна Иохимович"],
+    "topic": "{локализация}"
+  },
+  {
+    "date": "27.07.2017",
+    "youtubeIds": [],
+    "speakers": ["Дмитрий Цимбал"],
+    "topic": "{компьютерное зрение}"
+  },
+  {
+    "date": "27.07.2017",
+    "youtubeIds": [],
+    "speakers": ["Антон Архипов"],
+    "topic": "{TestContainers}"
+  },
+  {
     "date": "19.06.2017",
     "youtubeIds": [],
     "speakers": ["Игорь Босенко"],
