@@ -1,11 +1,27 @@
 [
  {
+    "date": "24.08.2017",
+    "time": "19:00",
+    "place": "???",
+    "name": "#108",
+    "moderator": "",
+    "photoUrls": []
+ },
+ {
+    "date": "27.07.2017",
+    "time": "19:00",
+    "place": "???",
+    "name": "#107",
+    "moderator": "",
+    "photoUrls": []
+ },
+ {
     "date": "19.06.2017",
     "time": "19:00",
     "place": "Meriton",
     "name": "#106 - медицинская",
-    "moderator": "",
-    "photoUrls": [],
+    "moderator": "Кирилл Линник",
+    "photoUrls": ["https://goo.gl/photos/n6TDwUS7ugjDrYBh9"],
     "registerUrl": "https://www.eventbrite.com/e/35339911627"
  },
  {
