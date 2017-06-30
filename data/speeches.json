@@ -68,7 +68,7 @@
   },
   {
     "date": "23.05.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["MP5d_GAHJ20"],
     "speakers": ["Андрей Уткин"],
     "topic": "О стримах наших меньших",
     "presentations": ["http://devclubeu.github.io/assets/slides/20170523_autkin_stream.pptx"]
