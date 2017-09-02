@@ -1,9 +1,27 @@
 [
   {
+    "date": "23.10.2017",
+    "youtubeIds": [],
+    "speakers": ["Илья Хямяляйнен"],
+    "topic": "Catch me if you can!"
+  },
+  {
     "date": "26.09.2017",
     "youtubeIds": [],
     "speakers": ["Михаил Раер"],
     "topic": "Написание ботов под Skype"
+  },
+  {
+    "date": "26.09.2017",
+    "youtubeIds": [],
+    "speakers": ["Дмитрий Нестерук"],
+    "topic": "Хорошие идеи в языках программирования"
+  },
+  {
+    "date": "26.09.2017",
+    "youtubeIds": [],
+    "speakers": ["Алексей Михайлов"],
+    "topic": "Elixir"
   },
   {
     "date": "24.08.2017",
