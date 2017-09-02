@@ -256,5 +256,13 @@
   "Екатерина Чукреева": {
     "url": "https://www.linkedin.com/in/jekaterina-t%C5%A1ukrejeva-ivask-95065311/",
     "image": "http://devclubeu.github.io/assets/speakers/jtsukrejeva.jpg"
+  },
+  "Дмитрий Нестерук": {
+    "url": "https://www.linkedin.com/in/dmitri-nesteruk-87b069aa/",
+    "image": "http://devclubeu.github.io/assets/speakers/dnesteruk.jpg"
+  },
+  "Алексей Михайлов": {
+    "url": "https://www.linkedin.com/in/alexei-mikhaylov-33b282a6/",
+    "image": "http://devclubeu.github.io/assets/speakers/amihailov.jpg"
   }
 }
