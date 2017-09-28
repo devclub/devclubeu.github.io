@@ -43,19 +43,19 @@
   },
   {
     "date": "27.07.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["ednUmqbra9s"],
     "speakers": ["Анна Иохимович"],
     "topic": "Как мы переводили Evernote на клингонский"
   },
   {
     "date": "27.07.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["PC1VVulS3_E"],
     "speakers": ["Дмитрий Цимбал"],
     "topic": "Компьютерное зрение за 30 минут, или как стать адептом искусственного разума"
   },
   {
     "date": "27.07.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["ohrdeXKMHWQ"],
     "speakers": ["Антон Архипов"],
     "topic": "Интеграционное тестирование и TestContainers"
   },
