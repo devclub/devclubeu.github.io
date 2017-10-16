@@ -264,5 +264,13 @@
   "Алексей Михайлов": {
     "url": "https://www.linkedin.com/in/alexei-mikhaylov-33b282a6/",
     "image": "http://devclubeu.github.io/assets/speakers/amihailov.jpg"
+  },
+  "Евгений Маренков": {
+    "url": "https://www.linkedin.com/in/jevgeni-marenkov-97a59b47/",
+    "image": "http://devclubeu.github.io/assets/speakers/jmarenkov.jpeg"
+  },
+  "Андрей Адамович": {
+    "url": "https://www.linkedin.com/in/andreyadamovich/",
+    "image": "http://devclubeu.github.io/assets/speakers/aadamovich.jpg"
   }
 }
