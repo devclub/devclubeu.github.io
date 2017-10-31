@@ -1,11 +1,27 @@
 [
  {
+    "date": "28.12.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#112",
+    "moderator": "",
+    "photoUrls": []
+ },
+ {
+    "date": "29.11.2017",
+    "time": "19:00",
+    "place": "Von Stackelberg",
+    "name": "#111",
+    "moderator": "Кирилл Линник",
+    "photoUrls": []
+ },
+ {
     "date": "23.10.2017",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#110",
-    "moderator": "",
-    "photoUrls": []
+    "moderator": "Александр Гричевский",
+    "photoUrls": ["https://photos.app.goo.gl/dubNfYwYN9NBVsbw2"]
  },
  {
     "date": "26.09.2017",
@@ -13,7 +29,7 @@
     "place": "Von Stackelberg",
     "name": "#109",
     "moderator": "Антон Архипов",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/4cjpEqsZc1jy83ql2"],
     "registerUrl": "https://www.eventbrite.com/e/109-skype-elixir-tickets-38076004354"
  },
  {
