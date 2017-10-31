@@ -67,7 +67,7 @@
   {
     "logo": "assets/sponsors/tactic.png",
     "url": "http://tacticrealtime.com/careers/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "http://devclubeu.github.io/assets/sponsors/malwarebytes.png",
