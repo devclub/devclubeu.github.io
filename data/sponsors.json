@@ -10,14 +10,9 @@
     "hidden": false
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/serverscom.jpg",
-    "url": "https://www.servers.com/",
-    "hidden": true
-  },
-  {
-    "logo": "http://devclubeu.github.io/assets/sponsors/paxful.jpg",
-    "url": "https://paxful.com/",
-    "hidden": true
+    "logo": "http://devclubeu.github.io/assets/sponsors/myjar.png",
+    "url": "https://www.myjar.com/news/myjar-jobs",
+    "hidden": false
   },
   {
     "logo": "assets/sponsors/swedbank.png",
@@ -40,14 +35,24 @@
     "hidden": false
   },
   {
+    "logo": "assets/sponsors/transferwise.png",
+    "url": "https://transferwise.com/",
+    "hidden": false
+  },
+  {
     "logo": "assets/sponsors/kuehne_nagel.png",
     "url": "http://ee.kuehne-nagel.com/et_ee/",
     "hidden": true
   },
   {
-    "logo": "assets/sponsors/transferwise.png",
-    "url": "https://transferwise.com/",
-    "hidden": false
+    "logo": "http://devclubeu.github.io/assets/sponsors/serverscom.jpg",
+    "url": "https://www.servers.com/",
+    "hidden": true
+  },
+  {
+    "logo": "http://devclubeu.github.io/assets/sponsors/paxful.jpg",
+    "url": "https://paxful.com/",
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/symantec.png",
@@ -72,11 +77,6 @@
   {
     "logo": "http://devclubeu.github.io/assets/sponsors/malwarebytes.png",
     "url": "https://jobs.malwarebytes.com/",
-    "hidden": false
-  },
-  {
-    "logo": "http://devclubeu.github.io/assets/sponsors/myjar.png",
-    "url": "https://www.myjar.com/news/myjar-jobs",
-    "hidden": false
+    "hidden": true
   }
 ]
