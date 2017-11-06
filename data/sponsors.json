@@ -1,5 +1,10 @@
 [
   {
+    "logo": "http://devclubeu.github.io/assets/sponsors/move_guides.png",
+    "url": "https://www.moveguides.com/",
+    "hidden": false
+  },
+  {
     "logo": "http://devclubeu.github.io/assets/sponsors/nortal.png",
     "url": "http://www.nortal.ee/",
     "hidden": false
