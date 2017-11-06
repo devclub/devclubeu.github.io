@@ -272,5 +272,9 @@
   "Андрей Адамович": {
     "url": "https://www.linkedin.com/in/andreyadamovich/",
     "image": "http://devclubeu.github.io/assets/speakers/aadamovich.jpg"
-  }
+  },
+  "Станислав Горский": {
+    "url": "https://www.linkedin.com/in/stanislav-gorski-1b5b5b55/",
+    "image": "assets/speakers/sgorski.jpg"
+  },
 }
