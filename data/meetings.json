@@ -1,10 +1,10 @@
 [
  {
-    "date": "28.12.2017",
+    "date": "29.12.2017",
     "time": "19:00",
-    "place": "Von Stackelberg",
+    "place": "Meriton",
     "name": "#112",
-    "moderator": "",
+    "moderator": "Антон Архипов",
     "photoUrls": []
  },
  {
@@ -13,7 +13,7 @@
     "place": "Von Stackelberg",
     "name": "#111",
     "moderator": "Кирилл Линник",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/QyrXo0YFMWRfJ4rg2"],
     "registerUrl": "https://www.eventbrite.com/e/7-tickets-40601586438"
  },
  {
