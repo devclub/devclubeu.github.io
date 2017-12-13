@@ -1,5 +1,10 @@
 [
   {
+    "logo": "http://devclubeu.github.io/assets/sponsors/true.png",
+    "url": "ttps://www.trueapp.co",
+    "hidden": false
+  },
+  {
     "logo": "http://devclubeu.github.io/assets/sponsors/move_guides_vertical.png",
     "url": "https://www.moveguides.com/",
     "hidden": false
