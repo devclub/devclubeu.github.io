@@ -19,73 +19,73 @@
   },
   {
     "date": "29.11.2017",
-    "youtubeIds": [],
+    "youtubeIds": [""],
     "speakers": ["Константин Роот"],
     "topic": "Трудовое законодательство Эстонии - снимаем розовые очки"
   },
   {
     "date": "29.11.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["JFYs7tV6CZY"],
     "speakers": ["Станислав Горский"],
     "topic": "Прикладное применение AWS Lambda"
   },
   {
     "date": "29.11.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["y5TqMKdzmlk"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Flaky tests"
   },
   {
     "date": "23.10.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["MjB4P34zAJM"],
     "speakers": ["Илья Хямяляйнен"],
     "topic": "Catch me if you can!"
   },
   {
     "date": "23.10.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["K587n8XRmWM"],
     "speakers": ["Евгений Маренков"],
     "topic": "Пишем документацию красиво!"
   },
   {
     "date": "23.10.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["FBIedQl_KTc"],
     "speakers": ["Андрей Адамович"],
     "topic": "Chatbots at Community Service"
   },
   {
     "date": "26.09.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["0GdOPxKXEx0"],
     "speakers": ["Михаил Раер"],
     "topic": "Написание ботов под Skype"
   },
   {
     "date": "26.09.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["Lf47F_DCjn4"],
     "speakers": ["Дмитрий Нестерук"],
     "topic": "Хорошие идеи в языках программирования"
   },
   {
     "date": "26.09.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["oLEWdeBEuCY"],
     "speakers": ["Алексей Михайлов"],
     "topic": "Elixir"
   },
   {
     "date": "24.08.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["ri8yRAIxMzg"],
     "speakers": ["Екатерина Чукреева"],
     "topic": "Креативность и инновативность в IT"
   },
   {
     "date": "24.08.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["Ekvb9EgQDLk"],
     "speakers": ["Константин Третьяков"],
     "topic": "Дип Лёрнинг"
   },
   {
     "date": "24.08.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["IYfA934cYKs"],
     "speakers": ["Константин Роот"],
     "topic": "Переносим художественный стиль картин на ваши фотографии - как сделать аналог Prisma AI используя Deep Learning"
   },
