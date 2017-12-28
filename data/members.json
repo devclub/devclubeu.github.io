@@ -26,7 +26,7 @@
   },
   {
     "name": "Антон Стальнухин",
-    "userpick": "http://devclubeu.github.io/assets/members/astalnuhhin.jpg",
+    "userpick": "assets/members/astalnuhhin.jpg",
     "active": true
   },
   {
@@ -61,12 +61,12 @@
   },
   {
     "name": "Станислав Горский",
-    "userpick": "http://devclubeu.github.io/assets/members/sgorski.jpg",
+    "userpick": "assets/members/sgorski.jpg",
     "active": false
   },
   {
     "name": "Ivo Jaama",
-    "userpick": "http://devclubeu.github.io/assets/members/ijaama.jpg",
+    "userpick": "assets/members/ijaama.jpg",
     "active": false
   }
 ]

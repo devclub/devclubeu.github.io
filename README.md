@@ -11,7 +11,7 @@
 Предварительно установить [git], [npm], [bower], [grunt].
 Выкачать, проинициализировать зависимости npm и bower, запустить сервер:
 ```
-git clone https://github.com/devclubeu/devclubeu.github.io.git devclubeu
+git clone https://github.com/devclub/devclubeu.github.io.git devclubeu
 cd devclubeu
 npm install
 bower install

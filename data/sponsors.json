@@ -1,26 +1,26 @@
 [
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/true.png",
+    "logo": "assets/sponsors/true.png",
     "url": "https://www.trueapp.co",
     "hidden": false
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/move_guides_vertical.png",
+    "logo": "assets/sponsors/move_guides_vertical.png",
     "url": "https://www.moveguides.com/",
     "hidden": false
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/nortal.png",
+    "logo": "assets/sponsors/nortal.png",
     "url": "http://www.nortal.ee/",
     "hidden": false
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/taxify.png",
+    "logo": "assets/sponsors/taxify.png",
     "url": "https://taxify.eu/careers/",
     "hidden": false
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/myjar.png",
+    "logo": "assets/sponsors/myjar.png",
     "url": "https://www.myjar.com/news/myjar-jobs",
     "hidden": false
   },
@@ -55,12 +55,12 @@
     "hidden": true
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/serverscom.jpg",
+    "logo": "assets/sponsors/serverscom.jpg",
     "url": "https://www.servers.com/",
     "hidden": true
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/paxful.jpg",
+    "logo": "assets/sponsors/paxful.jpg",
     "url": "https://paxful.com/",
     "hidden": true
   },
@@ -85,7 +85,7 @@
     "hidden": true
   },
   {
-    "logo": "http://devclubeu.github.io/assets/sponsors/malwarebytes.png",
+    "logo": "assets/sponsors/malwarebytes.png",
     "url": "https://jobs.malwarebytes.com/",
     "hidden": true
   }

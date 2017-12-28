@@ -130,7 +130,7 @@
     "youtubeIds": ["QtlcJpQl1pk"],
     "speakers": ["Юлия Ёлкин"],
     "topic": "Выпускной. Как набраться опыта и получить свою первую работу в IT",
-    "presentations": ["https://www.slideshare.net/JuliaJolkin/dev-club-2305-pdf", "http://devclubeu.github.io/assets/slides/20170523_jjolkin_1job.pdf"]
+    "presentations": ["https://www.slideshare.net/JuliaJolkin/dev-club-2305-pdf", "http://devclub.github.io/fileserver/files/20170523_jjolkin_1job.pdf"]
   },
   {
     "date": "23.05.2017",
@@ -143,7 +143,7 @@
     "youtubeIds": ["MP5d_GAHJ20"],
     "speakers": ["Андрей Уткин"],
     "topic": "О стримах наших меньших",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20170523_autkin_stream.pptx"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20170523_autkin_stream.pptx"]
   },
   {
     "date": "26.04.2017",
@@ -199,7 +199,7 @@
     "youtubeIds": ["eYobx9EXR_I"],
     "speakers": ["Михаил Раер"],
     "topic": "Asynchronous IO в .NET",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20170228_mraer_async-io-net.pdf"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20170228_mraer_async-io-net.pdf"]
   },
   {
     "date": "31.01.2017",
@@ -225,14 +225,14 @@
     "youtubeIds": ["PN2MQF9siBM"],
     "speakers": ["Константин Роот"],
     "topic": "Бег - от мифов до data science",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20161222_kroot_running.pptx"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20161222_kroot_running.pptx"]
   },
   {
     "date": "22.12.2016",
     "youtubeIds": ["JyO43q-_TTY"],
     "speakers": ["Никита Сальников-Тарновский"],
     "topic": "Как один программист себе жизнь улучшил",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20161222_nsalnikovtarnovski_10percent-happier.pdf"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20161222_nsalnikovtarnovski_10percent-happier.pdf"]
   },
   {
     "date": "22.12.2016",
@@ -304,7 +304,7 @@
     "youtubeIds": ["nM92asjjde0"],
     "speakers": ["Константин Роот"],
     "topic": "Использование HTTP headers для обеспечения безопасности сайтов",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20160929_kroot_security-headers.pptx"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20160929_kroot_security-headers.pptx"]
   },
   {
     "date": "30.08.2016",
@@ -352,7 +352,7 @@
     "speakers": ["Сергей Дидык"],
     "topic": "Эстонское плакатное искусство времён перестройки",
     "examples": ["https://www.facebook.com/DIDYKpictures/photos/?tab=album&album_id=720363338004923"],
-    "presentations": ["http://devclubeu.github.io/assets/slides/20160628_sdidyk_plakat-1-21.pdf", "http://devclubeu.github.io/assets/slides/20160628_sdidyk_plakat-22-49.pdf"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20160628_sdidyk_plakat-1-21.pdf", "http://devclub.github.io/fileserver/files/20160628_sdidyk_plakat-22-49.pdf"]
   },
   {
     "date": "28.06.2016",
@@ -366,7 +366,7 @@
     "youtubeIds": ["q7uOeFEBkiI"],
     "speakers": ["Константин Роот"],
     "topic": "ASK.FM: про внутренности большой социальной сети",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20160628_kroot_askfm.pptx"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20160628_kroot_askfm.pptx"]
   },
   {
     "date": "24.05.2016",
@@ -592,7 +592,7 @@
     "speakers": ["Антон Карпуткин"],
     "topic": "Квантовые компьютеры",
     "videoInfo": "Дефект флешки. Восстановить файлы видеозаписи не удалось.",
-    "presentations": ["http://devclubeu.github.io/assets/slides/20150730_akarputkin_kvant.pdf"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20150730_akarputkin_kvant.pdf"]
   },
   {
     "date": "02.07.2015",
@@ -611,7 +611,7 @@
     "youtubeIds": ["5ZHSdwRnKvQ"],
     "speakers": ["Игорь Босенко"],
     "topic": "Трансформация данных чайником",
-    "examples": ["/assets/examples/20150702_ibossenko_kettle.zip"]
+    "examples": ["http://devclub.github.io/fileserver/files/20150702_ibossenko_kettle.zip"]
   },
   {
     "date": "26.05.2015",
@@ -2368,7 +2368,7 @@
     "speakers": ["Захар Кириллов"],
     "topic": "Айтишник в бизнесе. Коллекция граблей 2006-2009",
     "top": {"year": 2009, "place": 1},
-    "presentations": ["http://devclubeu.github.io/assets/slides/20090728_zkirillov_grabli.pdf"]
+    "presentations": ["http://devclub.github.io/fileserver/files/20090728_zkirillov_grabli.pdf"]
   },
   {
     "date": "28.07.2009",
