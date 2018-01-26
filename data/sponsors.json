@@ -60,9 +60,9 @@
     "hidden": true
   },
   {
-    "logo": "assets/sponsors/paxful.jpg",
+    "logo": "http://devclub.github.io/devclubeu.github.io/assets/sponsors/paxful.png",
     "url": "https://paxful.com/",
-    "hidden": true
+    "hidden": false
   },
   {
     "logo": "assets/sponsors/symantec.png",
