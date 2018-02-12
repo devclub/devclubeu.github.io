@@ -1,5 +1,23 @@
 [
   {
+    "date": "31.01.2018",
+    "youtubeIds": [],
+    "speakers": ["Игорь Босенко"],
+    "topic": "Where is my money?"
+  },
+  {
+    "date": "31.01.2018",
+    "youtubeIds": [],
+    "speakers": ["Антон Аникин"],
+    "topic": "Регистр приложений в Налогово-таможенном департаменте"
+  },
+  {
+    "date": "31.01.2018",
+    "youtubeIds": [],
+    "speakers": ["Антон Стальнухин"],
+    "topic": "Сказ о том, как Devclub на Angular без JS переходил"
+  },
+  {
     "date": "29.12.2017",
     "youtubeIds": [],
     "speakers": ["Антон Кекс"],
