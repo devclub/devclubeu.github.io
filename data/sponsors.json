@@ -1,5 +1,14 @@
 [
   {
+    "logo": "https://devclub.github.io/data/commercial/omniva.png",
+    "url": "https://www.omniva.ee/",
+    "hidden": false
+  },
+  {
+    "logo": "https://devclub.github.io/data/commercial/throne_gaming.png",
+    "hidden": false
+  },
+  {
     "logo": "assets/sponsors/true.png",
     "url": "https://www.trueapp.co",
     "hidden": false
