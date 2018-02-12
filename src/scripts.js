@@ -15,7 +15,7 @@ function RootController($scope, $http, $location, $document, $anchorScroll, $sce
   var EVENTBRITE_URL = "https://www.eventbriteapi.com/v3/events/search/?token=" + EVENTBRITE_TOKEN + "&organizer.id=" + EVENTBRITE_ORGANIZATION;
 
   $scope.$on('$locationChangeStart', function(event, next, current) {
-    if($location.hash() == 'sponsors'){
+    if($location.hash() == 'commerce'){
       $scope.sponsorText.show = true;
     }
   });
