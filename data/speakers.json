@@ -280,5 +280,13 @@
   "Станислав Горский": {
     "url": "https://www.linkedin.com/in/stanislav-gorski-1b5b5b55/",
     "image": "assets/speakers/sgorski.jpg"
+  },
+  "Александр Грицевский": {
+    "url": "https://www.linkedin.com/in/leadqualitymanager",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/agritsevski.jpg"
+  },
+  "Сергей Чипига": {
+    "url": "https://www.linkedin.com/in/sergei-chipiga-05b29661/",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/schipiga.jpg"
   }
 }
