@@ -2,20 +2,20 @@
   {
     "date": "29.03.2018",
     "youtubeIds": [],
-    "speakers": ["Юрий Тимошин"],
-    "topic": "One CI Server To Rule Them All"
-  },
-  {
-    "date": "29.03.2018",
-    "youtubeIds": [],
-    "speakers": ["Антон Архипов"],
-    "topic": "Build pipelines: приключения в конвейере TeamCity"
-  },
-  {
-    "date": "29.03.2018",
-    "youtubeIds": [],
     "speakers": ["Владимир Гоман"],
     "topic": "Экзопланеты и поиски жизни"
+  },
+  {
+    "date": "29.03.2018",
+    "youtubeIds": [],
+    "speakers": ["Юрий Тимошин"],
+    "topic": "One CI To Rule Them All: автоматическая настройка"
+  },
+  {
+    "date": "29.03.2018",
+    "youtubeIds": [],
+    "speakers": ["Юрий Тимошин"],
+    "topic": "One CI To Rule Them All: Declarative Pipelines"
   },
   {
     "date": "22.02.2018",
