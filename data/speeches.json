@@ -1,5 +1,23 @@
 [
   {
+    "date": "30.05.2018",
+    "youtubeIds": [],
+    "speakers": ["Александр Рудаков"],
+    "topic": "Кодогенерация в Python/Django приложениях."
+  },
+  {
+    "date": "30.05.2018",
+    "youtubeIds": [],
+    "speakers": [""],
+    "topic": "?"
+  },
+  {
+    "date": "30.05.2018",
+    "youtubeIds": [],
+    "speakers": [""],
+    "topic": "?"
+  },
+  {
     "date": "19.04.2018",
     "youtubeIds": [],
     "speakers": ["Сергей Чипига"],
@@ -7,7 +25,7 @@
   },
   {
     "date": "19.04.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["SJ_k_PQcGYs"],
     "speakers": ["Игорь Босенко"],
     "topic": "Моделирование бизнес процессов в реальной жизни - миф или реальность"
   },
@@ -19,19 +37,19 @@
   },
   {
     "date": "29.03.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["1XYvlq6xoYc"],
     "speakers": ["Владимир Гоман"],
     "topic": "Экзопланеты и поиски жизни"
   },
   {
     "date": "29.03.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["4xbuI6hunUQ"],
     "speakers": ["Юрий Тимошин"],
     "topic": "One CI To Rule Them All: автоматическая настройка"
   },
   {
     "date": "29.03.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["2I-PqhEIWlY"],
     "speakers": ["Юрий Тимошин"],
     "topic": "One CI To Rule Them All: Declarative Pipelines"
   },
@@ -43,13 +61,13 @@
   },
   {
     "date": "22.02.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["0vpKJuSQH4Y"],
     "speakers": ["Александр Грицевский"],
     "topic": "Дизайн тест кейсов для автоматического тестирования. Возможно ли пройти аудит процессов без классических тест кейсов, тест сьютов и тест планов?"
   },
   {
     "date": "22.02.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["6eax3paxjDU"],
     "speakers": ["Кирилл Линник"],
     "topic": "GDPR и котики"
   },
@@ -61,7 +79,7 @@
   },
   {
     "date": "31.01.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["lmN0hNyzJ9k"],
     "speakers": ["Антон Аникин"],
     "topic": "Регистр приложений в Налогово-таможенном департаменте"
   },
@@ -73,25 +91,25 @@
   },
   {
     "date": "29.12.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["IsjeD6PFzZw"],
     "speakers": ["Антон Кекс"],
     "topic": "Kotlin puzzlers"
   },
   {
     "date": "29.12.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["LQSrhmzXpHM"],
     "speakers": ["Андрей Солнцев"],
     "topic": "Selenide puzzlers"
   },
   {
     "date": "29.12.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["ii66pI756Zc"],
     "speakers": ["Евгений Голобородько"],
     "topic": "Что меня бесило в 2017 году"
   },
   {
     "date": "29.11.2017",
-    "youtubeIds": [],
+    "youtubeIds": ["pj8HekHA_Ek"],
     "speakers": ["Константин Роот"],
     "topic": "Трудовое законодательство Эстонии - снимаем розовые очки"
   },
