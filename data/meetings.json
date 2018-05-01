@@ -1,11 +1,19 @@
 [
  {
+    "date": "30.05.2018",
+    "time": "19:00",
+    "place": "Meriton",
+    "name": "#117",
+    "moderator": "Татьяна Гордеева",
+    "photoUrls": []
+ },
+ {
     "date": "19.04.2018",
     "time": "19:00",
     "place": "Meriton",
     "name": "#116",
     "moderator": "Андрей Свириденко",
-    "photoUrls": []
+    "photoUrls": ["https://photos.app.goo.gl/kJtaYQtDyvTpuJtA2"]
  },
  {
     "date": "29.03.2018",
@@ -13,7 +21,7 @@
     "place": "Meriton",
     "name": "#115",
     "moderator": "Александр Гричевский",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/gvA7xgjkyi00EJfJ2"],
     "registerUrl": "https://www.eventbrite.com/e/devclub115-tickets-44443910934"
  },
  {
@@ -22,7 +30,7 @@
     "place": "Meriton",
     "name": "#114",
     "moderator": "Антон Стальнухин",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/d2Lt6twYRvHNhZYA2"],
     "registerUrl": "https://www.eventbrite.com/e/devclub-114-gdpr-tickets-43246130340"
  },
  {
@@ -31,7 +39,7 @@
     "place": "Meriton",
     "name": "#113",
     "moderator": "Александр Гричевский",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/HLAgZYvRAxrvRbkE2"],
     "registerUrl": "https://www.eventbrite.com/e/devclub-113-tickets-42530026454"
  },
  {
@@ -40,7 +48,7 @@
     "place": "Meriton",
     "name": "#112",
     "moderator": "Антон Архипов",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/FCHiRi8xtapSzPcz2"],
     "registerUrl": "https://www.eventbrite.com/e/41538878905"
  },
  {
@@ -58,7 +66,7 @@
     "place": "Von Stackelberg",
     "name": "#110",
     "moderator": "Александр Гричевский",
-    "photoUrls": ["https://photos.app.goo.gl/dubNfYwYN9NBVsbw2"]
+    "photoUrls": ["https://photos.app.goo.gl/dubNfYwYN9NBVsbw2", "https://photos.app.goo.gl/1BuMKtbz5v2u1YgJA"]
  },
  {
     "date": "26.09.2017",
