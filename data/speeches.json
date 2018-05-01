@@ -39,7 +39,8 @@
     "date": "29.03.2018",
     "youtubeIds": ["1XYvlq6xoYc"],
     "speakers": ["Владимир Гоман"],
-    "topic": "Экзопланеты и поиски жизни"
+    "topic": "Экзопланеты и поиски жизни",
+    "presentations": ["http://devclub.github.io/fileserver/files/20180329_vgoman_ekzoplanety.pdf"]
   },
   {
     "date": "29.03.2018",
@@ -57,7 +58,8 @@
     "date": "22.02.2018",
     "youtubeIds": [],
     "speakers": ["Сергей Чипига"],
-    "topic": "Собственный тестовый фреймворк: так ли это плохо?"
+    "topic": "Собственный тестовый фреймворк: так ли это плохо?",
+    "presentations": ["http://devclub.github.io/fileserver/files/20180222_schipiga_test.pptx"]
   },
   {
     "date": "22.02.2018",
@@ -75,7 +77,8 @@
     "date": "31.01.2018",
     "youtubeIds": [],
     "speakers": ["Игорь Босенко"],
-    "topic": "Where is my money?"
+    "topic": "Where is my money?",
+    "presentations": ["http://devclub.github.io/fileserver/files/20180131_ibosenko_maksuamet.pdf"]
   },
   {
     "date": "31.01.2018",
@@ -87,7 +90,8 @@
     "date": "31.01.2018",
     "youtubeIds": [],
     "speakers": ["Антон Стальнухин"],
-    "topic": "Сказ о том, как Devclub на Angular без JS переходил"
+    "topic": "Сказ о том, как Devclub на Angular без JS переходил",
+    "presentations": ["http://devclub.github.io/fileserver/files/20180131_stalnuhhin_angular2.pdf"]
   },
   {
     "date": "29.12.2017",
@@ -186,13 +190,15 @@
     "date": "27.07.2017",
     "youtubeIds": ["ednUmqbra9s"],
     "speakers": ["Анна Иохимович"],
-    "topic": "Как мы переводили Evernote на клингонский"
+    "topic": "Как мы переводили Evernote на клингонский",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170727_aiohimovich_translations.key"]
   },
   {
     "date": "27.07.2017",
     "youtubeIds": ["PC1VVulS3_E"],
     "speakers": ["Дмитрий Цимбал"],
-    "topic": "Компьютерное зрение за 30 минут, или как стать адептом искусственного разума"
+    "topic": "Компьютерное зрение за 30 минут, или как стать адептом искусственного разума",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170727_dtsimbal_digitalvision.pptx"]
   },
   {
     "date": "27.07.2017",
@@ -204,19 +210,22 @@
     "date": "19.06.2017",
     "youtubeIds": ["CTB516GtVKU"],
     "speakers": ["Игорь Босенко"],
-    "topic": "Soft Wars: A New Hope"
+    "topic": "Soft Wars: A New Hope",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170619_ibosenko_healthcare.pdf"]
   },
   {
     "date": "19.06.2017",
     "youtubeIds": ["ud26J5LduM4"],
     "speakers": ["Антон Стальнухин"],
-    "topic": "eHL: What the Health?"
+    "topic": "eHL: What the Health?",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170619_astalnuhhin_ehl.odp"]
   },
   {
     "date": "19.06.2017",
     "youtubeIds": ["-4OOrtL4f6Q"],
     "speakers": ["Максим Бойко"],
-    "topic": "Lithuania: FHIR walk with me"
+    "topic": "Lithuania: FHIR walk with me",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170619_mboiko_fhir.pdf"]
   },
   {
     "date": "23.05.2017",
@@ -256,6 +265,7 @@
     "youtubeIds": ["pq9JktHh8zA"],
     "speakers": ["Игорь Губайдулин"],
     "topic": "«PET design» методика: дизайн на базе воздействия, эмоций и доверия",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170426_igubaidulin_pet.pdf"],
     "examples": ["https://uxdesign.cc/designing-for-persuasion-emotion-and-trust-cdac44c61d53"]
   },
   {
@@ -274,7 +284,8 @@
     "date": "28.03.2017",
     "youtubeIds": ["chcGxKAQnSk"],
     "speakers": ["Стасис Брилис", "Игорь Шац"],
-    "topic": "Вычисления на GPU серверах: мифы и реальность"
+    "topic": "Вычисления на GPU серверах: мифы и реальность",
+    "presentations": ["http://devclub.github.io/fileserver/files/20170328_sbrilis_serverscom.pptx"]
   },
   {
     "date": "28.02.2017",
@@ -387,13 +398,15 @@
     "youtubeIds": ["k6ng9g0956M"],
     "speakers": ["Игорь Босенко"],
     "topic": "Осенние кораблики",
+    "presentations": ["http://devclub.github.io/fileserver/files/20160929_ibosenko_praamidee.pdf"],
     "top": {"year": 2016, "place": 3}
   },
   {
     "date": "29.09.2016",
     "youtubeIds": ["rTUu5QaWneU"],
     "speakers": ["Юлия Ёлкин"],
-    "topic": "Веселые Картинки, или типичные фейлы соискателей при составлении отличного резюме"
+    "topic": "Веселые Картинки, или типичные фейлы соискателей при составлении отличного резюме",
+    "presentations": ["http://devclub.github.io/fileserver/files/20160929_jjolkin_hr.pdf"]
   },
   {
     "date": "29.09.2016",
@@ -542,7 +555,8 @@
     "date": "27.01.2016",
     "youtubeIds": ["kkGuxKYvHaI"],
     "speakers": ["Игорь Босенко"],
-    "topic": "BIть или не BIть — вот в чём вопрос"
+    "topic": "BIть или не BIть — вот в чём вопрос",
+    "presentations": ["http://devclub.github.io/fileserver/files/20160127_ibosenko_bi.pdf"]
   },
   {
     "date": "27.01.2016",
@@ -707,6 +721,7 @@
     "youtubeIds": ["5ZHSdwRnKvQ"],
     "speakers": ["Игорь Босенко"],
     "topic": "Трансформация данных чайником",
+    "presentations": ["http://devclub.github.io/fileserver/files/20150702_ibosenko_kettle.pdf"],
     "examples": ["http://devclub.github.io/fileserver/files/20150702_ibossenko_kettle.zip"]
   },
   {
