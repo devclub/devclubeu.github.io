@@ -8,18 +8,18 @@
   {
     "date": "30.05.2018",
     "youtubeIds": [],
-    "speakers": [""],
-    "topic": "?"
+    "speakers": ["Дмитрий Тучс"],
+    "topic": "JUnit 5 + DDT: Что такое осень?"
   },
   {
     "date": "30.05.2018",
     "youtubeIds": [],
-    "speakers": [""],
-    "topic": "?"
+    "speakers": ["Андрей Солнцев"],
+    "topic": "WTF Security"
   },
   {
     "date": "19.04.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["5oLYUH0sXc8"],
     "speakers": ["Сергей Чипига"],
     "topic": "Машинная генерация тестовых сценариев: прогресс или заблуждение?"
   },
@@ -31,7 +31,7 @@
   },
   {
     "date": "19.04.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["jTU_Fpz4zeM"],
     "speakers": ["Виктор Курылёв"],
     "topic": "Statically typed JS was undefined"
   },
@@ -56,7 +56,7 @@
   },
   {
     "date": "22.02.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["qubgs3GEMks"],
     "speakers": ["Сергей Чипига"],
     "topic": "Собственный тестовый фреймворк: так ли это плохо?",
     "presentations": ["http://devclub.github.io/fileserver/files/20180222_schipiga_test.pptx"]
@@ -75,7 +75,7 @@
   },
   {
     "date": "31.01.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["lsKYFkprPY0"],
     "speakers": ["Игорь Босенко"],
     "topic": "Where is my money?",
     "presentations": ["http://devclub.github.io/fileserver/files/20180131_ibosenko_maksuamet.pdf"]
