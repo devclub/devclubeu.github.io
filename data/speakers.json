@@ -296,5 +296,13 @@
   "Виктор Курылёв": {
     "url": "https://www.linkedin.com/in/viktor-kuroljov-3b9291110",
     "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/vkuryljov.jpg"
+  },
+  "Александр Рудаков": {
+    "url": "https://www.linkedin.com/in/aleksandr-rudakov",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/arudakov.jpeg"
+  },
+  "Дмитрий Тучс": {
+    "url": "https://www.linkedin.com/in/dtuchs/",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/dtuchs.png"
   }
 }
