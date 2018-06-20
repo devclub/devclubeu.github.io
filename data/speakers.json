@@ -304,5 +304,13 @@
   "Дмитрий Тучс": {
     "url": "https://www.linkedin.com/in/dtuchs/",
     "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/dtuchs.png"
+  },
+  "Артур Пека": {
+    "url": "https://www.linkedin.com/in/arthur-peka/",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/apeka.png"
+  },
+  "Роман Ринг": {
+    "url": "https://github.com/inoryy",
+    "image": "http://devclub.github.io/devclubeu.github.io/assets/speakers/rring.png"
   }
 }
