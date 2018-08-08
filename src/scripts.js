@@ -4,12 +4,12 @@ function Config($locationProvider) {
 
 function Run($location, $window) {
   if ($location.path() && $location.path() != "/") {
-    $window.location = "http://blog.devclub.eu" + $location.path();
+    $window.location = "https://blog.devclub.eu" + $location.path();
   }
 }
 
 function RootController($scope, $http, $location, $document, $anchorScroll, $sce, DevclubUtil) {
-  var DATA_HOST = "http://devclub.github.io/devclubeu.github.io/";
+  var DATA_HOST = "https://devclub.github.io/devclubeu.github.io/";
   var EVENTBRITE_TOKEN = "AWURDQ7N6QCZES6ZQNVG";
   var EVENTBRITE_ORGANIZATION = "910302825";
   var EVENTBRITE_URL = "https://www.eventbriteapi.com/v3/events/search/?token=" + EVENTBRITE_TOKEN + "&organizer.id=" + EVENTBRITE_ORGANIZATION;
