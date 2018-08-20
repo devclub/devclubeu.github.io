@@ -12,7 +12,7 @@
   {
     "logo": "assets/sponsors/true.png",
     "url": "https://www.trueapp.co",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "https://devclub.github.io/data/finances/topia.png",
