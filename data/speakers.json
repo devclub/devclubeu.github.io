@@ -312,5 +312,17 @@
   "Роман Ринг": {
     "url": "https://github.com/inoryy",
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/rring.jpeg"
+  },
+  "Олег Шелаев": {
+    "url": "https://twitter.com/shelajev",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/oshelaev.jpg"
+  },
+  "Павел Лаврешин": {
+    "url": "https://www.linkedin.com/in/pavel-lavreshin-32525150/",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/plavreshin.jpg"
+  },
+  "Вадим Герасимов": {
+    "url": "https://www.linkedin.com/in/vadimgerassimov/",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/vgerassimov.jpg"
   }
 }
