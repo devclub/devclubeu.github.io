@@ -1,5 +1,23 @@
 [
   {
+    "date": "30.08.2018",
+    "youtubeIds": [],
+    "speakers": ["Олег Шелаев"],
+    "topic": "Fast startup for Java apps with GraalVM"
+  },
+  {
+    "date": "30.08.2018",
+    "youtubeIds": [],
+    "speakers": ["Михаил Дунаев", "Павел Лаврешин"],
+    "topic": "What the hack is blockchain"
+  },
+  {
+    "date": "30.08.2018",
+    "youtubeIds": [],
+    "speakers": ["Вадим Герасимов"],
+    "topic": "Из грязи в князи? Или история о двухлетнем путешествии Java разработчика в мир nodejs"
+  },
+  {
     "date": "26.07.2018",
     "youtubeIds": [],
     "speakers": ["Сергей Чипига"],
