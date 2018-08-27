@@ -1,5 +1,10 @@
 [
   {
+    "logo": "https://devclub.github.io/data/finances/neotech.png",
+    "url": "https://www.neotech.ee/career/",
+    "hidden": false
+  },
+  {
     "logo": "https://devclub.github.io/data/finances/omniva.png",
     "url": "https://www.omniva.ee/",
     "hidden": true
