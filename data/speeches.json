@@ -1,5 +1,23 @@
 [
   {
+    "date": "27.09.2018",
+    "youtubeIds": [],
+    "speakers": ["Сергей Цимбалист"],
+    "topic": "Нейронные сети и человеческий язык"
+  },
+  {
+    "date": "27.09.2018",
+    "youtubeIds": [],
+    "speakers": ["Александр Тавген"],
+    "topic": "Building distributed application on Python. Lova and hate."
+  },
+  {
+    "date": "27.09.2018",
+    "youtubeIds": [],
+    "speakers": ["Андрей Солнцев"],
+    "topic": "WTF Connection pools"
+  },
+  {
     "date": "30.08.2018",
     "youtubeIds": [],
     "speakers": ["Олег Шелаев"],
@@ -8,14 +26,14 @@
   {
     "date": "30.08.2018",
     "youtubeIds": [],
-    "speakers": ["Михаил Дунаев", "Павел Лаврешин"],
-    "topic": "What the hack is blockchain"
+    "speakers": ["Вадим Герасимов"],
+    "topic": "Из грязи в князи? Или история о двухлетнем путешествии Java разработчика в мир nodejs"
   },
   {
     "date": "30.08.2018",
     "youtubeIds": [],
-    "speakers": ["Вадим Герасимов"],
-    "topic": "Из грязи в князи? Или история о двухлетнем путешествии Java разработчика в мир nodejs"
+    "speakers": ["Михаил Дунаев", "Павел Лаврешин"],
+    "topic": "What the hack is blockchain"
   },
   {
     "date": "26.07.2018",
