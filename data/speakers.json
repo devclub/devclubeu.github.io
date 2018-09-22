@@ -324,5 +324,13 @@
   "Вадим Герасимов": {
     "url": "https://www.linkedin.com/in/vadimgerassimov/",
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/vgerassimov.jpg"
+  },
+  "Александр Тавген": {
+    "url": "https://www.linkedin.com/in/aleksandr-tavgen-24431815b/",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/atavgen.jpg"
+  },
+  "Сергей Цимбалист": {
+    "url": "https://www.linkedin.com/in/sergei-tsimbalist-248541155/",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/stsimbalist.jpg"
   }
 }
