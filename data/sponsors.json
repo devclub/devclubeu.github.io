@@ -57,7 +57,7 @@
   {
     "logo": "assets/sponsors/ignite.png",
     "url": "https://www.ignite.ee/",
-    "hidden": false
+    "hidden": true
   },
   {
     "logo": "assets/sponsors/jetbrains.png",
