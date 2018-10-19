@@ -332,5 +332,12 @@
   "Сергей Цимбалист": {
     "url": "https://www.linkedin.com/in/sergei-tsimbalist-248541155/",
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/stsimbalist.jpg"
+  },
+  "Михаил Бараш": {
+    "url": "https://twitter.com/mikhail_barash",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/mbarash.jpg"
+  },
+  "Валерий Твердохлеб": {
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/vtverdohleb.jpg"
   }
 }
