@@ -5,7 +5,8 @@
     "place": "Meriton",
     "name": "#122",
     "moderator": "Татьяна Гордеева",
-    "photoUrls": []
+    "photoUrls": [],
+    "registerUrl": "https://www.eventbrite.com/e/devclub-122-tickets-51582484600"
   },
   {
     "date": "27.09.2018",
@@ -13,7 +14,8 @@
     "place": "Meriton",
     "name": "#121",
     "moderator": "Александр Гричевский",
-    "photoUrls": []
+    "photoUrls": ["https://photos.app.goo.gl/19oJ77UhdVavpStY7"],
+    "registerUrl": "https://www.eventbrite.com/e/devclub-121-tickets-50568466645"
  },
  {
     "date": "30.08.2018",
@@ -21,7 +23,8 @@
     "place": "Codeborne",
     "name": "#120",
     "moderator": "Юра Тимошин",
-    "photoUrls": []
+    "photoUrls": ["https://photos.app.goo.gl/d5xx4QJesgbk3n6M7"],
+    "registerUrl": "https://www.eventbrite.com/e/devclub-120-tickets-49471002099"
  },
  {
     "date": "26.07.2018",
@@ -29,7 +32,8 @@
     "place": "Meriton",
     "name": "#119",
     "moderator": "Эрвин Вебер",
-    "photoUrls": []
+    "photoUrls": ["https://photos.app.goo.gl/cWztfFVyokzE6s218"],
+    "registerUrl": "https://www.eventbrite.com/e/devclub-119-tickets-48212928166"
  },
  {
     "date": "28.06.2018",
@@ -37,7 +41,8 @@
     "place": "Meriton",
     "name": "#118",
     "moderator": "Татьяна Гордеева",
-    "photoUrls": []
+    "photoUrls": ["https://photos.app.goo.gl/EoiLBWEvUHs5pyye8"],
+    "registerUrl": "https://www.eventbrite.com/e/devclub118-tickets-47262295799"
  },
  {
     "date": "30.05.2018",
@@ -45,7 +50,7 @@
     "place": "Meriton",
     "name": "#117",
     "moderator": "Татьяна Гордеева",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/OVlG3k4fcciBxIn82"],
     "registerUrl": "https://www.eventbrite.com/e/devclub117-tickets-46397386833"
  },
  {
@@ -54,7 +59,8 @@
     "place": "Meriton",
     "name": "#116",
     "moderator": "Андрей Свириденко",
-    "photoUrls": ["https://photos.app.goo.gl/kJtaYQtDyvTpuJtA2"]
+    "photoUrls": ["https://photos.app.goo.gl/kJtaYQtDyvTpuJtA2"],
+    "registerUrl": "https://www.eventbrite.com/e/devclub116-tickets-45098633226"
  },
  {
     "date": "29.03.2018",
