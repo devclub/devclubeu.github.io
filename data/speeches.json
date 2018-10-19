@@ -1,5 +1,23 @@
 [
   {
+    "date": "25.10.2018",
+    "youtubeIds": [],
+    "speakers": ["Михаил Бараш"],
+    "topic": "Что такое JetBrains MPS: просто о сложном"
+  },
+  {
+    "date": "25.10.2018",
+    "youtubeIds": [],
+    "speakers": ["Валерий Твердохлеб"],
+    "topic": "Technical кто?"
+  },
+  {
+    "date": "25.10.2018",
+    "youtubeIds": [],
+    "speakers": ["Евгений Голобородько"],
+    "topic": "Hell management"
+  },
+  {
     "date": "27.09.2018",
     "youtubeIds": [],
     "speakers": ["Сергей Цимбалист"],
