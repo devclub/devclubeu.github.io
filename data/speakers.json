@@ -339,5 +339,13 @@
   },
   "Валерий Твердохлеб": {
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/vtverdohleb.jpg"
+  },
+  "Константин Золотарев": {
+    "url": "https://www.linkedin.com/in/konstantin-zolotarev-36a8b545",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/kzolotarev.jpg"
+  },
+  "Илья Нафигин": {
+    "url": "https://www.facebook.com/ilja.nafigin",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/inafigin.jpg"
   }
 }
