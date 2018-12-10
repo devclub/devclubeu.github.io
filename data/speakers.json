@@ -347,5 +347,13 @@
   "Илья Нафигин": {
     "url": "https://www.facebook.com/ilja.nafigin",
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/inafigin.jpg"
+  },
+  "Ольга Линник": {
+    "url": "https://www.facebook.com/linniklinnik",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/olinnik.jpg"
+  },
+  "Андрей Скоморохов": {
+    "url": "https://www.linkedin.com/in/andrey-skomorokhov-a07094ab/",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/askomorohov.jpg"
   }
 }
