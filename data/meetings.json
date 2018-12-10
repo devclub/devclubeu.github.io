@@ -1,11 +1,20 @@
 [
   {
+    "date": "20.12.2018",
+    "time": "19:00",
+    "place": "Olümpia hotell",
+    "name": "#124",
+    "moderator": "Кирилл Линник",
+    "photoUrls": [],
+    "registerUrl": "https://www.eventbrite.com/e/devclub-10-eu-tickets-53479326104"
+  },
+  {
     "date": "28.11.2018",
     "time": "19:00",
     "place": "Von Stackelberg",
     "name": "#123",
     "moderator": "Евгений Голобородько",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/oySM72z3oU8M2osm7"],
     "registerUrl": "https://www.eventbrite.com/e/123-tickets-53005335385"
   },
   {
@@ -14,7 +23,7 @@
     "place": "Meriton",
     "name": "#122",
     "moderator": "Татьяна Гордеева",
-    "photoUrls": [],
+    "photoUrls": ["https://photos.app.goo.gl/bSjuKvPmo4xXgnmd8"],
     "registerUrl": "https://www.eventbrite.com/e/devclub-122-tickets-51582484600"
   },
   {
