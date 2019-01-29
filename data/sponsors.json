@@ -1,7 +1,17 @@
 [
   {
+    "logo": "https://devclub.github.io/data/finances/playtech.png",
+    "url": "http://www.playtech.ee/?nav=karjaar&lang=en",
+    "hidden": false
+  },
+  {
     "logo": "https://devclub.github.io/data/finances/neotech.png",
     "url": "https://www.neotech.ee/career/",
+    "hidden": false
+  },
+  {
+    "logo": "assets/sponsors/nortal.png",
+    "url": "http://www.nortal.ee/",
     "hidden": false
   },
   {
@@ -27,11 +37,6 @@
   {
     "logo": "https://devclub.github.io/data/finances/gamesys.png",
     "url": "http://www.gamesyscorporate.com/jobs/",
-    "hidden": false
-  },
-  {
-    "logo": "assets/sponsors/nortal.png",
-    "url": "http://www.nortal.ee/",
     "hidden": false
   },
   {
