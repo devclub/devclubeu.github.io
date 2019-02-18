@@ -63,7 +63,8 @@
     "image": "assets/speakers/nsalnikov.jpg"
   },
   "Алексей Фёдоров": {
-    "image": "assets/speakers/afjodorov.jpg"
+    "url": "https://vk.com/23derevo",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/afjodorov_2019.jpg"
   },
   "Михаил Лапушкин": {
     "url": "https://ee.linkedin.com/in/mihhail",
@@ -303,7 +304,7 @@
   },
   "Дмитрий Тучс": {
     "url": "https://www.linkedin.com/in/dtuchs/",
-    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/dtuchs.png"
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/dtuchs_2019.jpg"
   },
   "Артур Пека": {
     "url": "https://www.linkedin.com/in/arthur-peka/",
@@ -367,5 +368,9 @@
   "Дмитрий Коробцов": {
     "url": "https://www.facebook.com/dkorobtsov",
     "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/dkorobtsov.jpg"
+  },
+  "Руслан Ахметзянов": {
+    "url": "https://www.linkedin.com/in/руслан-ахметзянов-5b6046114",
+    "image": "https://devclub.github.io/devclubeu.github.io/assets/speakers/rahmetzjanov.jpg"
   }
 }
