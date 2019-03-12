@@ -42,6 +42,11 @@
   {
     "logo": "assets/sponsors/taxify.png",
     "url": "https://taxify.eu/careers/",
+    "hidden": true
+  },
+  {
+    "logo": "https://devclub.github.io/devclubeu.github.io/assets/sponsors/bolt.png",
+    "url": "https://careers.bolt.eu/",
     "hidden": false
   },
   {
