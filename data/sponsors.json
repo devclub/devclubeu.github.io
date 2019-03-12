@@ -15,21 +15,6 @@
     "hidden": false
   },
   {
-    "logo": "https://devclub.github.io/data/finances/omniva.png",
-    "url": "https://www.omniva.ee/",
-    "hidden": true
-  },
-  {
-    "logo": "https://devclub.github.io/data/finances/throne_gaming.png",
-    "url": "http://www.thronegaming.com/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/true.png",
-    "url": "https://www.trueapp.co",
-    "hidden": true
-  },
-  {
     "logo": "https://devclub.github.io/data/finances/topia.png",
     "url": "https://www.topia.com/careers",
     "hidden": false
@@ -43,11 +28,6 @@
     "logo": "https://devclub.github.io/devclubeu.github.io/assets/sponsors/bolt.png",
     "url": "https://careers.bolt.eu/",
     "hidden": false
-  },
-  {
-    "logo": "assets/sponsors/taxify.png",
-    "url": "https://taxify.eu/careers/",
-    "hidden": true
   },
   {
     "logo": "assets/sponsors/myjar.png",
@@ -65,11 +45,6 @@
     "hidden": false
   },
   {
-    "logo": "assets/sponsors/ignite.png",
-    "url": "https://www.ignite.ee/",
-    "hidden": true
-  },
-  {
     "logo": "assets/sponsors/jetbrains.png",
     "url": "https://www.jetbrains.com/",
     "hidden": false
@@ -80,43 +55,8 @@
     "hidden": false
   },
   {
-    "logo": "assets/sponsors/kuehne_nagel.png",
-    "url": "http://ee.kuehne-nagel.com/et_ee/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/serverscom.jpg",
-    "url": "https://www.servers.com/",
-    "hidden": true
-  },
-  {
     "logo": "https://devclub.github.io/devclubeu.github.io/assets/sponsors/paxful.png",
     "url": "https://paxful.com/",
     "hidden": false
-  },
-  {
-    "logo": "assets/sponsors/symantec.png",
-    "url": "http://securityresponse.symantec.com/et/ee/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/linn.png",
-    "url": "http://www.linnsystems.com/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/devtraining.png",
-    "url": "http://www.devtraining.ee/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/tactic.png",
-    "url": "http://tacticrealtime.com/careers/",
-    "hidden": true
-  },
-  {
-    "logo": "assets/sponsors/malwarebytes.png",
-    "url": "https://jobs.malwarebytes.com/",
-    "hidden": true
   }
 ]
