@@ -1,31 +1,31 @@
 [
   {
     "date": "28.02.2019",
-    "youtubeIds": [],
+    "youtubeIds": ["ZJPFFjfZKDg"],
     "speakers": ["Алексей Фёдоров"],
     "topic": "Оборудование для конференций и митапов: видео, звук, свет, трансляция"
   },
   {
     "date": "28.02.2019",
-    "youtubeIds": [],
+    "youtubeIds": ["e7pBN15XmPk"],
     "speakers": ["Руслан Ахметзянов"],
     "topic": "Имеющий уши да улучшит: работаем с фидбэком правильно"
   },
   {
     "date": "28.02.2019",
-    "youtubeIds": [],
+    "youtubeIds": ["LuLBL-DHTAQ"],
     "speakers": ["Дмитрий Тучс"],
     "topic": "Jupiter - параллельная реальность"
   },
   {
     "date": "31.01.2019",
-    "youtubeIds": [],
+    "youtubeIds": ["hatWHIg_U2Q"],
     "speakers": ["Роман Захаров"],
     "topic": "Плохой программист или плохой процесс?"
   },
   {
     "date": "31.01.2019",
-    "youtubeIds": [],
+    "youtubeIds": ["fmEFNFMSYP4"],
     "speakers": ["Дмитрий Коробцов"],
     "topic": "Чем тестировать API? Ускоряем end-to-end тесты."
   },
@@ -37,13 +37,13 @@
   },
   {
     "date": "20.12.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["TSPyp1zmLSo"],
     "speakers": ["Андрей Скоморохов"],
     "topic": "Как начать тестировать и не полысеть"
   },
   {
     "date": "20.12.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["IYilFQN65-Y"],
     "speakers": ["Александр Тавген"],
     "topic": "Как соединить Java, Js и графы с искусством, или история о том, как создавался интерактивный театр"
   },
@@ -55,7 +55,7 @@
   },
   {
     "date": "20.12.2018",
-    "youtubeIds": [],
+    "youtubeIds": ["aVByzVR57yo"],
     "speakers": ["Alex Inside"],
     "topic": "Что за биохакинг?"
   },
