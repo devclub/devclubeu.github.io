@@ -1,5 +1,23 @@
 [
   {
+    "date": "26.03.2019",
+    "youtubeIds": [""],
+    "speakers": ["Алексей Михайлов"],
+    "topic": "Темпоральные таблицы в PostgreSQL"
+  },
+  {
+    "date": "26.03.2019",
+    "youtubeIds": [""],
+    "speakers": ["Никита Сальников-Тарновский"],
+    "topic": "Streaming architecture - beyond mere code"
+  },
+  {
+    "date": "26.03.2019",
+    "youtubeIds": [""],
+    "speakers": ["Сергей Лабутин"],
+    "topic": "Блокчейн и игры - на пороге новой индустрии"
+  },
+  {
     "date": "28.02.2019",
     "youtubeIds": ["ZJPFFjfZKDg"],
     "speakers": ["Алексей Фёдоров"],
