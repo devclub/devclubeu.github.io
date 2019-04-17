@@ -1,5 +1,23 @@
 [
   {
+    "date": "30.04.2019",
+    "youtubeIds": [""],
+    "speakers": ["Михаил Раер"],
+    "topic": "Azure Active Directory и используемые в ней токены"
+  },
+  {
+    "date": "30.04.2019",
+    "youtubeIds": [""],
+    "speakers": ["Евгений Голобородько"],
+    "topic": "Rule your cluster with Kubernetes"
+  },
+  {
+    "date": "30.04.2019",
+    "youtubeIds": [""],
+    "speakers": ["Андрей Солнцев"],
+    "topic": "Flaky tests (часть 2)"
+  },
+  {
     "date": "26.03.2019",
     "youtubeIds": [""],
     "speakers": ["Алексей Михайлов"],
