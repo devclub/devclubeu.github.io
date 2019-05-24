@@ -1,5 +1,23 @@
 [
   {
+    "date": "30.05.2019",
+    "youtubeIds": [""],
+    "speakers": ["Александр Тавген"],
+    "topic": "Reactive and functional approaches"
+  },
+  {
+    "date": "30.05.2019",
+    "youtubeIds": [""],
+    "speakers": ["Эрвин Вебер"],
+    "topic": "BeyondCorp: Есть ли жизнь после VPN?"
+  },
+  {
+    "date": "30.05.2019",
+    "youtubeIds": [""],
+    "speakers": ["Игорь Босенко"],
+    "topic": "Пошкодим в PG"
+  },
+  {
     "date": "30.04.2019",
     "youtubeIds": [""],
     "speakers": ["Михаил Раер"],
